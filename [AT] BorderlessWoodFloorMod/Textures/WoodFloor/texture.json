@@ -7,11 +7,11 @@
   "ManualVariations": [
     {
       "Id": -1,
-      "ChanceWeight": 0
+      "ChanceWeight": 1
     },
     {
       "Id": 0,
-      "ChanceWeight": 1
+      "ChanceWeight": 0
     }
   ]
 }
