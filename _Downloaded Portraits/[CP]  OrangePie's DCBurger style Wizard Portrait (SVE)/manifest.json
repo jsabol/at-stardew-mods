@@ -1,0 +1,10 @@
+{
+   "Name": "OrangePie's DCBurger style Wizard Portrait for SVE",
+   "Author": "OrangePieUwU",
+   "Version": "1.0",
+   "Description": "Wizard Portrait for SVE",
+   "UniqueID": "OrangePieUwU.OrangePiesDCBurgerStyleWizardPortraitForSVE",
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

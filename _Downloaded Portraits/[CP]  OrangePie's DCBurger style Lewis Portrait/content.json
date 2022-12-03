@@ -1,0 +1,22 @@
+{
+  "Format": "1.19.0",
+
+"Dependencies": [
+      { "UniqueID": "DCBurger.DCBurgersHighResPortraitMod",  "IsRequired": false }, 
+      { "UniqueID": "misscoriel.courtship",  "IsRequired": false }, 
+   ],
+
+  "Changes": [
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Lewis",
+         "FromFile": "assets/Lewis.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Lewis_Beach",
+         "FromFile": "assets/Lewis.png",
+      },
+		  	  
+           ]    
+		}   

@@ -1,0 +1,702 @@
+{
+   "Format": "1.22.0",
+
+    "ConfigSchema": {
+    "Claire": {"AllowValues": "Claire, Claire_Joja, Claire_Theater",
+	"Default": "Claire"},
+    "Martin": {"AllowValues": "Martin, Martin_Joja, Martin_Theater",
+	"Default": "Martin"},
+    "Caroline": {"AllowValues": "older, younger, False",
+	"Default": "older"},
+    "Caroline_Beach": {"AllowValues": "older, younger, False",
+	"Default": "older"},
+    "Clint": {"AllowValues": "older, younger, False",
+	"Default": "older"},
+    "Clint_Beach": {"AllowValues": "older, younger, False",
+	"Default": "older"},
+    "Elliott": {"AllowValues": "older, younger, False",
+	"Default": "older"},
+    "Elliott_Beach": {"AllowValues": "older, younger, False",
+	"Default": "older"},
+    "Harvey": {"AllowValues": "oldermustache, youngermustache, older, younger, False",
+	"Default": "oldermustache"},
+    "Harvey_Beach": {"AllowValues": "oldermustache, youngermustache, younger, older, False",
+	"Default": "oldermustache"},
+    "Jodi": {"AllowValues": "older, younger, olderbrown, youngerbrown, False",
+	"Default": "older"},
+    "Jodi_Beach": {"AllowValues": "older, younger, olderbrown, youngerbrown, False",
+	"Default": "older"},
+    "Magnus": {"AllowValues": "older, younger, False",
+	"Default": "older"},
+    "Olivia": {"AllowValues": "older, younger, False",
+	"Default": "older"},
+    "Olivia_Beach": {"AllowValues": "older, younger, False",
+	"Default": "older"},
+    "Robin": {"AllowValues": "older, younger, False",
+	"Default": "older"},
+    "Robin_Beach": {"AllowValues": "older, younger, False",
+	"Default": "older"},
+    "Sebastian": {"AllowValues": "longer, shorter, False",
+	"Default": "longer"},
+    "Sebastian_Beach": {"AllowValues": "longer, shorter, False",
+	"Default": "longer"},
+    "Wizard": {"AllowValues": "older, younger, False",
+	"Default": "older"},
+	},
+
+
+   "Changes": [
+       // optional
+       {
+          "Action": "EditImage",
+          "Target": "Portraits/Caroline",
+          "FromFile": "assets/Caroline/{{Caroline}}.png",
+		  "When": {
+		  "Caroline": "older, younger",
+		      }
+		      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Caroline_Beach",
+          "FromFile": "assets/Caroline_Beach/{{Caroline_Beach}}.png",
+		  "When": {
+		  "Caroline_Beach": "older, younger",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Clint",
+          "FromFile": "assets/Clint/{{Clint}}.png",
+		  "When": {
+		  "Clint": "older, younger",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Clint_Beach",
+          "FromFile": "assets/Clint_Beach/{{Clint_Beach}}.png",
+		  "When": {
+		  "Clint_Beach": "older, younger",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Elliott",
+          "FromFile": "assets/Elliott/{{Elliott}}.png",
+		  "When": {
+		  "Elliott": "older, younger",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Elliott_Beach",
+          "FromFile": "assets/Elliott_Beach/{{Elliott_Beach}}.png",
+		  "When": {
+		  "Elliott_Beach": "older, younger",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Harvey",
+          "FromFile": "assets/Harvey/{{Harvey}}.png",
+		  "When": {
+		  "Harvey": "oldermustache, youngermustache, older, younger, False",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Harvey_Beach",
+          "FromFile": "assets/Harvey_Beach/{{Harvey_Beach}}.png",
+		  "When": {
+		  "Harvey_Beach": "oldermustache, youngermustache, older, younger, False",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Jodi",
+          "FromFile": "assets/Jodi/{{Jodi}}.png",
+		  "When": {
+		  "Jodi": "older, younger, olderbrown, youngerbrown, False",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Jodi_Beach",
+          "FromFile": "assets/Jodi_Beach/{{Jodi_Beach}}.png",
+		  "When": {
+		  "Jodi_Beach": "older, younger, olderbrown, youngerbrown, False",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Magnus",
+          "FromFile": "assets/Magnus/{{Magnus}}.png",
+		  "When": {
+		  "Magnus": "older, younger",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Olivia",
+          "FromFile": "assets/Olivia/{{Olivia}}.png",
+		  "When": {
+		  "Olivia": "older, younger",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Olivia_Beach",
+          "FromFile": "assets/Olivia_Beach/{{Olivia_Beach}}.png",
+		  "When": {
+		  "Olivia_Beach": "older, younger",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Robin",
+          "FromFile": "assets/Robin/{{Robin}}.png",
+		  "When": {
+		  "Robin": "older, younger",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Robin_Beach",
+          "FromFile": "assets/Robin_Beach/{{Robin_Beach}}.png",
+		  "When": {
+		  "Robin_Beach": "older, younger",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Sebastian",
+          "FromFile": "assets/Sebastian/{{Sebastian}}.png",
+		  "When": {
+		  "Sebastian": "longer, shorter",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Sebastian_Beach",
+          "FromFile": "assets/Sebastian_Beach/{{Sebastian_Beach}}.png",
+		  "When": {
+		  "Sebastian_Beach": "longer, shorter",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Wizard",
+          "FromFile": "assets/Wizard/{{Wizard}}.png",
+		  "When": {
+		  "Wizard": "older, younger",
+	      }
+	      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Abigail",
+         "FromFile": "assets/Abigail.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Abigail_Beach",
+         "FromFile": "assets/Abigail_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/AdventurerLedger",
+         "FromFile": "assets/Alesia.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Alesia",
+         "FromFile": "assets/Alesia.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Alex",
+         "FromFile": "assets/Alex.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Alex_Beach",
+         "FromFile": "assets/Alex_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Andy",
+         "FromFile": "assets/Andy.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Andy_Beach",
+         "FromFile": "assets/Andy_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Apples",
+         "FromFile": "assets/Apples.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/ApplesSad",
+         "FromFile": "assets/ApplesSad.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Axel",
+         "FromFile": "assets/Axel.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Bear",
+         "FromFile": "assets/Bear.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Birdie",
+         "FromFile": "assets/Birdie.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Bouncer",
+         "FromFile": "assets/Bouncer.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Brooklyn",
+         "FromFile": "assets/Brooklyn.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Camilla",
+         "FromFile": "assets/Camilla.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Chloe",
+         "FromFile": "assets/Chloe.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Claire",
+         "FromFile": "assets/Claire.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Claire_Beach",
+         "FromFile": "assets/Claire_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Claire",
+         "FromFile": "assets/Claire_Joja.png",
+	  "When": { "LocationName": "JojaMart" },
+	  "Update": "OnLocationChange"
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Claire",
+         "FromFile": "assets/Claire_Theater.png",
+	  "When": { "Spouse |contains=Claire": false, "DayOfWeek": "Monday, Wednesday, Thursday, Friday, Sunday", "HasSeenEvent |contains=502261": false, "LocationName": "MovieTheater" },
+	  "Update": "OnLocationChange"
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Claire",
+         "FromFile": "assets/Claire_Theater.png",
+	  "When": { "Spouse": "Claire", "DayOfWeek": "Monday, Wednesday, Thursday, Sunday", "HasSeenEvent |contains=502261": false, "LocationName": "MovieTheater" },
+	  "Update": "OnLocationChange"
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Demetrius",
+         "FromFile": "assets/Demetrius.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Dobson",
+         "FromFile": "assets/Dobson.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Dusty",
+         "FromFile": "assets/Dusty.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Dwarf",
+         "FromFile": "assets/Dwarf.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Emily",
+         "FromFile": "assets/Emily.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Emily_Beach",
+         "FromFile": "assets/Emily_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Evelyn",
+         "FromFile": "assets/Evelyn.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/George",
+         "FromFile": "assets/George.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Gil",
+         "FromFile": "assets/Gil.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Governor",
+         "FromFile": "assets/Governor.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Grandpa",
+         "FromFile": "assets/Grandpa.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Gunther",
+         "FromFile": "assets/Gunther.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/GuntherSilvian",
+         "FromFile": "assets/GuntherSilvian.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Gus",
+         "FromFile": "assets/Gus.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Haley",
+         "FromFile": "assets/Haley.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Haley_Beach",
+         "FromFile": "assets/Haley_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Henchman",
+         "FromFile": "assets/Henchman.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/HighlandsDwarf",
+         "FromFile": "assets/HighlandsDwarf.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Isaac",
+         "FromFile": "assets/Isaac.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Jace",
+         "FromFile": "assets/Jace.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Jadu",
+         "FromFile": "assets/Jadu.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Jas",
+         "FromFile": "assets/Jas.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Jolyne",
+         "FromFile": "assets/Jolyne.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Junimo",
+         "FromFile": "assets/Junimo.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Kent",
+         "FromFile": "assets/Kent.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Krobus",
+         "FromFile": "assets/Krobus.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Krobus_Trenchcoat",
+         "FromFile": "assets/Krobus_Trenchcoat.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Lance",
+         "FromFile": "assets/Lance.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Lance_Beach",
+         "FromFile": "assets/Lance_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Leah",
+         "FromFile": "assets/Leah.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Leah_Beach",
+         "FromFile": "assets/Leah_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Lewis",
+         "FromFile": "assets/Lewis.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Linus",
+         "FromFile": "assets/Linus.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Marlon",
+         "FromFile": "assets/Marlon.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/MarlonFay",
+         "FromFile": "assets/MarlonFay.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Marnie",
+         "FromFile": "assets/Marnie.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Marnie_Beach",
+         "FromFile": "assets/Marnie_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Martin",
+         "FromFile": "assets/Martin.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Martin",
+         "FromFile": "assets/Martin_Joja.png",
+	  "When": { "LocationName": "JojaMart" },
+	  "Update": "OnLocationChange"
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Martin",
+         "FromFile": "assets/Martin_Theater.png",
+	  "When": { "Spouse |contains=Claire": false, "DayOfWeek": "Tuesday, Saturday", "HasSeenEvent |contains=502261": false, "LocationName": "MovieTheater" },
+	  "Update": "OnLocationChange"
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Martin",
+         "FromFile": "assets/Martin_Theater.png",
+	  "When": { "Spouse": "Claire", "DayOfWeek": "Tuesday, Friday, Saturday", "HasSeenEvent |contains=502261": false, "LocationName": "MovieTheater" },
+	  "Update": "OnLocationChange"
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Maru",
+         "FromFile": "assets/Maru.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Maru_Beach",
+         "FromFile": "assets/Maru_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Maru_Hospital",
+         "FromFile": "assets/Maru_Hospital.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Mermaid",
+         "FromFile": "assets/Mermaid.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Morgan",
+         "FromFile": "assets/Morgan.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Morris",
+         "FromFile": "assets/Morris.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/MorrisTod",
+         "FromFile": "assets/MorrisTod.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/MrQi",
+         "FromFile": "assets/MrQi.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Pam",
+         "FromFile": "assets/Pam.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Pam_Beach",
+         "FromFile": "assets/Pam_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/ParrotBoy",
+         "FromFile": "assets/Leo.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Peaches",
+         "FromFile": "assets/Peaches.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Penny",
+         "FromFile": "assets/Penny.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Penny_Beach",
+         "FromFile": "assets/Penny_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Pierre",
+         "FromFile": "assets/Pierre.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Pierre_Beach",
+         "FromFile": "assets/Pierre_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/SafariGuy",
+         "FromFile": "assets/SafariGuy.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Sam",
+         "FromFile": "assets/Sam.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Sam_Beach",
+         "FromFile": "assets/Sam_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Sandy",
+         "FromFile": "assets/Sandy.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Scarlett",
+         "FromFile": "assets/Scarlett.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Scarlett_Cosplay",
+         "FromFile": "assets/Scarlett_Cosplay.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Shane",
+         "FromFile": "assets/Shane.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Shane_Beach",
+         "FromFile": "assets/Shane_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Sophia",
+         "FromFile": "assets/Sophia.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Sophia_Beach",
+         "FromFile": "assets/Sophia_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Sophia_Makeup",
+         "FromFile": "assets/Sophia_Makeup.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Suki",
+         "FromFile": "assets/Suki.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Suki_IceFestival",
+         "FromFile": "assets/Suki_IceFestival.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Susan",
+         "FromFile": "assets/Susan.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Susan_Beach",
+         "FromFile": "assets/Susan_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Victor",
+         "FromFile": "assets/Victor.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Victor_Beach",
+         "FromFile": "assets/Victor_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Vincent",
+         "FromFile": "assets/Vincent.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Willy",
+         "FromFile": "assets/Willy.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Zoey",
+         "FromFile": "assets/Zoey.png",
+      },
+   ]
+}

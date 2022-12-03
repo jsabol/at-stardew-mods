@@ -1,0 +1,19 @@
+{
+    "Format": "1.20.0",
+	
+	"Changes": [
+		{
+            "LogName": "Portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/Alesia, Portraits/Andy_Beach, Portraits/Apples, Portraits/Axel, Portraits/Brooklyn, Portraits/Dusty, Portraits/Isaac, Portraits/Claire_Beach, Portraits/Jace, Portraits/Junimo, Portraits/Lance, Portraits/Mermaid, Portraits/Lance_Beach, Portraits/Olivia_Beach, Portraits/Peaches, Portraits/Scarlett, Portraits/Scarlett_Cosplay, Portraits/Sophia_Beach, Portraits/Suki, Portraits/Susan_Beach, Portraits/Victor_Beach, Portraits/Zoey",
+            "FromFile": "assets/{{TargetWithoutPath}}.png",            
+		},
+		
+		{
+			"LogName": "Shop Portraits",
+			"Action": "EditImage",
+			"Target": "Portraits/AdventurerLedger, Portraits/AlesiaVendor, Portraits/Axel_Vendor1, Portraits/Axel_Vendor2, Portraits/BearVendor, Portraits/BlueJunimo, Portraits/Chloe_Vendor1, Portraits/Chloe_Vendor2, Portraits/Chloe_Vendor3, Portraits/Chloe_Vendor4, Portraits/ClaireShop, Portraits/GreyJunimo, Portraits/IsaacVendor, Portraits/Jace_Vendor1, Portraits/Jace_Vendor2, Portraits/Jace_Vendor3, Portraits/MartinShop, Portraits/PurpleJunimo, Portraits/RedJunimo, Portraits/SophiaLedger, Portraits/YellowJunimo, Portraits/Zoey_Vendor, Portraits/Mermaid,",
+			"FromFile": "assets/{{TargetWithoutPath}}.png",
+		},
+	]
+}

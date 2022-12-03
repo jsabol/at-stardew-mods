@@ -1,0 +1,13 @@
+{
+  "Name": "Seasonal Fences",
+  "Author": "DustBeauty",
+  "Version": "1.2",
+  "Description": "All Four Seasonal Fences, disable snow indoor",
+  "UniqueID": "DustBeauty.SeasonalFences",
+  "MinimumApiVersion": "2.6",
+  "MinimumGameVersion": "1.4.0",
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "4.2.0"
+  }
+}

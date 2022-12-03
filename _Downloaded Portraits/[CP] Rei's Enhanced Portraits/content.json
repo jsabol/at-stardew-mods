@@ -1,0 +1,182 @@
+{
+  "Format": "1.20",
+ "ConfigSchema": {
+	"Abigail": {"AllowValues": "enable,disable",
+    		"Default": "enable"},
+	"Alex": {"AllowValues": "enable,disable",
+    		"Default": "enable"},
+	"Elliott": {"AllowValues": "enable,disable",
+    		"Default": "enable"},
+	"Emily": {"AllowValues": "enable,disable",
+    		"Default": "enable"},
+	"Haley": {"AllowValues": "enable,disable",
+    		"Default": "enable"},
+	"Harvey": {"AllowValues": "enable,disable",
+    		"Default": "enable"},
+	"Leah": {"AllowValues": "enable,disable",
+    		"Default": "enable"},
+	"Maru": {"AllowValues": "enable,disable",
+    		"Default": "enable"},
+	"Penny": {"AllowValues": "enable,disable",
+    		"Default": "enable"},
+	"Sam": {"AllowValues": "enable,disable",
+    		"Default": "enable"},
+	"Sebastian": {"AllowValues": "enable,disable",
+    		"Default": "enable"},
+	"Shane": {"AllowValues": "enable,disable",
+    		"Default": "enable"},	
+    },
+"Changes": [
+      {
+         "Action": "Load",
+         "Target": "Portraits/abigail",
+         "FromFile": "assets/abigail.png",
+		 "When":{"Abigail":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/abigail_beach",
+         "FromFile": "assets/abigail_beach.png",
+		  "When":{"Abigail":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/alex",
+         "FromFile": "assets/alex.png",
+		  "When":{"Alex":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/alex_beach",
+         "FromFile": "assets/alex_beach.png",
+		  "When":{"Alex":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/elliott",
+         "FromFile": "assets/elliott.png",
+		  "When":{"Elliott":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/elliott_beach",
+         "FromFile": "assets/elliott_beach.png",
+		 "When":{"Elliott":"enable"}
+      },
+	  {
+         "Action": "Load",
+         "Target": "Portraits/emily",
+         "FromFile": "assets/emily.png",
+		 "When":{"Emily":"enable"}
+      },
+	  {
+         "Action": "Load",
+         "Target": "Portraits/emily_beach",
+         "FromFile": "assets/emily_beach.png",
+		 "When":{"Emily":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/haley",
+         "FromFile": "assets/haley.png",
+		 "When":{"Haley":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/haley_beach",
+         "FromFile": "assets/haley_beach.png",
+		 "When":{"Haley":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/harvey",
+         "FromFile": "assets/harvey.png",
+		 "When":{"Harvey":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/harvey_beach",
+         "FromFile": "assets/harvey_beach.png",
+		 "When":{"Harvey":"enable"}
+      },
+	  {
+         "Action": "Load",
+         "Target": "Portraits/leah",
+         "FromFile": "assets/leah.png",
+		 "When":{"Leah":"enable"}
+      },
+	  {
+         "Action": "Load",
+         "Target": "Portraits/leah_beach",
+         "FromFile": "assets/leah_beach.png",
+		 "When":{"Leah":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/maru",
+         "FromFile": "assets/maru.png",
+		 "When":{"Maru":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/maru_beach",
+         "FromFile": "assets/maru_beach.png",
+		 "When":{"Maru":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/maru_hospital",
+         "FromFile": "assets/maru_hospital.png",
+		 "When":{"Maru":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/penny",
+         "FromFile": "assets/penny.png",
+		 "When":{"Penny":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/penny_beach",
+         "FromFile": "assets/penny_beach.png",
+		 "When":{"Penny":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/sam",
+         "FromFile": "assets/sam.png",
+		 "When":{"Sam":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/sam_beach",
+         "FromFile": "assets/sam_beach.png",
+		 "When":{"Sam":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/sebastian",
+         "FromFile": "assets/sebastian.png",
+		 "When":{"Sebastian":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/sebastian_beach",
+         "FromFile": "assets/sebastian_beach.png",
+		 "When":{"Sebastian":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/shane",
+         "FromFile": "assets/shane.png",
+		 "When":{"Shane":"enable"}
+      },
+      {
+         "Action": "Load",
+         "Target": "Portraits/shane_beach",
+         "FromFile": "assets/shane_beach.png",
+		 "When":{"Shane":"enable"}
+		 
+      },
+   ]
+}

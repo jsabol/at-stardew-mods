@@ -1,0 +1,16 @@
+{
+  "Format": "1.19.0",
+  "Changes": [
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Sam",
+         "FromFile": "assets/Sam.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Sam_Beach",
+         "FromFile": "assets/Sam_Beach.png",
+      },
+	  	  
+           ]    
+		}   

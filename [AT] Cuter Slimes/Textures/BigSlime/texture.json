@@ -1,0 +1,8 @@
+{
+  "ItemName": "Big Slime",
+  "Type": "Character",
+  "Keywords": ["cute"],
+  "TextureWidth": 128,
+  "TextureHeight": 64,
+  "Variations": 1
+}

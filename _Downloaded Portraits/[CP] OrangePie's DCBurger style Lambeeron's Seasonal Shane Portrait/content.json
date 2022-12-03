@@ -1,0 +1,191 @@
+{
+  "Format": "1.19.0",
+    "Dependencies": [
+      { "UniqueID": "Lambeeron.ShaneSeasonal",  "IsRequired": false }, 
+      { "UniqueID": "DCBurger.DCBurgersHighResPortraitMod",  "IsRequired": false }, 
+   ],
+
+    "DynamicTokens": [
+
+        {
+            "Name": "IndoorVariant", // Indoors
+            "Value": "_Indoor",
+            "When":
+            {
+                "IsOutdoors": "false"
+            }
+        },
+        {
+            "Name": "IndoorVariant", // Outdoors
+            "Value": "_Outdoor",
+            "When":
+            {
+                "IsOutdoors": "true"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "EggFestival",
+            "When":
+            {
+                "DayEvent": "egg festival",
+                "LocationName": "town, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "FlowerDance",
+            "When":
+            {
+                "DayEvent": "flower dance",
+                "LocationName": "Forest, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "IceFestival",
+            "When":
+            {
+                "DayEvent": "festival of ice",
+                "LocationName": "Forest, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "Luau",
+            "When":
+            {
+                "DayEvent": "luau",
+                "LocationName": "Beach, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "MoonlightJellies",
+            "When":
+            {
+                "DayEvent": "dance of the moonlight jellies",
+                "LocationName": "Beach, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SVFair",
+            "When":
+            {
+                "DayEvent": "stardew valley fair",
+                "LocationName": "town, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "WinterStar",
+            "When":
+            {
+                "DayEvent": "feast of the winter star",
+                "LocationName": "town, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SpiritsEve",
+            "When":
+            {
+                "DayEvent": "spirit's eve",
+                "LocationName": "town, temp"
+            }
+        },
+
+    ],
+
+    "ConfigSchema":
+    {        
+        
+        "FestivalOutfits":
+        {
+            "AllowValues": "True, False",
+            "Default": "True"
+        },
+        "ExtraOutfits":
+        {
+            "AllowValues": "True, False",
+            "Default": "True"
+        
+        },			
+    },
+
+    "Changes": [
+
+
+        {
+            "LogName": "Portraits - Seasonal",
+            "Action": "EditImage",
+            "Target": "Portraits/Shane",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Season}}.png",
+            "Update": "OnLocationChange",    		  
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+        {
+            "LogName": "Portraits - Indoor Variant",
+            "Action": "EditImage",
+            "Target": "Portraits/Shane,",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}_{{Random:1, 2 |key=ShaneVariant}}.png",
+            "Update": "OnLocationChange", 
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+		
+
+
+        {
+            "LogName": "Festival Character Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Shane,",
+            "FromFile": "assets/Portraits/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "FestivalOutfits": "True",
+            },
+        },
+
+
+
+        {
+            "LogName": "Shane - Joja Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Shane",
+            "FromFile": "assets/Portraits/Shane/Shane_Joja.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "HasSeenEvent: currentPlayer |contains=191393": false,
+                "LocationName": "JojaMart",
+				"ExtraOutfits": "True",
+            },
+        },
+  
+
+        {
+            "LogName": "Portraits - Beach native",
+            "Action": "EditImage",
+            "Target": "Portraits/Shane_Beach",
+            "FromFile": "assets/Portraits/Beach/Shane_Beach.png",
+            "Update": "OnLocationChange",    		  
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+
+		
+				
+    ]
+}

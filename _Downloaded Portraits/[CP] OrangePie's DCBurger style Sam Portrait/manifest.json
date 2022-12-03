@@ -1,0 +1,10 @@
+{
+   "Name": "OrangePie's DCBurger style Sam Portrait",
+   "Author": "OrangePieUwU",
+   "Version": "1.0",
+   "Description": "Sam Portrait",
+   "UniqueID": "OrangePieUwU.OrangePiesDCBurgerStyleSamPortrait",
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

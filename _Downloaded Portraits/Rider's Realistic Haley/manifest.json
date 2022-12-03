@@ -1,0 +1,16 @@
+{
+  "Name": "Rider High Resolution Realistic Haley", 
+  "Author": "MortaliB",
+  "Version": "1.0",
+  "Description": "Realistic Haley's Portraits made by Raider",
+  "UniqueID": "MortaliB.HighResolutionRealisticRaiderHaley",
+ "MinimumApiVersion": "2.5",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+      {
+           "UniqueID": "Platonymous.Toolkit",
+      }
+	],
+}

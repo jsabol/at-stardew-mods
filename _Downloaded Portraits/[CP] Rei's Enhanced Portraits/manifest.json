@@ -1,0 +1,11 @@
+{
+  "Name": "Rei's Enhanced Portraits",
+  "Author": "ERRORcauser",
+  "Version": "1.0.4",
+  "Description": "Enhanced portraits, incorporating the art style of the original.",
+  "UniqueID": "ERRORcauser.EnhancedPortraits",
+  "UpdateKeys": [ "Nexus:8244" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

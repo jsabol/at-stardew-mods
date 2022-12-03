@@ -1,0 +1,10 @@
+{
+   "Name": "OrangePie's DCBurger style Gus Portrait",
+   "Author": "OrangePieUwU",
+   "Version": "1.0",
+   "Description": "Gus Portrait",
+   "UniqueID": "OrangePieUwU.OrangePiesDCBurgerStyleGusPortrait",
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

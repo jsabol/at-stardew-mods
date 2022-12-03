@@ -1,0 +1,17 @@
+{
+   "Name": "MVFSP Younger Pam",
+   "Author": "mothbeanie",
+   "Version": "1.0.0",
+   "Description": "Ebu's A Younger Pam portraits in the style of Vanilla Facelift.",
+   "UniqueID": "mothbeanie.EbuYoungerPam",
+    "UpdateKeys": [ "Nexus:10557" ],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+   },
+    "Dependencies": [
+		{
+           "UniqueID": "siamece.VanillaFacelift",
+           "IsRequired": false
+        }
+     ]
+}

@@ -1,0 +1,71 @@
+{
+  "Format": "1.19.0",
+  "Changes": [
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Abigail",
+          "FromFile": "assets/Abigail.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Abigail_Beach",
+         "FromFile": "assets/Abigail_Beach.png",
+      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Leah",
+          "FromFile": "assets/Leah.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Leah_Beach",
+         "FromFile": "assets/Leah_Beach.png",
+      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Haley",
+          "FromFile": "assets/Haley.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Haley_Beach",
+         "FromFile": "assets/Haley_Beach.png",
+      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Emily",
+          "FromFile": "assets/Emily.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Emily_Beach",
+         "FromFile": "assets/Emily_Beach.png",
+      },	
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Maru",
+          "FromFile": "assets/Maru.png",
+      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Maru_Hospital",
+          "FromFile": "assets/Maru_Hospital.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Maru_Beach",
+         "FromFile": "assets/Maru_Beach.png",
+      },			
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Penny",
+          "FromFile": "assets/Penny.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Penny_Beach",
+         "FromFile": "assets/Penny_Beach.png",
+      },
+		  	  
+           ]    
+		}   

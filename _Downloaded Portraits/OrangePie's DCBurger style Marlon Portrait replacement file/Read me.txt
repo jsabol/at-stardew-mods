@@ -1,0 +1,14 @@
+*Make sure you have PyTK mod (https://www.nexusmods.com/stardewvalley/mods/1726)*
+
+If you have DCBurger's high res portrait mod, copy both the png and the .pytk file into Stardew Valley\Mods\[CP] DCBurger's High Res Portraits\assets folder to overwrite the assets in it to install.
+
+If you have Make Merlon Real mod, rename both the png and the .pytk file to Marlon_portrait and Marlon_portrait.pytk, drag them into Stardew Valley\Mods\[CP] Make Marlon Real\assets folder to overwrite the assets in it to install.
+
+If you have SVE, copy both the png and the .pytk file into Stardew Valley\Mods\Stardew Valley Expanded\[CP] Stardew Valley Expanded\assets\CharacterFiles\Portraits\Marlon folder to overwrite the assets in it to install.
+
+If you have lunakatt's DCBurger style portraits for SVE, copy both the png and the .pytk file into Stardew Valley\Mods\[CP] lunakatt's DCBurger style portraits for SVE\assets folder to overwrite the assets in it to install.
+
+
+
+
+

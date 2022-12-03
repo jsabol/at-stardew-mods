@@ -1,0 +1,16 @@
+{
+  "Name": "Shie's Portraits for SVE Content Patcher",
+  "Author": "AlmostMidnight",
+  "Version": "2.0",
+  "Description": "Content Patcher Portraits for Stardew Valley Expanded in the style of Shie's Portrait Mod.",
+  "UniqueID": "AlmostMidnight.ShiesPortraitsforSVEContentPatcher",
+  "UpdateKeys": [9635],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+   "Dependencies": [
+      {
+           "UniqueID": "Platonymous.Toolkit",
+      }
+	],
+}

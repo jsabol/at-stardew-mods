@@ -1,0 +1,10 @@
+{
+   "Name": "OrangePie's DCBurger style Sebastian Beard Portrait",
+   "Author": "OrangePieUwU",
+   "Version": "1.0",
+   "Description": "Sebastian Beard Portrait",
+   "UniqueID": "OrangePieUwU.OrangePiesDCBurgerStyleSebastianBeardPortrait",
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

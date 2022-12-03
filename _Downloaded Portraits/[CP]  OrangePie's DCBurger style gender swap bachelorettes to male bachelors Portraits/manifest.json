@@ -1,0 +1,10 @@
+{
+   "Name": "OrangePie's DCBurger style gender swap bachelorette to male bachelor Portraits",
+   "Author": "OrangePieUwU",
+   "Version": "1.0",
+   "Description": "Gender swap Portraits",
+   "UniqueID": "OrangePieUwU.OrangePiesDCBurgerStyleGenderSwapBacheloretteToMaleBachelorPortraits",
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

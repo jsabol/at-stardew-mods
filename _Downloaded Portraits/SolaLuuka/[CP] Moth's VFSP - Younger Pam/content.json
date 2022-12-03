@@ -1,0 +1,17 @@
+{
+  "Format": "1.24.0",
+  "Changes": [
+	    {
+		    "LogName": "Pam Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Pam",
+		    "FromFile": "assets/Pam.png"
+        },
+	    {
+		    "LogName": "Pam Beach Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Pam_Beach",
+		    "FromFile": "assets/Pam_Beach.png"
+        }
+	]
+}
