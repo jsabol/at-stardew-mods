@@ -1,0 +1,13 @@
+{
+  "ItemName": "Gravel Path",
+  "Type": "Flooring",
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "Seasons": ["Fall"],
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "ChanceWeight": 0
+    }
+  ]
+}

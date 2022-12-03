@@ -1,0 +1,13 @@
+{
+  "ItemName": "Weathered Floor",
+  "Type": "Flooring",
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "Seasons": ["Winter"],
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "ChanceWeight": 0
+    }
+  ]
+}

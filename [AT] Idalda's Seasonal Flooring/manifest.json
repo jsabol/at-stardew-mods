@@ -1,0 +1,12 @@
+{
+  "Name": "[AT] Idalda's Seasonal Flooring",
+  "Author": "Idalda",
+  "Version": "1.0",
+  "Description": "Replaces the vanilla craftable floors and paths.",
+  "UniqueID": "IdaIda.Flooring",
+  "MinimumApiVersion": "2.10.1",
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "4.2.0"
+  }
+}
