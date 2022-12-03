@@ -16,6 +16,14 @@
     {
       "Id": 1,
       "ChanceWeight": 0
+    },
+    {
+      "Id": 2,
+      "ChanceWeight": 0
+    },
+    {
+      "Id": 3,
+      "ChanceWeight": 0
     }
   ]
 }
