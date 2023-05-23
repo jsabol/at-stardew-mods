@@ -1,0 +1,102 @@
+{
+  "Changes": [
+    {
+      "LogName": "CHARACTERNAME - Portrait",
+      "Action": "EditImage",
+      "Target": "Portraits/CHARACTERNAME",
+      "FromFile": "assets/{{Target}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    },
+    {
+      "LogName": "CHARACTERNAME - Seasonal",
+      "Action": "EditImage",
+      "Target": "Characters/CHARACTERNAME",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    },
+    {
+      "LogName": "CHARACTERNAME - Winter Indoor/Outdoor",
+      "Action": "EditImage",
+      "Target": "Characters/CHARACTERNAME",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "Season": "Winter",
+        "WinterIndoorOutdoorOutfits": "IndoorOutdoor"
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "LogName": "CHARACTERNAME - Festival",
+      "Action": "EditImage",
+      "Target": "Characters/CHARACTERNAME",
+      "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "FestivalOutfits": "True"
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "LogName": "CHARACTERNAME - Beach",
+      "Action": "EditImage",
+      "Target": "Portraits/CHARACTERNAME_Beach, Characters/CHARACTERNAME_Beach",
+      "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    },
+    {
+      "LogName": "CHARACTERNAME - Aerobics",
+      "Action": "EditImage",
+      "Target": "Characters/CHARACTERNAME",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_Aerobics.png",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "AerobicsDay": "Regular, Harvey"
+      },
+      "Update": "OnLocationChange, OnTimeChange"
+    },
+
+    // NOSE OVERLAY
+    {
+      "LogName": "CHARACTERNAME - Seasonal Nose",
+      "Action": "EditImage",
+      "Target": "Characters/CHARACTERNAME",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_nose.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "NoNose": "false"
+      }
+    },
+    {
+      "LogName": "CHARACTERNAME - Beach Nose",
+      "Action": "EditImage",
+      "Target": "Characters/CHARACTERNAME_Beach",
+      "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}_nose.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "NoNose": "false"
+      }
+    },
+
+    // MISCELLANEOUS
+    {
+      "LogName": "CHARACTERNAME - Emoji",
+      "Action": "EditImage",
+      "Target": "LooseSprites/emojis",
+      "FromFile": "assets/{{NoNose}}/Random/emojis.png",
+      "FromArea": { "X": 9, "Y": 108, "Width": 9, "Height": 9 },
+      "ToArea": { "X": 9, "Y": 108, "Width": 9, "Height": 9 },
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    }
+  ]
+}

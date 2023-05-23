@@ -1,0 +1,8 @@
+{
+  "ItemName": "Tiger Slime",
+  "Type": "Character",
+  "Keywords": ["cute"],
+  "TextureWidth": 64,
+  "TextureHeight": 264,
+  "Variations": 1
+}

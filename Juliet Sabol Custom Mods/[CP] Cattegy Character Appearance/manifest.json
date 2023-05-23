@@ -1,0 +1,38 @@
+{
+  "Name": "Cattegy Character Appearance",
+  "Author": "Cattegy with assets by various artists",
+  "Version": "1.0.0",
+  "Description": "Seasonal outfits with the slightly cuter character aesthetic.",
+  "UniqueID": "Cattegy.SeasonalCuteCharacters",
+  "MinimumApiVersion": "3.10.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Cattegy.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Hesper.RusticCountrysideTownInterior",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "grapeponta.VanillaInteriors",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Lita.StarblueValley",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Poltergeister.CuteSprites",
+      "IsRequired": false
+    }
+  ]
+}

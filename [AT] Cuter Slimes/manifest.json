@@ -1,0 +1,11 @@
+{
+  "Name": "[AT] Cuter Slimes",
+  "Author": "Amaryn",
+  "Version": "1.0.0",
+  "Description": "All slimes are now delicious...jellies! Probably poisonous.",
+  "UniqueID": "Amaryn.ATCuterSlimes",
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "4.2.0"
+  }
+}
