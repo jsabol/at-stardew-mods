@@ -1,0 +1,17 @@
+{
+  "ItemName": "Wood Floor",
+  "Type": "Flooring",
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "Seasons": ["Spring", "Summer", "Fall"],
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 1
+    },
+    {
+      "Id": 0,
+      "ChanceWeight": 0
+    }
+  ]
+}

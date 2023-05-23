@@ -1,0 +1,50 @@
+{
+  "Format": "1.19.0",
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Abigail",
+      "FromFile": "assets/Abigail.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Abigail_Beach",
+      "FromFile": "assets/Abigail_Beach.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Leah",
+      "FromFile": "assets/Leah.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Leah_Beach",
+      "FromFile": "assets/Leah_Beach.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Maru",
+      "FromFile": "assets/Maru.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Maru_Beach",
+      "FromFile": "assets/Maru_Beach.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Maru_Hospital",
+      "FromFile": "assets/Maru_Hospital.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex",
+      "FromFile": "assets/Alex.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Alex_Beach",
+      "FromFile": "assets/Alex_Beach.png"
+    }
+  ]
+}

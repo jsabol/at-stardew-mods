@@ -1,0 +1,17 @@
+{
+  "ItemName": "Stone Fence",
+  "Type": "Craftable",
+  "Seasons": ["Summer"],
+  "TextureWidth": 48,
+  "TextureHeight": 128,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0
+    },
+    {
+      "Id": 0,
+      "ChanceWeight": 1
+    }
+  ]
+}

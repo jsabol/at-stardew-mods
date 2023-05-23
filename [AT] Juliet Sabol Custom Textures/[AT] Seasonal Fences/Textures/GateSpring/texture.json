@@ -1,0 +1,29 @@
+{
+  "ItemName": "Gate",
+  "Type": "Craftable",
+  "Seasons": ["Spring"],
+  "TextureWidth": 48,
+  "TextureHeight": 224,
+  "ManualVariations": [
+    {
+      "Id": -1,
+      "ChanceWeight": 0
+    },
+    {
+      "Id": 0,
+      "ChanceWeight": 1
+    },
+    {
+      "Id": 1,
+      "ChanceWeight": 0
+    },
+    {
+      "Id": 2,
+      "ChanceWeight": 0
+    },
+    {
+      "Id": 3,
+      "ChanceWeight": 0
+    }
+  ]
+}

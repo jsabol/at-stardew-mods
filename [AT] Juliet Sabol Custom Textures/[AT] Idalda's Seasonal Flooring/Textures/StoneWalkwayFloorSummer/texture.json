@@ -1,0 +1,13 @@
+{
+  "ItemName": "Stone Walkway Floor",
+  "Type": "Flooring",
+  "TextureWidth": 64,
+  "TextureHeight": 64,
+  "Seasons": ["Summer"],
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "ChanceWeight": 0
+    }
+  ]
+}

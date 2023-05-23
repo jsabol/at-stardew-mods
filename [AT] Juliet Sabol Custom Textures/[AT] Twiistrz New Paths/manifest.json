@@ -1,0 +1,12 @@
+{
+  "Name": "[AT] Unofficial New Paths for Alternative Textures",
+  "Author": "Twiistrz",
+  "Version": "1.1.0",
+  "Description": "An unofficial port of Eemie's New Paths to Alternative Textures",
+  "UniqueID": "Twiistrz.TENP1",
+  "MinimumApiVersion": "2.10.1",
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "4.2.0"
+  }
+}
