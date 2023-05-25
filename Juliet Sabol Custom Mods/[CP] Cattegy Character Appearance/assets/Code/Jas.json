@@ -3,7 +3,7 @@
     {
       "LogName": "Jas - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Jas, Characters/Jas",
+      "Target": "Characters/Jas",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Jas - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Jas, Characters/Jas",
+      "Target": "Characters/Jas",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Jas - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Jas, Characters/Jas",
+      "Target": "Characters/Jas",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Jas - Beach Portrait",
       "Action": "EditImage",
-      "Target": "Portraits/Jas, Characters/Jas",
+      "Target": "Characters/Jas",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/Adds/{{TargetWithoutPath}}_Beach.png",
       "When": {
         "HasFile:{{FromFile}}": true,

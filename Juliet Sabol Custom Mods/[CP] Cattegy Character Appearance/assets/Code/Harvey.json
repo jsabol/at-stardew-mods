@@ -3,7 +3,7 @@
     {
       "LogName": "Harvey - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Harvey, Characters/Harvey",
+      "Target": "Characters/Harvey",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Harvey - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Harvey, Characters/Harvey",
+      "Target": "Characters/Harvey",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Harvey - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Harvey, Characters/Harvey",
+      "Target": "Characters/Harvey",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Harvey - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Harvey_Beach, Characters/Harvey_Beach",
+      "Target": "Characters/Harvey_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -44,7 +44,7 @@
     {
       "LogName": "Harvey - Aerobics",
       "Action": "EditImage",
-      "Target": "Portraits/Harvey, Characters/Harvey",
+      "Target": "Characters/Harvey",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_Aerobics.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -55,7 +55,7 @@
     {
       "LogName": "Harvey - Labcoat",
       "Action": "EditImage",
-      "Target": "Portraits/Harvey, Characters/Harvey",
+      "Target": "Characters/Harvey",
       "FromFile": "assets/{{Target}}/Harvey_Doctor.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -90,30 +90,6 @@
     },
 
     // MISCELLANEOUS
-    {
-      "LogName": "Harvey - Mustache Overlay",
-      "Action": "EditImage",
-      "Target": "Portraits/Harvey",
-      "FromFile": "assets/{{Target}}/MustacheOverlay.png",
-      "PatchMode": "Overlay",
-      "When": {
-        "HasFile:{{FromFile}}": true,
-        "HarveyFacialHair": "True"
-      },
-      "Update": "OnLocationChange"
-    },
-    {
-      "LogName": "Harvey - Mustache Overlay Beach",
-      "Action": "EditImage",
-      "Target": "Portraits/Harvey_Beach",
-      "FromFile": "assets/Portraits/Beach/Harvey_Beach_MustacheOverlay.png",
-      "PatchMode": "Overlay",
-      "When": {
-        "HasFile:{{FromFile}}": true,
-        "HarveyFacialHair": "True"
-      },
-      "Update": "OnLocationChange"
-    },
     {
       "LogName": "Harvey - Emoji",
       "Action": "EditImage",

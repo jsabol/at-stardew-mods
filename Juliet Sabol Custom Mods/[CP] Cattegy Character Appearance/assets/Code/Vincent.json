@@ -3,7 +3,7 @@
     {
       "LogName": "Vincent - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Vincent, Characters/Vincent",
+      "Target": "Characters/Vincent",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Vincent - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Vincent, Characters/Vincent",
+      "Target": "Characters/Vincent",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Vincent - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Vincent, Characters/Vincent",
+      "Target": "Characters/Vincent",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Vincent - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Vincent, Characters/Vincent",
+      "Target": "Characters/Vincent",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/Adds/{{TargetWithoutPath}}_Beach.png",
       "When": {
         "HasFile:{{FromFile}}": true,

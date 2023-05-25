@@ -3,7 +3,7 @@
     {
       "LogName": "Demetrius - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Demetrius, Characters/Demetrius",
+      "Target": "Characters/Demetrius",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Demetrius - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Demetrius, Characters/Demetrius",
+      "Target": "Characters/Demetrius",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Demetrius - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Demetrius, Characters/Demetrius",
+      "Target": "Characters/Demetrius",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -41,19 +41,6 @@
         "HasFile:{{FromFile}}": true
       }
     },
-    {
-      "LogName": "Demetrius - Beach Portrait",
-      "Action": "EditImage",
-      "Target": "Portraits/Demetrius",
-      "FromFile": "assets/{{TargetPathOnly}}/Beach/Adds/{{TargetWithoutPath}}_Beach.png",
-      "When": {
-        "HasFile:{{FromFile}}": true,
-        "LocationName": "IslandSouth, IslandWest, IslandEast, IslandNorth",
-        "Time": "{{Range: 1130, 1820}}"
-      },
-      "Update": "OnTimeChange, OnLocationChange"
-    },
-
     // NOSE OVERLAY
     {
       "LogName": "Demetrius - Seasonal Nose",

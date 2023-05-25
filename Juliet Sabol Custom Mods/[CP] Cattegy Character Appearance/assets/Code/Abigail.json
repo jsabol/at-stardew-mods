@@ -3,7 +3,7 @@
     {
       "LogName": "Abigail",
       "Action": "EditImage",
-      "Target": "Portraits/Abigail, Characters/Abigail",
+      "Target": "Characters/Abigail",
       "FromFile": "assets/{{Target}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Abigail - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Abigail_Beach, Characters/Abigail_Beach",
+      "Target": "Characters/Abigail_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true

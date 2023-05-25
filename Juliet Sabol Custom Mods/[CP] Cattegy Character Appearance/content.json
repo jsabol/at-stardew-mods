@@ -369,6 +369,12 @@
   },
 
   "Changes": [
+    // HDPortrait base json
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Abigail",
+      "FromFile": "assets/base.json"
+    },
     // Farmer Changes
 
     {

@@ -3,7 +3,7 @@
     {
       "LogName": "Wizard - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Wizard, Characters/Wizard",
+      "Target": "Characters/Wizard",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}.png",
       "When": {
         "HasFile:{{FromFile}}": true

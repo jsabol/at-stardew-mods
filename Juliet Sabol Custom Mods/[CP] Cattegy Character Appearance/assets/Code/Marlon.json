@@ -3,7 +3,7 @@
     {
       "LogName": "Marlon - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Marlon, Characters/Marlon",
+      "Target": "Characters/Marlon",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}.png",
       "When": {
         "HasFile:{{FromFile}}": true

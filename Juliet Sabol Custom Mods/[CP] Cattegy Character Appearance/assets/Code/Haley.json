@@ -3,7 +3,7 @@
     {
       "LogName": "Haley - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Haley, Characters/Haley",
+      "Target": "Characters/Haley",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Haley - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Haley, Characters/Haley",
+      "Target": "Characters/Haley",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Haley - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Haley, Characters/Haley",
+      "Target": "Characters/Haley",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Haley - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Haley_Beach, Characters/Haley_Beach",
+      "Target": "Characters/Haley_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true

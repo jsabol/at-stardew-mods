@@ -3,7 +3,7 @@
     {
       "LogName": "Lewis - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Lewis, Characters/Lewis",
+      "Target": "Characters/Lewis",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Lewis - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Lewis, Characters/Lewis",
+      "Target": "Characters/Lewis",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Lewis - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Lewis, Characters/Lewis",
+      "Target": "Characters/Lewis",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -44,7 +44,7 @@
     {
       "LogName": "Lewis - Beach Add",
       "Action": "EditImage",
-      "Target": "Portraits/Lewis, Characters/Lewis",
+      "Target": "Characters/Lewis",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/Adds/{{TargetWithoutPath}}_Beach.png",
       "When": {
         "HasFile:{{FromFile}}": true,

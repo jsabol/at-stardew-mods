@@ -1,15 +1,6 @@
 {
   "Changes": [
     {
-      "LogName": "Gil - Seasonal",
-      "Action": "EditImage",
-      "Target": "Portraits/Gil",
-      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}.png",
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
-    },
-    {
       "LogName": "Gil - TownInterior 1",
       "Action": "EditImage",
       "Update": "OnLocationChange",

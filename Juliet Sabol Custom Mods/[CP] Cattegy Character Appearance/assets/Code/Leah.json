@@ -3,7 +3,7 @@
     {
       "LogName": "Leah - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Leah, Characters/Leah",
+      "Target": "Characters/Leah",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Leah - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Leah, Characters/Leah",
+      "Target": "Characters/Leah",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Leah - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Leah, Characters/Leah",
+      "Target": "Characters/Leah",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Leah - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Leah_Beach, Characters/Leah_Beach",
+      "Target": "Characters/Leah_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true

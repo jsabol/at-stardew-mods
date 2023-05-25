@@ -3,7 +3,7 @@
     {
       "LogName": "Evelyn - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Evelyn, Characters/Evelyn",
+      "Target": "Characters/Evelyn",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Evelyn - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Evelyn, Characters/Evelyn",
+      "Target": "Characters/Evelyn",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Evelyn - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Evelyn, Characters/Evelyn",
+      "Target": "Characters/Evelyn",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Evelyn - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Evelyn, Characters/Evelyn",
+      "Target": "Characters/Evelyn",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,

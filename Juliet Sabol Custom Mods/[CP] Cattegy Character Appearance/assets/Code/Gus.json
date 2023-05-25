@@ -3,7 +3,7 @@
     {
       "LogName": "Gus - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Gus, Characters/Gus",
+      "Target": "Characters/Gus",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Gus - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Gus, Characters/Gus",
+      "Target": "Characters/Gus",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Gus - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Gus, Characters/Gus",
+      "Target": "Characters/Gus",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Gus - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Gus, Characters/Gus",
+      "Target": "Characters/Gus",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,

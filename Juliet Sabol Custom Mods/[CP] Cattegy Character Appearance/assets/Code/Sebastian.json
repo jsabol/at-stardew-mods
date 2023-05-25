@@ -3,7 +3,7 @@
     {
       "LogName": "Sebastian - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Sebastian, Characters/Sebastian",
+      "Target": "Characters/Sebastian",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Sebastian - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Sebastian, Characters/Sebastian",
+      "Target": "Characters/Sebastian",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Sebastian - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Sebastian, Characters/Sebastian",
+      "Target": "Characters/Sebastian",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Sebastian - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Sebastian_Beach, Characters/Sebastian_Beach",
+      "Target": "Characters/Sebastian_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true

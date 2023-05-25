@@ -3,7 +3,7 @@
     {
       "LogName": "Jodi - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Jodi, Characters/Jodi",
+      "Target": "Characters/Jodi",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Jodi - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Jodi, Characters/Jodi",
+      "Target": "Characters/Jodi",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Jodi - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Jodi, Characters/Jodi",
+      "Target": "Characters/Jodi",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Jodi - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Jodi_Beach, Characters/Jodi_Beach",
+      "Target": "Characters/Jodi_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -44,7 +44,7 @@
     {
       "LogName": "Jodi - Aerobics",
       "Action": "EditImage",
-      "Target": "Portraits/Jodi, Characters/Jodi",
+      "Target": "Characters/Jodi",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_Aerobics.png",
       "When": {
         "HasFile:{{FromFile}}": true,

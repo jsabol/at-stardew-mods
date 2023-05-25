@@ -3,7 +3,7 @@
     {
       "LogName": "Penny - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Penny, Characters/Penny",
+      "Target": "Characters/Penny",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Penny - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Penny, Characters/Penny",
+      "Target": "Characters/Penny",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Penny - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Penny, Characters/Penny",
+      "Target": "Characters/Penny",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Penny - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Penny_Beach, Characters/Penny_Beach",
+      "Target": "Characters/Penny_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true

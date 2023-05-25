@@ -3,7 +3,7 @@
     {
       "LogName": "Morris - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Morris, Characters/Morris",
+      "Target": "Characters/Morris",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true

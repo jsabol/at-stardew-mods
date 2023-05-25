@@ -3,7 +3,7 @@
     {
       "LogName": "Robin - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Robin, Characters/Robin",
+      "Target": "Characters/Robin",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Robin - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Robin, Characters/Robin",
+      "Target": "Characters/Robin",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Robin - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Robin, Characters/Robin",
+      "Target": "Characters/Robin",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Robin - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Robin_Beach, Characters/Robin_Beach",
+      "Target": "Characters/Robin_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -44,7 +44,7 @@
     {
       "LogName": "Robin - Aerobics",
       "Action": "EditImage",
-      "Target": "Portraits/Robin, Characters/Robin",
+      "Target": "Characters/Robin",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_Aerobics.png",
       "When": {
         "HasFile:{{FromFile}}": true,

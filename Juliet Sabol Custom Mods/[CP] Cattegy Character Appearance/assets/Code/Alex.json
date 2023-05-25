@@ -3,7 +3,7 @@
     {
       "LogName": "Alex",
       "Action": "EditImage",
-      "Target": "Portraits/Alex, Characters/Alex",
+      "Target": "Characters/Alex",
       "FromFile": "assets/{{Target}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Alex - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Alex_Beach, Characters/Alex_Beach",
+      "Target": "Characters/Alex_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true

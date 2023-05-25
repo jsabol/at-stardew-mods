@@ -3,7 +3,7 @@
     {
       "LogName": "Kent - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Kent, Characters/Kent",
+      "Target": "Characters/Kent",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Kent - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Kent, Characters/Kent",
+      "Target": "Characters/Kent",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Kent - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Kent, Characters/Kent",
+      "Target": "Characters/Kent",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Kent - Beach Portrait",
       "Action": "EditImage",
-      "Target": "Portraits/Kent, Characters/Kent",
+      "Target": "Characters/Kent",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/Adds/{{TargetWithoutPath}}_Beach.png",
       "When": {
         "HasFile:{{FromFile}}": true,

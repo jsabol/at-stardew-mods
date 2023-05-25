@@ -3,7 +3,7 @@
     {
       "LogName": "Miscellaneous Characters",
       "Action": "EditImage",
-      "Target": "Portraits/Bouncer, Portraits/Grandpa, Characters/Bouncer, Characters/Dwarf, Characters/Governor, Characters/Henchman, Characters/LeahExFemale, Characters/LeahExMale, Characters/Marcello, Characters/Mariner",
+      "Target": "Characters/Mariner",
       "FromFile": "assets/{{Target}}.png",
       "When": {
         "HasFile:{{FromFile}}": true

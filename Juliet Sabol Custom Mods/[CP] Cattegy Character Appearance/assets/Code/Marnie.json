@@ -3,7 +3,7 @@
     {
       "LogName": "Marnie - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Marnie, Characters/Marnie",
+      "Target": "Characters/Marnie",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Marnie - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Marnie, Characters/Marnie",
+      "Target": "Characters/Marnie",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Marnie - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Marnie, Characters/Marnie",
+      "Target": "Characters/Marnie",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Marnie - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Marnie_Beach, Characters/Marnie_Beach",
+      "Target": "Characters/Marnie_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -44,7 +44,7 @@
     {
       "LogName": "Marnie - Aerobics",
       "Action": "EditImage",
-      "Target": "Portraits/Marnie, Characters/Marnie",
+      "Target": "Characters/Marnie",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_Aerobics.png",
       "When": {
         "HasFile:{{FromFile}}": true,

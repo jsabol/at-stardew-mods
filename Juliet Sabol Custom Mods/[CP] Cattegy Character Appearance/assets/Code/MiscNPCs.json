@@ -4,7 +4,7 @@
     {
       "LogName": "Birdie - Slightly Cuter",
       "Action": "EditImage",
-      "Target": "Portraits/Birdie, Characters/Birdie",
+      "Target": "Characters/Birdie",
       "FromFile": "assets/{{Target}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -27,7 +27,7 @@
     {
       "LogName": "Krobus - Slightly Cuter",
       "Action": "EditImage",
-      "Target": "Portraits/Krobus, Characters/Krobus",
+      "Target": "Characters/Krobus",
       "FromFile": "assets/{{Target}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -39,7 +39,7 @@
     {
       "LogName": "Mr Qi - Slightly Cuter",
       "Action": "EditImage",
-      "Target": "Portraits/MrQi, Characters/MrQi",
+      "Target": "Characters/MrQi",
       "FromFile": "assets/{{Target}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,

@@ -3,7 +3,7 @@
     {
       "LogName": "Sandy - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Sandy, Characters/Sandy",
+      "Target": "Characters/Sandy",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Sandy - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Sandy, Characters/Sandy",
+      "Target": "Characters/Sandy",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,

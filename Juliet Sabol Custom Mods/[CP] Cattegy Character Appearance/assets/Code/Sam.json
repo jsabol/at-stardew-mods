@@ -3,7 +3,7 @@
     {
       "LogName": "Sam - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Sam, Characters/Sam",
+      "Target": "Characters/Sam",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Sam - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Sam, Characters/Sam",
+      "Target": "Characters/Sam",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Sam - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Sam, Characters/Sam",
+      "Target": "Characters/Sam",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Sam - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Sam_Beach, Characters/Sam_Beach",
+      "Target": "Characters/Sam_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -44,7 +44,7 @@
     {
       "LogName": "Sam - Work",
       "Action": "EditImage",
-      "Target": "Portraits/Sam, Characters/Sam",
+      "Target": "Characters/Sam",
       "Update": "OnLocationChange",
       "FromFile": "assets/{{Target}}/Sam_Work.png",
       "When": {

@@ -3,7 +3,7 @@
     {
       "LogName": "Willy - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Willy, Characters/Willy",
+      "Target": "Characters/Willy",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Willy - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Willy, Characters/Willy",
+      "Target": "Characters/Willy",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Willy - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Willy, Characters/Willy",
+      "Target": "Characters/Willy",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,

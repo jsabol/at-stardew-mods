@@ -3,7 +3,7 @@
     {
       "LogName": "Pam - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Pam, Characters/Pam",
+      "Target": "Characters/Pam",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Pam - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Pam, Characters/Pam",
+      "Target": "Characters/Pam",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Pam - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Pam, Characters/Pam",
+      "Target": "Characters/Pam",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Pam - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Pam_Beach, Characters/Pam_Beach",
+      "Target": "Characters/Pam_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true

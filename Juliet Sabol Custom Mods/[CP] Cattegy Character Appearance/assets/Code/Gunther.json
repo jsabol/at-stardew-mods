@@ -3,7 +3,7 @@
     {
       "LogName": "Gunther - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Gunther, Characters/Gunther",
+      "Target": "Characters/Gunther",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Gunther - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Gunther, Characters/Gunther",
+      "Target": "Characters/Gunther",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,

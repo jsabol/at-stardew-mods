@@ -3,7 +3,7 @@
     {
       "LogName": "Emily - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Emily, Characters/Emily",
+      "Target": "Characters/Emily",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Emily - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Emily, Characters/Emily",
+      "Target": "Characters/Emily",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Emily - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Emily, Characters/Emily",
+      "Target": "Characters/Emily",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Emily - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Emily_Beach, Characters/Emily_Beach",
+      "Target": "Characters/Emily_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -44,7 +44,7 @@
     {
       "LogName": "Emily - Aerobics",
       "Action": "EditImage",
-      "Target": "Portraits/Emily, Characters/Emily",
+      "Target": "Characters/Emily",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_Aerobics.png",
       "When": {
         "HasFile:{{FromFile}}": true,

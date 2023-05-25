@@ -1,15 +1,6 @@
 {
   "Changes": [
     {
-      "LogName": "Caroline - Portrait",
-      "Action": "EditImage",
-      "Target": "Portraits/Caroline",
-      "FromFile": "assets/{{Target}}.png",
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
-    },
-    {
       "LogName": "Caroline - Seasonal",
       "Action": "EditImage",
       "Target": "Characters/Caroline",
@@ -44,7 +35,7 @@
     {
       "LogName": "Caroline - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Caroline_Beach, Characters/Caroline_Beach",
+      "Target": "Characters/Caroline_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true

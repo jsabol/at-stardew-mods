@@ -3,7 +3,7 @@
     {
       "LogName": "Linus - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Linus, Characters/Linus",
+      "Target": "Characters/Linus",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Linus - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Linus, Characters/Linus",
+      "Target": "Characters/Linus",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,

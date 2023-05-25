@@ -3,7 +3,7 @@
     {
       "LogName": "Shane - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Shane, Characters/Shane",
+      "Target": "Characters/Shane",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Shane - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Shane, Characters/Shane",
+      "Target": "Characters/Shane",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Shane - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Shane, Characters/Shane",
+      "Target": "Characters/Shane",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Shane - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Shane_Beach, Characters/Shane_Beach",
+      "Target": "Characters/Shane_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -49,19 +49,6 @@
       "When": {
         "HasFile:{{FromFile}}": true
       }
-    },
-    {
-      "LogName": "Shane - Joja Portrait",
-      "Action": "EditImage",
-      "Target": "Portraits/Shane",
-      "FromFile": "assets/Portraits/Shane/Shane_Joja.png",
-      "When": {
-        "HasFile:{{FromFile}}": true,
-        "HasSeenEvent: currentPlayer |contains=191393": false,
-        "LocationName": "JojaMart",
-        "ExtraOutfits": "True"
-      },
-      "Update": "OnLocationChange"
     },
 
     // NOSE OVERLAY

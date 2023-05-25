@@ -3,7 +3,7 @@
     {
       "LogName": "George - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/George, Characters/George",
+      "Target": "Characters/George",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "George - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/George, Characters/George",
+      "Target": "Characters/George",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "George - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/George, Characters/George",
+      "Target": "Characters/George",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,

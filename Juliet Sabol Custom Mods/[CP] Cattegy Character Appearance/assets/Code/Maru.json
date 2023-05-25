@@ -3,7 +3,7 @@
     {
       "LogName": "Maru - Seasonal",
       "Action": "EditImage",
-      "Target": "Portraits/Maru, Characters/Maru",
+      "Target": "Characters/Maru",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -12,7 +12,7 @@
     {
       "LogName": "Maru - Winter Indoor/Outdoor",
       "Action": "EditImage",
-      "Target": "Portraits/Maru, Characters/Maru",
+      "Target": "Characters/Maru",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -24,7 +24,7 @@
     {
       "LogName": "Maru - Festival",
       "Action": "EditImage",
-      "Target": "Portraits/Maru, Characters/Maru",
+      "Target": "Characters/Maru",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
@@ -35,7 +35,7 @@
     {
       "LogName": "Maru - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Maru_Beach, Characters/Maru_Beach",
+      "Target": "Characters/Maru_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -44,7 +44,7 @@
     {
       "LogName": "Maru - Hospital",
       "Action": "EditImage",
-      "Target": "Portraits/Maru_Hospital, Characters/Maru_Hospital",
+      "Target": "Characters/Maru_Hospital",
       "FromFile": "assets/Maru/{{Target}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
