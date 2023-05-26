@@ -30,6 +30,15 @@
       },
       "Update": "OnLocationChange"
     },
+    {
+      "LogName": "Susan - Beach Character",
+      "Action": "EditImage",
+      "Target": "Characters/Susan_Beach",
+      "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    },
 
     // MISCELLANEOUS
     {
