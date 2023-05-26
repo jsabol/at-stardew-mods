@@ -27,3 +27,9 @@ TODO:
 - switch to lake farm
 
 TODO Portraits:  
+
+
+Add SVE changes from talkahooney and sprite changes if any
+Indoor/outdoor Morris changes
+
+
