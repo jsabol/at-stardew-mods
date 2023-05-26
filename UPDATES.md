@@ -89,5 +89,22 @@ Noticeably better!
 - Turning of things I don't love: 
 - Looking for Love
 - Blue Eggs
+- Cleaning up my mod with unnecessary tilesheet changes
+- Stop running seasonal cute characters!
+---
+Attempt 7
+aaand we're slow again. My stuff is off though!
+- Turn off Flower Dance Fix
+- Turn off hugs & kisses (looking for love requirement)
+- Turn off Train Station (aquarium requirement)
+- TUrn off tree transplant and crop transplant (we have shovel)
+- trying with new save
+(CreatedBasicInfo) seems to have been the moment I started the save
+---
+Attempt 8
+- Turn off Ultimate Villager Manager :(
+- Significantly better!
+
 
 TODO: My krobus sprite in my pack (Erinel's)
+Gender swap back :(

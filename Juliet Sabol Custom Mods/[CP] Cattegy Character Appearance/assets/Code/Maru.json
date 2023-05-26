@@ -4,10 +4,33 @@
       "LogName": "Maru - Seasonal",
       "Action": "EditImage",
       "Target": "Characters/Maru",
-      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}.png",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
       }
+    },
+    {
+      "LogName": "Maru - Winter Indoor/Outdoor",
+      "Action": "EditImage",
+      "Target": "Characters/Maru",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "Season": "Winter",
+        "WinterIndoorOutdoorOutfits": "IndoorOutdoor"
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "LogName": "Maru - Festival",
+      "Action": "EditImage",
+      "Target": "Characters/Maru",
+      "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "FestivalOutfits": "True"
+      },
+      "Update": "OnLocationChange"
     },
     {
       "LogName": "Maru - Beach",
@@ -25,6 +48,29 @@
       "FromFile": "assets/Maru/{{Target}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
+      }
+    },
+    // NOSE OVERLAY
+    {
+      "LogName": "Maru - Seasonal Nose",
+      "Action": "EditImage",
+      "Target": "Characters/Maru, Characters/Maru_Hospital",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_nose.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "NoNose": "false"
+      }
+    },
+    {
+      "LogName": "Maru - Beach Nose",
+      "Action": "EditImage",
+      "Target": "Characters/Maru_Beach",
+      "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}_nose.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "NoNose": "false"
       }
     },
 
