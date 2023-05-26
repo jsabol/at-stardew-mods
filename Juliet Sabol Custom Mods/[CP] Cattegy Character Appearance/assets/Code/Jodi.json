@@ -86,17 +86,6 @@
       "When": {
         "HasFile:{{FromFile}}": true
       }
-    },
-    {
-      "LogName": "Jodi Bundle Sprite",
-      "Action": "EditImage",
-      "Target": "LooseSprites/BundleSprites",
-      "FromFile": "assets/{{NoNose}}/Random/BundleSprites.png",
-      "FromArea": { "X": 192, "Y": 0, "Width": 32, "Height": 32 },
-      "ToArea": { "X": 192, "Y": 0, "Width": 32, "Height": 32 },
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
     }
   ]
 }

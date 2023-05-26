@@ -18,19 +18,6 @@
         "HasFile:{{FromFile}}": true
       },
       "Update": "OnLocationChange"
-    },
-
-    // MISCELLANEOUS
-    {
-      "LogName": "Linus - Bundle Sprite",
-      "Action": "EditImage",
-      "Target": "LooseSprites/BundleSprites",
-      "FromFile": "assets/{{NoNose}}/Random/BundleSprites.png",
-      "FromArea": { "X": 160, "Y": 0, "Width": 32, "Height": 32 },
-      "ToArea": { "X": 160, "Y": 0, "Width": 32, "Height": 32 },
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
     }
   ]
 }

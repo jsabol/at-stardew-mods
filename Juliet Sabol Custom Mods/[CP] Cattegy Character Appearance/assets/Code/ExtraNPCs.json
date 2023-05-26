@@ -13,32 +13,6 @@
     // Cursors
 
 
-    // Desert
-
-    {
-      "LogName": "Desert 1",
-      "Action": "EditImage",
-      "Target": "Maps/DesertTiles",
-      "Update": "OnLocationChange",
-      "FromFile": "assets/{{NoNose}}/Random/DesertTiles.png",
-      "FromArea": { "X": 96, "Y": 192, "Width": 30, "Height": 32 },
-      "ToArea": { "X": 96, "Y": 192, "Width": 30, "Height": 32 },
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
-    },
-    {
-      "LogName": "Desert 2",
-      "Action": "EditImage",
-      "Target": "Maps/DesertTiles",
-      "Update": "OnLocationChange",
-      "FromFile": "assets/{{NoNose}}/Random/DesertTiles.png",
-      "FromArea": { "X": 226, "Y": 291, "Width": 29, "Height": 25 },
-      "ToArea": { "X": 226, "Y": 291, "Width": 29, "Height": 25 },
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
-    },
 
     // Festivals
 

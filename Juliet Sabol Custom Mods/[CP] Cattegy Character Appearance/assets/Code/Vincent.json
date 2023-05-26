@@ -67,17 +67,6 @@
       "When": {
         "HasFile:{{FromFile}}": true
       }
-    },
-    {
-      "LogName": "Vincent - Bundle Sprite",
-      "Action": "EditImage",
-      "Target": "LooseSprites/BundleSprites",
-      "FromFile": "assets/{{NoNose}}/Random/BundleSprites.png",
-      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
-      "ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
     }
   ]
 }
