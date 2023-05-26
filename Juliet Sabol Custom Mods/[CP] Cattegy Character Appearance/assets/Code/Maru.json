@@ -16,8 +16,7 @@
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
-        "Season": "Winter",
-        "WinterIndoorOutdoorOutfits": "IndoorOutdoor"
+        "Season": "Winter"
       },
       "Update": "OnLocationChange"
     },
@@ -27,8 +26,7 @@
       "Target": "Characters/Maru",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "FestivalOutfits": "True"
+        "HasFile:{{FromFile}}": true
       },
       "Update": "OnLocationChange"
     },
@@ -86,17 +84,6 @@
       "When": {
         "HasFile:{{FromFile}}": true
       }
-    },
-    {
-      "LogName": "Maru - Glasses",
-      "Action": "EditImage",
-      "Target": "Characters/Maru, Characters/Maru_Hospital",
-      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_clear.png",
-      "PatchMode": "Overlay",
-      "When": {
-        "MaruGlasses": "false"
-      },
-      "Update": "OnLocationChange"
     }
   ]
 }

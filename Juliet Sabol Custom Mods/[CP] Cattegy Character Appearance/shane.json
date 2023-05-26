@@ -1,0 +1,85 @@
+// I give up
+//
+
+{
+  "Format": "1.19.0",
+
+  "Changes": [
+    // Portrait Seasonal
+    {
+      "LogName": "Shane Portrait - Seasonal",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Shane",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Shane/Shane_{{Season}}{{IndoorVariant}}_{{Random:1, 2 |key=ShaneVariant}}.png}}"
+      },
+      "Update": "OnLocationChange"
+    },
+    // Sprites seasonal
+    {
+      "LogName": "Shane Sprite - Indoor Variant",
+      "Action": "EditImage",
+      "Target": "Characters/Shane,",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}_{{Random:1, 2 |key=ShaneVariant}}.png",
+      "Update": "OnLocationChange"
+    },
+    // Festivals portraits
+    {
+      "LogName": "Shane Festival Portrait",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Shane",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Shane/Festivals/{{Festival}}/Shane_{{Festival}}.png}}"
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    },
+    // Festivals sprites
+    {
+      "LogName": "Shane Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Shane",
+      "FromFile": "assets/Characters/Shane/Festivals/{{Festival}}/Shane_{{Festival}}.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    },
+
+    // Work
+    // Shane Joja Portrait
+    {
+      "LogName": "Shane - Joja Portrait",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Shane",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Shane/Shane_Joja.png}}"
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "HasSeenEvent: currentPlayer |contains=191393": false,
+        "LocationName": "JojaMart"
+      }
+    },
+
+    // Beach portrait
+    {
+      "LogName": "Shane Portrait - Beach",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Shane_Beach",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Shane/Beach/Shane.png}}"
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "LogName": "Shane Sprite - Beach",
+      "Action": "EditImage",
+      "Target": "Characters/Shane_Beach",
+      "FromFile": "assets/Characters/Shane/Beach/Shane.png",
+      "Update": "OnLocationChange"
+    }
+  ]
+}

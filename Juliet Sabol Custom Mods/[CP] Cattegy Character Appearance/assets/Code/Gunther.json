@@ -15,8 +15,7 @@
       "Target": "Characters/Gunther",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "FestivalOutfits": "True"
+        "HasFile:{{FromFile}}": true
       },
       "Update": "OnLocationChange"
     },

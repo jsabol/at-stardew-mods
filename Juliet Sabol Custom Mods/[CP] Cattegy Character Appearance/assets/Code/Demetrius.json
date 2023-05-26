@@ -16,8 +16,7 @@
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
-        "Season": "Winter",
-        "WinterIndoorOutdoorOutfits": "IndoorOutdoor"
+        "Season": "Winter"
       },
       "Update": "OnLocationChange"
     },
@@ -27,8 +26,7 @@
       "Target": "Characters/Demetrius",
       "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "FestivalOutfits": "True"
+        "HasFile:{{FromFile}}": true
       },
       "Update": "OnLocationChange"
     },
@@ -63,7 +61,7 @@
       "When": {
         "HasFile:{{FromFile}}": true,
         "NoNose": "false",
-        "FestivalOutfits": "True",
+
         "Festival": "SpiritsEve"
       },
       "Update": "OnLocationChange"

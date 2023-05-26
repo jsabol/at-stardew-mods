@@ -1,0 +1,161 @@
+{
+  "Changes": [
+    // size
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Linus, Mods/HDPortraits/Penny, Mods/HDPortraits/Pam, Mods/HDPortraits/Robin, Mods/HDPortraits/Clint",
+      "FromFile": "assets/base.json"
+    },
+    // non-seasonal
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Linus, Mods/HDPortraits/Penny, Mods/HDPortraits/Pam, Mods/HDPortraits/Robin, Mods/HDPortraits/Clint",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}.png}}"
+      }
+    },
+    // seasons, except winter indoor/outdoor
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Linus, Mods/HDPortraits/Penny, Mods/HDPortraits/Pam, Mods/HDPortraits/Robin, Mods/HDPortraits/Clint",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}_{{Season}}.png}}"
+      },
+      "When": {
+        "Season |contains=winter": "false"
+      }
+    },
+    // winter indoor/outdoor variants
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Linus, Mods/HDPortraits/Penny, Mods/HDPortraits/Pam, Mods/HDPortraits/Robin, Mods/HDPortraits/Clint",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}_Winter_{{IndoorVariant}}.png}}"
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "Season": "Winter"
+      }
+    },
+    // all seasons
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Linus, Mods/HDPortraits/Penny, Mods/HDPortraits/Pam, Mods/HDPortraits/Robin, Mods/HDPortraits/Clint",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}_{{Season}}.png}}"
+      }
+    },
+    // beach
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Linus_Beach",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}_Beach.png}}"
+      }
+    },
+    // festivals
+    {
+      "LogName": "Festival Portraits",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Linus",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Festival}}.png}}"
+      },
+      "Update": "OnLocationChange",
+      "When": {}
+    },
+    // moonlight jellies
+    // aerobics
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jodi, Mods/HDPortraits/Marnie, Mods/HDPortraits/Caroline, Mods/HDPortraits/Robin, Mods/HDPortraits/Emily, Mods/HDPortraits/Harvey",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Aerobics.png}}"
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "DayOfWeek": "Tuesday",
+        "LocationName": "SeedShop",
+        "Extra Outfits": "true",
+        "Weather": "sun, wind, snow"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jodi, Mods/HDPortraits/Marnie, Mods/HDPortraits/Caroline, Mods/HDPortraits/Robin, Mods/HDPortraits/Emily, Mods/HDPortraits/Harvey",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Aerobics.png}}"
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "Time": "{{Range: 1100, 1500}}",
+        "Hearts:Harvey": "{{range: 6, 14}}",
+        "LocationName": "SeedShop",
+        "Extra Outfits": "true",
+        "HasSeenEvent: currentPlayer |contains=58": false
+      }
+    },
+    // Maru work clothes
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Maru_Hospital",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Maru/Maru_Hospital.png}}"
+      }
+    },
+    // Harvey work clothes
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Harvey",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Harvey/Harvey_Hospital.png}}"
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "LocationName": "Hospital"
+      }
+    },
+    // Sam work clothes
+    {
+      "LogName": "Sam's Work Outfit - at Joja",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Sam",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Sam/Sam_Work.png}}"
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "HasSeenEvent: currentPlayer |contains=191393": false,
+        "LocationName": "JojaMart",
+        "DayOfWeek": "Monday, Wednesday,"
+      }
+    },
+    {
+      "LogName": "Sam's Work Outfit - at Museum",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Sam",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Sam/Sam_Work.png}}"
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "HasSeenEvent: currentPlayer |contains=191393": true,
+        "LocationName": "ArchaeologyHouse",
+        "DayOfWeek": "Monday, Wednesday,"
+      }
+    },
+    // Clint
+    {
+      "LogName": "Clint's work outfit",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Clint",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Clint_{{Season}}_Work.png}}"
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "LocationName": "Blacksmith"
+      }
+    }
+  ]
+}

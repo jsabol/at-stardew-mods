@@ -17,16 +17,14 @@
       "Name": "IndoorVariant", // Indoors Only
       "Value": "_Indoor",
       "When": {
-        "Season": "Winter",
-        "WinterIndoorOutdoorOutfits": "IndoorOnly"
+        "Season": "Winter"
       }
     },
     {
       "Name": "IndoorVariant", // Outdoors Only
       "Value": "_Outdoor",
       "When": {
-        "Season": "Winter",
-        "WinterIndoorOutdoorOutfits": "OutdoorOnly"
+        "Season": "Winter"
       }
     },
     {
@@ -34,8 +32,7 @@
       "Value": "_Indoor",
       "When": {
         "IsOutdoors": "false",
-        "Season": "Winter",
-        "WinterIndoorOutdoorOutfits": "IndoorOutdoor"
+        "Season": "Winter"
       }
     },
     {
@@ -43,8 +40,7 @@
       "Value": "_Outdoor",
       "When": {
         "IsOutdoors": "true",
-        "Season": "Winter",
-        "WinterIndoorOutdoorOutfits": "IndoorOutdoor"
+        "Season": "Winter"
       }
     },
     {
@@ -67,6 +63,55 @@
         "LocationName": "town, temp"
       }
     },
+    // Standard Dynamic Tokens
+    {
+      "Name": "Festival",
+      "Value": "IceFestival",
+      "When": {
+        "DayEvent": "festival of ice",
+        "LocationName": "Forest, temp"
+      }
+    },
+    {
+      "Name": "Festival",
+      "Value": "Luau",
+      "When": {
+        "DayEvent": "luau",
+        "LocationName": "Beach, temp"
+      }
+    },
+    {
+      "Name": "Festival",
+      "Value": "MoonlightJellies",
+      "When": {
+        "DayEvent": "dance of the moonlight jellies",
+        "LocationName": "Beach, temp"
+      }
+    },
+    {
+      "Name": "Festival",
+      "Value": "SVFair",
+      "When": {
+        "DayEvent": "stardew valley fair",
+        "LocationName": "town, temp"
+      }
+    },
+    {
+      "Name": "Festival",
+      "Value": "WinterStar",
+      "When": {
+        "DayEvent": "feast of the winter star",
+        "LocationName": "town, temp"
+      }
+    },
+    {
+      "Name": "Festival",
+      "Value": "SpiritsEve",
+      "When": {
+        "DayEvent": "spirit's eve",
+        "LocationName": "town, temp"
+      }
+    },
     {
       "Name": "AerobicsDay",
       "Value": ""
@@ -77,7 +122,7 @@
       "When": {
         "DayOfWeek": "Tuesday",
         "LocationName": "SeedShop",
-        "ExtraOutfits": "True",
+
         "Weather": "sun, wind, snow"
       }
     },
@@ -88,7 +133,7 @@
         "Time": "{{Range: 1100, 1500}}",
         "Hearts:Harvey": "{{range: 6, 14}}",
         "LocationName": "SeedShop",
-        "ExtraOutfits": "True",
+
         "HasSeenEvent: currentPlayer |contains=58": false
       }
     },
@@ -100,7 +145,6 @@
       "Name": "ClintWork",
       "Value": "",
       "When": {
-        "ExtraOutfits": "True",
         "LocationName |contains= Blacksmith": false
       }
     },
@@ -130,27 +174,11 @@
   ],
 
   "ConfigSchema": {
-    "HarveyFacialHair": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
     "NoNose": {
       "AllowValues": "True, False",
       "Default": "True"
     },
-    "FestivalOutfits": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "WinterIndoorOutdoorOutfits": {
-      "AllowValues": "IndoorOutdoor, IndoorOnly, OutdoorOnly",
-      "Default": "IndoorOutdoor"
-    },
     "ExtraOutfits": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "MaruGlasses": {
       "AllowValues": "True, False",
       "Default": "True"
     },
@@ -201,179 +229,20 @@
     "IslandSummerClothes": {
       "AllowValues": "True, False",
       "Default": "True"
-    },
-    "SlightlyCuterAbigail": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterAlex": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterBirdie": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterCaroline": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterClint": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterDemetrius": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterElliott": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterEmily": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterEvelyn": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterGeorge": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterGil": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterGunther": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterGus": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterHaley": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterHarvey": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterJas": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterJodi": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterKent": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterKrobus": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterLeah": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterLeo": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterLewis": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterLinus": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterMarlon": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterMarnie": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterMaru": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterMorris": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterMrQi": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterPam": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterPenny": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterPierre": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterProfessorSnail": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterRobin": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterSam": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterSandy": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterSebastian": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterShane": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterVincent": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterWilly": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterWizard": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
-    "SlightlyCuterExtraNPCs": {
-      "AllowValues": "True, False",
-      "Default": "True"
     }
   },
-
   "Changes": [
-    // HDPortrait base json
+    // HDPortraits
     {
-      "Action": "Load",
-      "Target": "Mods/HDPortraits/Abigail",
-      "FromFile": "assets/base.json"
+      "LogName": "HD Portraits Changes",
+      "Action": "Inclde",
+      "FromFile": "hdportraits.json"
+    },
+    // Shane
+    {
+      "LogName": "HShane Changes",
+      "Action": "Inclde",
+      "FromFile": "shane.json"
     },
     // Farmer Changes
 
@@ -702,8 +571,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/ExtraNPCs.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterExtraNPCs": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
 
@@ -714,8 +582,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Abigail.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterAbigail": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -723,8 +590,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Alex.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterAlex": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -732,8 +598,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Caroline.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterCaroline": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -741,8 +606,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Clint.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterClint": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -750,8 +614,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Demetrius.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterDemetrius": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -759,8 +622,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Elliott.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterElliott": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -768,8 +630,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Emily.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterEmily": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -777,8 +638,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Evelyn.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterEvelyn": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -786,8 +646,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/George.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterGeorge": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -795,8 +654,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Gil.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterGil": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -805,7 +663,6 @@
       "FromFile": "assets/Code/Gunther.json",
       "When": {
         "HasFile:{{FromFile}}": true,
-        "SlightlyCuterGunther": "True",
         "HasMod |contains= FlashShifter.StardewValleyExpandedCP": false
       }
     },
@@ -814,8 +671,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Gus.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterGus": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -823,8 +679,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Haley.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterHaley": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -832,8 +687,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Harvey.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterHarvey": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -841,8 +695,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Jas.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterJas": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -850,8 +703,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Jodi.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterJodi": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -859,8 +711,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Kent.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterKent": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -868,8 +719,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Leah.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterLeah": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -877,8 +727,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Leo.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterLeo": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -886,8 +735,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Lewis.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterLewis": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -895,8 +743,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Linus.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterLinus": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -905,7 +752,6 @@
       "FromFile": "assets/Code/Marlon.json",
       "When": {
         "HasFile:{{FromFile}}": true,
-        "SlightlyCuterMarlon": "True",
         "HasMod |contains= FlashShifter.StardewValleyExpandedCP": false
       }
     },
@@ -914,8 +760,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Marnie.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterMarnie": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -923,8 +768,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Maru.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterMaru": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -933,7 +777,6 @@
       "FromFile": "assets/Code/Morris.json",
       "When": {
         "HasFile:{{FromFile}}": true,
-        "SlightlyCuterMorris": "True",
         "HasMod |contains= FlashShifter.StardewValleyExpandedCP": false
       }
     },
@@ -942,8 +785,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Pam.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterPam": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -951,8 +793,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Penny.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterPenny": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -960,8 +801,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Pierre.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterPierre": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -969,8 +809,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Robin.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterRobin": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -978,8 +817,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Sam.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterSam": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -987,8 +825,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Sandy.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterSandy": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -996,17 +833,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Sebastian.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterSebastian": "True"
-      }
-    },
-    {
-      "LogName": "Shane Seasonal Include",
-      "Action": "Include",
-      "FromFile": "assets/Code/Shane.json",
-      "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterShane": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -1014,8 +841,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Vincent.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterVincent": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -1023,8 +849,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Willy.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterWilly": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -1032,8 +857,7 @@
       "Action": "Include",
       "FromFile": "assets/Code/Wizard.json",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterWizard": "True"
+        "HasFile:{{FromFile}}": true
       }
     }
   ]

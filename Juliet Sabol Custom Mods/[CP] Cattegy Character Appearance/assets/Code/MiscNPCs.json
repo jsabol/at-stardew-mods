@@ -7,8 +7,7 @@
       "Target": "Characters/Birdie",
       "FromFile": "assets/{{Target}}.png",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterBirdie": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
     {
@@ -30,8 +29,7 @@
       "Target": "Characters/Krobus",
       "FromFile": "assets/{{Target}}.png",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterKrobus": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
 
@@ -42,8 +40,7 @@
       "Target": "Characters/MrQi",
       "FromFile": "assets/{{Target}}.png",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterMrQi": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
 
@@ -54,8 +51,7 @@
       "Target": "Characters/SafariGuy",
       "FromFile": "assets/{{Target}}.png",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "SlightlyCuterProfessorSnail": "True"
+        "HasFile:{{FromFile}}": true
       }
     }
   ]
