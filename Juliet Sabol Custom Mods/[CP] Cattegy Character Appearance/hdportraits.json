@@ -1,7 +1,7 @@
 {
   "Changes": [
     // size
-    // TODO add beach
+    // TODO add beach?
     {
       "LogName": "Load HDPortraits Size",
       "Action": "Load",
@@ -12,7 +12,7 @@
     {
       "LogName": "HDPortraits - Non-Seasonal",
       "Action": "EditData",
-      "Target": "Mods/HDPortraits/Abigail, Mods/HDPortraits/Alex, Mods/HDPortraits/AnsweringMachine, Mods/HDPortraits/Birdie, Mods/HDPortraits/Bouncer, Mods/HDPortraits/Caroline, Mods/HDPortraits/Dobson, Mods/HDPortraits/Dusty, Mods/HDPortraits/Dwarf, Mods/HDPortraits/Elliott, Mods/HDPortraits/George, Mods/HDPortraits/Gil, Mods/HDPortraits/Governor, Mods/HDPortraits/Grandpa, Mods/HDPortraits/Gunther, Mods/HDPortraits/Gus, Mods/HDPortraits/Haley, Mods/HDPortraits/Harvey, Mods/HDPortraits/Henchman, Mods/HDPortraits/Kent, Mods/HDPortraits/Krobus, Mods/HDPortraits/Leah, Mods/HDPortraits/LewisLedger, Mods/HDPortraits/Linus, Mods/HDPortraits/Marlon, Mods/HDPortraits/Maru, Mods/HDPortraits/Mermaid, Mods/HDPortraits/MorrisLedger, Mods/HDPortraits/MrQi, Mods/HDPortraits/Pam, Mods/HDPortraits/ParrotBoy, Mods/HDPortraits/Penny, Mods/HDPortraits/Pierre, Mods/HDPortraits/Robin, Mods/HDPortraits/Sam, Mods/HDPortraits/Vincent, Mods/HDPortraits/Wizard",
+      "Target": "Mods/HDPortraits/Abigail, Mods/HDPortraits/Alex, Mods/HDPortraits/AnsweringMachine, Mods/HDPortraits/Bear, Mods/HDPortraits/Birdie, Mods/HDPortraits/Bouncer, Mods/HDPortraits/Caroline, Mods/HDPortraits/Dobson, Mods/HDPortraits/Dusty, Mods/HDPortraits/Dwarf, Mods/HDPortraits/Elliott, Mods/HDPortraits/George, Mods/HDPortraits/Gil, Mods/HDPortraits/Governor, Mods/HDPortraits/Grandpa, Mods/HDPortraits/Gunther, Mods/HDPortraits/Gus, Mods/HDPortraits/Haley, Mods/HDPortraits/Harvey, Mods/HDPortraits/Henchman, Mods/HDPortraits/Kent, Mods/HDPortraits/Krobus, Mods/HDPortraits/Leah, Mods/HDPortraits/LewisLedger, Mods/HDPortraits/Linus, Mods/HDPortraits/Marlon, Mods/HDPortraits/Maru, Mods/HDPortraits/Mermaid, Mods/HDPortraits/MorrisLedger, Mods/HDPortraits/MrQi, Mods/HDPortraits/Pam, Mods/HDPortraits/ParrotBoy, Mods/HDPortraits/Penny, Mods/HDPortraits/Pierre, Mods/HDPortraits/Robin, Mods/HDPortraits/Sam, Mods/HDPortraits/Vincent, Mods/HDPortraits/Wizard",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}.png}}"
       }
@@ -42,9 +42,9 @@
         "Season": "Winter"
       }
     },
-    // winter portraits that have no winter indoor/outdoor variants
+    // seasonal portraits that have no winter indoor/outdoor variants
     {
-      "LogName": "HDPortraits - Winter Portraits Without Indoor/Outdoor Variants",
+      "LogName": "HDPortraits - Seasonal Portraits Without Indoor/Outdoor Variants",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Morris, Mods/HDPortraits/Sandy, ",
       "Entries": {

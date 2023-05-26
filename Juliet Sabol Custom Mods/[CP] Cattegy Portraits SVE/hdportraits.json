@@ -1,2 +1,268 @@
-// non-seasonal: Jadu, Lance, Martin 
+{
+  "Changes": [
+    // ALLLL size
+    {
+      "LogName": "Load HDPortraits Size",
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Alesia, Mods/HDPortraits/Andy, Mods/HDPortraits/Andy_Beach, Mods/HDPortraits/Apples, Mods/HDPortraits/ApplesSad, Mods/HDPortraits/Axel, Mods/HDPortraits/Brooklyn, Mods/HDPortraits/Camilla, Mods/HDPortraits/Chloe, Mods/HDPortraits/Claire, Mods/HDPortraits/Claire_Beach, Mods/HDPortraits/Dusty, Mods/HDPortraits/GuntherSilvian, Mods/HDPortraits/HighlandsDwarf, Mods/HDPortraits/Isaac, Mods/HDPortraits/Jace, Mods/HDPortraits/Jadu, Mods/HDPortraits/Jolyne, Mods/HDPortraits/Junimo, Mods/HDPortraits/Lance, Mods/HDPortraits/Lance_Beach, Mods/HDPortraits/MarlonFay, Mods/HDPortraits/Martin, Mods/HDPortraits/Magnus, Mods/HDPortraits/Mermaid, Mods/HDPortraits/Morgan, Mods/HDPortraits/MorrisTod, Mods/HDPortraits/Olivia, Mods/HDPortraits/Olivia_Beach, Mods/HDPortraits/Peaches, Mods/HDPortraits/Scarlett, Mods/HDPortraits/ScarlettFake, Mods/HDPortraits/Sophia, Mods/HDPortraits/Suki, Mods/HDPortraits/Suki_IceFestival, Mods/HDPortraits/Susan, Mods/HDPortraits/Susan_Beach, Mods/HDPortraits/Victor, Mods/HDPortraits/Victor_Beach, Mods/HDPortraits/Zoey, Mods/HDPortraits/Traveler, Mods/HDPortraits/TravelerNightMarket, Mods/HDPortraits/**Claire**, Mods/HDPortraits/**Martin**",
+      "FromFile": "assets/base.json"
+    },
+    // non-seasonal, in folders
+    {
+      "LogName": "HDPortraitSVE - Non-Seasonal",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/GuntherSilvian, Mods/HDPortraits/Jadu, Mods/HDPortraits/Lance,Mods/HDPortraits/MarlonFay,Mods/HDPortraits/Martin, Mods/HDPortraits/Scarlett, Mods/HDPortraits/ScarlettFake, Mods/HDPortraits/Sophia, Mods/HDPortraits/Susan, Mods/HDPortraits/Victor, Mods/HDPortraits/Magnus",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}.png}}"
+      }
+    },
+    // non-seasonal folder
+    {
+      "LogName": "HDPortraitSVE - Non-Seasonal",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Apples, Mods/HDPortraits/ApplesSad, Mods/HDPortraits/Axel, Mods/HDPortraits/Chloe, Mods/HDPortraits/Dusty, Mods/HDPortraits/HighlandsDwarf, Mods/HDPortraits/Jace, Mods/HDPortraits/Junimo, Mods/HDPortraits/Mermaid, Mods/HDPortraits/Peaches, Mods/HDPortraits/Suki, Mods/HDPortraits/Suki_IceFestival, Mods/HDPortraits/Zoey",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Non-Seasonal/{{TargetWithoutPath}}.png}}"
+      }
+    },
+    // seasons except winter (for indoor/outdoor variants)
+    {
+      "LogName": "HDPortraitSVE - Seasons Except Winter",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Andy, Mods/HDPortraits/Claire, Mods/HDPortraits/MorrisTod, Mods/HDPortraits/Olivia, ",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}.png}}"
+      },
+      "When": {
+        "Season |contains=winter": "false"
+      }
+    },
+    // winter indoor/outdoor variants
+    {
+      "LogName": "HDPortraitSVE - Winter Indoor/Outdoor Variants",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Andy, Mods/HDPortraits/Claire, Mods/HDPortraits/MorrisTod, Mods/HDPortraits/Olivia, ",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Winter_{{IndoorVariant}}.png}}"
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "Season": "Winter"
+      }
+    },
+    // all season portraits that have no winter indoor/outdoor variants
+    {
+      "LogName": "HDPortraitSVE - Seasonal Portraits Without Indoor/Outdoor Variants",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Alesia, Mods/HDPortraits/Camilla, Mods/HDPortraits/Isaac, Mods/HDPortraits/Jolyne, Mods/HDPortraits/Morgan, ",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}.png}}"
+      }
+    },
+    // beach
+    {
+      "LogName": "HDPortraitSVE - Beach",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Andy_Beach, Mods/HDPortraits/Claire_Beach, Mods/HDPortraits/Lance_Beach, Mods/HDPortraits/Olivia_Beach, Mods/HDPortraits/Susan_Beach, Mods/HDPortraits/Victor_Beach",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Beach.png}}"
+      }
+    },
+    // festivals
+    {
+      "LogName": "HDPortraitSVE - Festival Portraits",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Alesia, Mods/HDPortraits/Andy, Mods/HDPortraits/Claire, Mods/HDPortraits/GuntherSilvian, Mods/HDPortraits/Isaac, Mods/HDPortraits/Lance, Mods/HDPortraits/Magnus, Mods/HDPortraits/MarlonFay, Mods/HDPortraits/Martin, Mods/HDPortraits/Olivia, Mods/HDPortraits/Sandy, Mods/HDPortraits/Scarlett, Mods/HDPortraits/Sophia, Mods/HDPortraits/Susan, Mods/HDPortraits/Victor",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Festival}}.png}}"
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "HasFile:assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Festival}}.png": true
+      }
+    },
+    // Aerobics
+    {
+      "LogName": "HDPortraitSVE - Aerobics Portraits",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Claire, Mods/HDPortraits/Olivia, ",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Aerobics.png}}"
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "DayOfWeek": "Tuesday",
+        "LocationName": "SeedShop",
+        "Extra Outfits": "true",
+        "Weather": "sun, wind, snow"
+      }
+    },
+    {
+      "LogName": "HDPortraitSVE - Aerobics Portraits",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Claire, Mods/HDPortraits/Olivia, ",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Aerobics.png}}"
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "Time": "{{Range: 1100, 1500}}",
+        "Hearts:Harvey": "{{range: 6, 14}}",
+        "LocationName": "SeedShop",
+        "Extra Outfits": "true",
+        "HasSeenEvent: currentPlayer |contains=58": false
+      }
+    },
+    // Scarlett's cosplay
+    {
+      "LogName": "HDPortraitSVE - Scarlett's Cosplay",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Scarlett",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Scarlett/Scarlett_Cosplay.png}}"
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "LocationName": "Custom_ZCCC_Entrance, Custom_ZCCC_FoodCourt, Custom_ZCCC_MainHall, Custom_ZCCC_Stage, Custom_ZCCC_VendorFloor, Custom_ZuzuCityStreet, Custom_Highway, Custom_ZCCC_Courtyard, BusStop"
+      }
+    },
+    // Suki
+    {
+      "LogName": "HDPortraitSVE - Suki",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Traveler, Mods/HDPortraits/TravelerNightMarket",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Non-Seasonal/Suki.png}}"
+      },
+      "Update": "OnLocationChange",
+      "When": {
+        "LocationName": "Custom_ZCCC_Entrance, Custom_ZCCC_FoodCourt, Custom_ZCCC_MainHall, Custom_ZCCC_Stage, Custom_ZCCC_VendorFloor, Custom_ZuzuCityStreet, Custom_Highway, Custom_ZCCC_Courtyard, BusStop"
+      }
+    },
+    // Joja uniforms
+    {
+      "LogName": "HDPortraitSVE - Joja uniforms",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Claire, Mods/HDPortraits/Martin",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Joja.png}}"
+      },
+      "When": {
+        "LocationName": "JojaMart"
+      },
+      "Update": "OnLocationChange"
+    },
+    // Special event theater uniforms
+    {
+      "LogName": "HDPortraitSVE - Joja uniforms",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/**Claire**, Mods/HDPortraits/**Martin**",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Theater.png}}"
+      },
+      "When": {
+        "LocationName": "JojaMart"
+      },
+      "Update": "OnLocationChange"
+    },
 
+    // Claire's Theater Uniform
+    {
+      "LogName": "HDPortraitSVE - Claire's Theater uniform",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Claire",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Theater.png}}"
+      },
+      "When": {
+        "Spouse |contains=Claire": false,
+        "DayOfWeek": "Monday, Wednesday, Thursday, Friday, Sunday",
+        "HasSeenEvent |contains=502261": false,
+        "LocationName": "MovieTheater"
+      },
+      "Update": "OnLocationChange"
+    },
+    // If you're married to claire
+    {
+      "LogName": "HDPortraitSVE - Claire's Theater uniform, married",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Claire",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Theater.png}}"
+      },
+      "When": {
+        "Spouse": "Claire",
+        "DayOfWeek": "Monday, Wednesday, Thursday, Sunday",
+        "HasSeenEvent |contains=502261": false,
+        "LocationName": "MovieTheater"
+      },
+      "Update": "OnLocationChange"
+    },
+    //override Claire, since she's not working during a certain event. uses seasonal outfits.
+    {
+      "LogName": "HDPortraitSVE - Claire's Theater override",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Claire",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}.png}}"
+      },
+      "When": {
+        "Spouse |contains=Claire": true,
+        "LocationName": "MovieTheater",
+        "HasSeenEvent |contains=4269703": true,
+        "HasSeenEvent |contains=4269704": false,
+        "Time": "{{Range: 1600, 2000}}"
+      },
+      "Update": "OnLocationChange"
+    },
+    // Martin's theater uniform
+    {
+      "LogName": "HDPortraitSVE - Martin's theater uniform",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Martin",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Theater.png}}"
+      },
+      "When": {
+        "Spouse |contains=Claire": false,
+        "DayOfWeek": "Tuesday, Saturday",
+        "HasSeenEvent |contains=502261": false,
+        "LocationName": "MovieTheater"
+      },
+      "Update": "OnLocationChange"
+    },
+    // Martin's theater uniform, married to claire
+    {
+      "LogName": "HDPortraitSVE - Martin's theater uniform, married to claire",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Martin",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Theater.png}}"
+      },
+      "When": {
+        "Spouse": "Claire",
+        "DayOfWeek": "Tuesday, Friday, Saturday",
+        "HasSeenEvent |contains=502261": false,
+        "LocationName": "MovieTheater"
+      },
+      "Update": "OnLocationChange"
+    },
+    // Martin's theater uniform, married to claire event
+    {
+      "LogName": "HDPortraitSVE - Martin's theater uniform, married to claire event",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Martin",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Theater.png}}"
+      },
+      "When": {
+        "Spouse": "Claire",
+        "DayOfWeek": "Tuesday, Wednesday, Friday, Saturday",
+        "HasSeenEvent |contains=502261": false,
+        "LocationName": "MovieTheater",
+        "HasSeenEvent |contains=4269703": true
+      },
+      "Update": "OnLocationChange"
+    }
+  ]
+}

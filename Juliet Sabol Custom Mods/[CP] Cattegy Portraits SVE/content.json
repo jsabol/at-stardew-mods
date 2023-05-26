@@ -63,6 +63,12 @@
   ],
 
   "Changes": [
+    // HDPortraits
+    {
+      "LogName": "HD Portraits Changes",
+      "Action": "Include",
+      "FromFile": "hdportraits.json"
+    },
     //Characters
 
     {
