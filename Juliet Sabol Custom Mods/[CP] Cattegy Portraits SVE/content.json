@@ -616,58 +616,6 @@
       "FromFile": "assets/{{NoNose}}/Maps/Stadium.png"
     },
 
-    //Movie Theater (community center)
-    {
-      "Action": "EditImage",
-      "Target": "Maps/MovieTheater_TileSheet",
-      "When": { "Season |contains=Spring": true },
-      "FromFile": "assets/{{NoNose}}/Maps/MovieTheater_Spring.png"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Maps/MovieTheater_TileSheet",
-      "When": { "Season |contains=Summer": true },
-      "FromFile": "assets/{{NoNose}}/Maps/MovieTheater_Summer.png"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Maps/MovieTheater_TileSheet",
-      "When": { "Season |contains=Fall": true },
-      "FromFile": "assets/{{NoNose}}/Maps/MovieTheater_Fall.png"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Maps/MovieTheater_Winter",
-      "When": { "Season |contains=Winter": true },
-      "FromFile": "assets/{{NoNose}}/Maps/MovieTheater_Winter.png"
-    },
-
-    //Movie Theater (joja)
-    {
-      "Action": "EditImage",
-      "Target": "Maps/MovieTheaterJoja_TileSheet",
-      "When": { "Season |contains=Spring": true },
-      "FromFile": "assets/{{NoNose}}/Maps/MovieTheaterJoja_Spring.png"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Maps/MovieTheaterJoja_TileSheet",
-      "When": { "Season |contains=Summer": true },
-      "FromFile": "assets/{{NoNose}}/Maps/MovieTheaterJoja_Summer.png"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Maps/MovieTheaterJoja_TileSheet",
-      "When": { "Season |contains=Fall": true },
-      "FromFile": "assets/{{NoNose}}/Maps/MovieTheaterJoja_Fall.png"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Maps/MovieTheaterJoja_TileSheet",
-      "When": { "Season |contains=Winter": true },
-      "FromFile": "assets/{{NoNose}}/Maps/MovieTheaterJoja_Winter.png"
-    },
-
     //First Slash Guild
     {
       "Action": "EditImage",

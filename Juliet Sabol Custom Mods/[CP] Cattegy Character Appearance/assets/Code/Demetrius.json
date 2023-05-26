@@ -89,17 +89,6 @@
       "When": {
         "HasFile:{{FromFile}}": true
       }
-    },
-    {
-      "LogName": "Demetrius - Junimo Note",
-      "Action": "EditImage",
-      "Target": "LooseSprites/JunimoNote",
-      "FromFile": "assets/{{NoNose}}/Random/JunimoNote.png",
-      "FromArea": { "X": 384, "Y": 212, "Width": 32, "Height": 32 },
-      "ToArea": { "X": 384, "Y": 212, "Width": 32, "Height": 32 },
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
     }
   ]
 }

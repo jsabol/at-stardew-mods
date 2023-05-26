@@ -54,17 +54,6 @@
       "When": {
         "HasFile:{{FromFile}}": true
       }
-    },
-    {
-      "LogName": "Gus - Junimo Note",
-      "Action": "EditImage",
-      "Target": "LooseSprites/JunimoNote",
-      "FromFile": "assets/{{NoNose}}/Random/JunimoNote.png",
-      "FromArea": { "X": 352, "Y": 212, "Width": 32, "Height": 32 },
-      "ToArea": { "X": 352, "Y": 212, "Width": 32, "Height": 32 },
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
     }
   ]
 }

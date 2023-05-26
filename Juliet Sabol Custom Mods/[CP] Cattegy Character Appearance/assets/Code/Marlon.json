@@ -21,22 +21,6 @@
       "When": {
         "HasFile:{{FromFile}}": true
       }
-    },
-    {
-      "LogName": "Marlon - Movie Theater",
-      "Action": "EditImage",
-      "Target": "Maps/MovieTheater_TileSheet",
-      "FromFile": "assets/{{NoNose}}/Random/MovieTheater_{{Season}}.png",
-      "FromArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
-      "ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 }
-    },
-    {
-      "LogName": "Marlon - Joja Theater",
-      "Action": "EditImage",
-      "Target": "Maps/MovieTheaterJoja_TileSheet, Maps/MovieTheaterJoja_TileSheet_international",
-      "FromFile": "assets/{{NoNose}}/Random/MovieTheaterJoja_{{Season}}.png",
-      "FromArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
-      "ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 }
     }
   ]
 }

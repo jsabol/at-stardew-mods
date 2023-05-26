@@ -44,15 +44,6 @@
       "FromFile": "assets/{{NoNose}}/Random/townInterior_{{Season}}.png",
       "FromArea": { "X": 368, "Y": 1008, "Width": 48, "Height": 32 },
       "ToArea": { "X": 368, "Y": 1008, "Width": 48, "Height": 32 }
-    },
-    {
-      "LogName": "Morris - Joja Theater",
-      "Action": "EditImage",
-      "Update": "OnLocationChange",
-      "Target": "Maps/MovieTheaterJoja_TileSheet, Maps/MovieTheaterJoja_TileSheet_international",
-      "FromFile": "assets/{{NoNose}}/Random/MovieTheaterJoja_{{Season}}.png",
-      "FromArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 },
-      "ToArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 }
     }
   ]
 }

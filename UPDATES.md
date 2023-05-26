@@ -33,3 +33,61 @@ Add SVE changes from talkahooney and sprite changes if any
 Indoor/outdoor Morris changes
 
 
+
+[SMAPI] You can update 3 mods:
+[SMAPI]    eXpanded Storage (Lite) 2.0.3: https://www.nexusmods.com/stardewvalley/mods/7431 (you have 1.7.1)
+[SMAPI]    Fashion Sense 5.6.1: https://www.nexusmods.com/stardewvalley/mods/9969 (you have 5.5.2)
+[SMAPI]    Grace's Farm Clothing Collection for Fashion Sense 1.0.1: https://www.nexusmods.com/stardewvalley/mods/16351 (you have 1.0.0)
+
+# Profining Load time
+
+- Content Patcher
+- CP Animations
+- Alternative Textures
+- Love of Cooking
+- Turn off townInterior changes for my CP pack?
+- Maps/spring_z_extras (for the 'Cattegy Cute Characters SVE' content pack).
+- Maps/DesertTiles (for the 'Cattegy Character Appearance' content pack).
+- Maps/night_market_tilesheet_objects (for the 'Cattegy Character Appearance' content pack).
+- LooseSprites/Cursors (for the 'Cattegy Character Appearance' content pack).? 
+----
+Attempt 2
+- Turn off Event Limiter?
+- Turn off deep Woods
+---
+Attempt 3
+- Turn off my mods
+---- 
+Attempt 4
+- New Save
+----
+Attempt 5
+- Delete random NPCs
+- Turn off Love of Cooking
+- Turn off my mods
+- Animal Patting! OFf - redundant
+- CP mods
+   - Voids Shovel retexture
+   - Blue Eggs
+   - Marnie deserves better
+ - AT mods
+    Alternative Textures] Loading textures from pack: 
+   - Idaida's furniture recolor, seasonal flooring
+   - GwenCraft
+   - New horses for AT
+   - Hanging flower baskets
+   - Elle's Buildings Craftables
+   - Seasonal Fences
+---
+Attempt 5
+Random NPC deletions seems to have stopped the infinite looping. I may be able to undo the reest
+Custom NPCFixes took an eyepopping 21 seconds to load the save
+- Remove Leilani, Stardew Aquarium, and Custom NPC Fixes
+---
+Attempt 6
+Noticeably better!
+- Turning of things I don't love: 
+- Looking for Love
+- Blue Eggs
+
+TODO: My krobus sprite in my pack (Erinel's)
