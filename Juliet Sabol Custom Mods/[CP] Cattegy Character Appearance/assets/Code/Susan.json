@@ -1,0 +1,47 @@
+{
+  "Changes": [
+    {
+      "LogName": "Susan - Seasonal",
+      "Action": "EditImage",
+      "Target": "Characters/Susan",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    },
+    {
+      "LogName": "Susan - Winter Indoor/Outdoor",
+      "Action": "EditImage",
+      "Target": "Characters/Susan",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "Season": "Winter"
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "LogName": "Susan - Festival",
+      "Action": "EditImage",
+      "Target": "Characters/Susan",
+      "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      },
+      "Update": "OnLocationChange"
+    },
+
+    // MISCELLANEOUS
+    {
+      "LogName": "Susan - Emoji",
+      "Action": "EditImage",
+      "Target": "LooseSprites/emojis",
+      "FromFile": "assets/{{NoNose}}/Random/emojis.png",
+      "FromArea": { "X": 45, "Y": 117, "Width": 9, "Height": 9 },
+      "ToArea": { "X": 45, "Y": 117, "Width": 9, "Height": 9 },
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    }
+  ]
+}

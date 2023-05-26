@@ -5,7 +5,7 @@
     {
       "LogName": "Load HDPortraits Size",
       "Action": "Load",
-      "Target": "Mods/HDPortraits/Abigail, Mods/HDPortraits/Alex, Mods/HDPortraits/AnsweringMachine, Mods/HDPortraits/Birdie, Mods/HDPortraits/Bouncer, Mods/HDPortraits/Caroline, Mods/HDPortraits/Clint, Mods/HDPortraits/Demetrius, Mods/HDPortraits/Dobson, Mods/HDPortraits/Dusty, Mods/HDPortraits/Dwarf, Mods/HDPortraits/Elliott, Mods/HDPortraits/Emily, Mods/HDPortraits/Evelyn, Mods/HDPortraits/George, Mods/HDPortraits/Gil, Mods/HDPortraits/Governor, Mods/HDPortraits/Grandpa, Mods/HDPortraits/Gunther, Mods/HDPortraits/Gus, Mods/HDPortraits/Haley, Mods/HDPortraits/Harvey, Mods/HDPortraits/Henchman, Mods/HDPortraits/Jas, Mods/HDPortraits/Jodi, Mods/HDPortraits/Kent, Mods/HDPortraits/Krobus, Mods/HDPortraits/Leah, Mods/HDPortraits/Lewis, Mods/HDPortraits/LewisLedger, Mods/HDPortraits/Linus, Mods/HDPortraits/Marlon, Mods/HDPortraits/Maru, Mods/HDPortraits/Mermaid, Mods/HDPortraits/Morris, Mods/HDPortraits/MorrisLedger, Mods/HDPortraits/MrQi, Mods/HDPortraits/Pam, Mods/HDPortraits/ParrotBoy, Mods/HDPortraits/Penny, Mods/HDPortraits/Pierre, Mods/HDPortraits/Robin, Mods/HDPortraits/Sam, Mods/HDPortraits/Sandy, Mods/HDPortraits/Vincent, Mods/HDPortraits/Willy, Mods/HDPortraits/Wizard",
+      "Target": "Mods/HDPortraits/Abigail, Mods/HDPortraits/Alex, Mods/HDPortraits/AnsweringMachine, Mods/HDPortraits/Birdie, Mods/HDPortraits/Bouncer, Mods/HDPortraits/Caroline, Mods/HDPortraits/Clint, Mods/HDPortraits/Demetrius, Mods/HDPortraits/Dobson, Mods/HDPortraits/Dusty, Mods/HDPortraits/Dwarf, Mods/HDPortraits/Elliott, Mods/HDPortraits/Emily, Mods/HDPortraits/Evelyn, Mods/HDPortraits/George, Mods/HDPortraits/Gil, Mods/HDPortraits/Governor, Mods/HDPortraits/Grandpa, Mods/HDPortraits/Gunther, Mods/HDPortraits/Gus, Mods/HDPortraits/Haley, Mods/HDPortraits/Harvey, Mods/HDPortraits/Henchman, Mods/HDPortraits/Jas, Mods/HDPortraits/Jodi, Mods/HDPortraits/Kent, Mods/HDPortraits/Krobus, Mods/HDPortraits/Leah, Mods/HDPortraits/Lewis, Mods/HDPortraits/LewisLedger, Mods/HDPortraits/Linus, Mods/HDPortraits/Marlon, Mods/HDPortraits/Maru, Mods/HDPortraits/Mermaid, Mods/HDPortraits/Morris, Mods/HDPortraits/MorrisLedger, Mods/HDPortraits/MrQi, Mods/HDPortraits/Pam, Mods/HDPortraits/ParrotBoy, Mods/HDPortraits/Penny, Mods/HDPortraits/Pierre, Mods/HDPortraits/Robin, Mods/HDPortraits/Sam, Mods/HDPortraits/Sandy, Mods/HDPortraits/Susan, Mods/HDPortraits/Vincent, Mods/HDPortraits/Willy, Mods/HDPortraits/Wizard",
       "FromFile": "assets/base.json"
     },
     // non-seasonal
@@ -17,11 +17,11 @@
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}.png}}"
       }
     },
-    // seasons except winter
+    // seasons except winter (for indoor/outdoor variants)
     {
       "LogName": "HDPortraits - Seasons Except Winter",
       "Action": "EditData",
-      "Target": "Mods/HDPortraits/Clint, Mods/HDPortraits/Demetrius, Mods/HDPortraits/Emily, Mods/HDPortraits/Evelyn, Mods/HDPortraits/Jas, Mods/HDPortraits/Jodi, Mods/HDPortraits/Lewis, Mods/HDPortraits/Willy, ",
+      "Target": "Mods/HDPortraits/Clint, Mods/HDPortraits/Demetrius, Mods/HDPortraits/Emily, Mods/HDPortraits/Evelyn, Mods/HDPortraits/Jas, Mods/HDPortraits/Jodi, Mods/HDPortraits/Lewis, Mods/HDPortraits/Susan, Mods/HDPortraits/Willy, ",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}.png}}"
       },
@@ -33,7 +33,7 @@
     {
       "LogName": "HDPortraits - Winter Indoor/Outdoor Variants",
       "Action": "EditData",
-      "Target": "Mods/HDPortraits/Clint, Mods/HDPortraits/Demetrius, Mods/HDPortraits/Emily, Mods/HDPortraits/Evelyn, Mods/HDPortraits/Jas, Mods/HDPortraits/Jodi, Mods/HDPortraits/Lewis, Mods/HDPortraits/Willy, ",
+      "Target": "Mods/HDPortraits/Clint, Mods/HDPortraits/Demetrius, Mods/HDPortraits/Emily, Mods/HDPortraits/Evelyn, Mods/HDPortraits/Jas, Mods/HDPortraits/Jodi, Mods/HDPortraits/Lewis, Mods/HDPortraits/Susan, Mods/HDPortraits/Willy, ",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Winter_{{IndoorVariant}}.png}}"
       },
@@ -64,7 +64,7 @@
     {
       "LogName": "HDPortraits - Festival Portraits",
       "Action": "EditData",
-      "Target": "Mods/HDPortraits/Willy, Mods/HDPortraits/Sandy, Mods/HDPortraits/ParrotBoy, Mods/HDPortraits/Lewis, Mods/HDPortraits/Jodi, Mods/HDPortraits/Jas, Mods/HDPortraits/Evelyn, Mods/HDPortraits/Emily, Mods/HDPortraits/Demetrius, Mods/HDPortraits/Clint, Mods/HDPortraits/Shane",
+      "Target": "Mods/HDPortraits/Willy, Mods/HDPortraits/Sandy, Mods/HDPortraits/ParrotBoy, Mods/HDPortraits/Lewis, Mods/HDPortraits/Jodi, Mods/HDPortraits/Jas, Mods/HDPortraits/Evelyn, Mods/HDPortraits/Emily, Mods/HDPortraits/Demetrius, Mods/HDPortraits/Clint, Mods/HDPortraits/Shane, Mods/HDPortraits/Susan, ",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Festival}}.png}}"
       },

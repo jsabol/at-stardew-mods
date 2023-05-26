@@ -815,6 +815,14 @@
       }
     },
     {
+      "LogName": "Susan Seasonal Include",
+      "Action": "Include",
+      "FromFile": "assets/Code/Susan.json",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    },
+    {
       "LogName": "Vincent Seasonal Include",
       "Action": "Include",
       "FromFile": "assets/Code/Vincent.json",
