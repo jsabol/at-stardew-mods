@@ -1,18 +1,18 @@
 {
   "Changes": [
     {
-      "LogName": "Alex",
+      "LogName": "CHARACTERNAME",
       "Action": "EditImage",
-      "Target": "Portraits/Alex, Characters/Alex",
+      "Target": "Characters/CHARACTERNAME",
       "FromFile": "assets/{{Target}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
       }
     },
     {
-      "LogName": "Alex - Beach",
+      "LogName": "CHARACTERNAME - Beach",
       "Action": "EditImage",
-      "Target": "Portraits/Alex_Beach, Characters/Alex_Beach",
+      "Target": "Characters/CHARACTERNAME_Beach",
       "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -20,7 +20,7 @@
     },
     // MISCELLANEOUS
     {
-      "LogName": "Alex - Emoji",
+      "LogName": "CHARACTERNAME - Emoji",
       "Action": "EditImage",
       "Target": "LooseSprites/emojis",
       "FromFile": "assets/{{NoNose}}/Random/emojis.png",

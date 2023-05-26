@@ -1,23 +1,24 @@
 {
   "Changes": [
     // size
+    // TODO add beach
     {
       "Action": "Load",
-      "Target": "Mods/HDPortraits/Linus, Mods/HDPortraits/Penny, Mods/HDPortraits/Pam, Mods/HDPortraits/Robin, Mods/HDPortraits/Clint",
+      "Target": "Mods/HDPortraits/Abigail, Mods/HDPortraits/Alex, Mods/HDPortraits/AnsweringMachine, Mods/HDPortraits/Birdie, Mods/HDPortraits/Bouncer, Mods/HDPortraits/Caroline, Mods/HDPortraits/Clint, Mods/HDPortraits/Demetrius, Mods/HDPortraits/Dobson, Mods/HDPortraits/Dusty, Mods/HDPortraits/Dwarf, Mods/HDPortraits/Elliott, Mods/HDPortraits/Emily, Mods/HDPortraits/Evelyn, Mods/HDPortraits/George, Mods/HDPortraits/Gil, Mods/HDPortraits/Governor, Mods/HDPortraits/Grandpa, Mods/HDPortraits/Gunther, Mods/HDPortraits/Gus, Mods/HDPortraits/Haley, Mods/HDPortraits/Harvey, Mods/HDPortraits/Henchman, Mods/HDPortraits/Jas, Mods/HDPortraits/Jodi, Mods/HDPortraits/Kent, Mods/HDPortraits/Krobus, Mods/HDPortraits/Leah, Mods/HDPortraits/Lewis, Mods/HDPortraits/LewisLedger, Mods/HDPortraits/Linus, Mods/HDPortraits/Marlon, Mods/HDPortraits/Maru, Mods/HDPortraits/Mermaid, Mods/HDPortraits/Morris, Mods/HDPortraits/MorrisLedger, Mods/HDPortraits/MrQi, Mods/HDPortraits/Pam, Mods/HDPortraits/ParrotBoy, Mods/HDPortraits/Penny, Mods/HDPortraits/Pierre, Mods/HDPortraits/Robin, Mods/HDPortraits/Sam, Mods/HDPortraits/Sandy, Mods/HDPortraits/Vincent, Mods/HDPortraits/Willy, Mods/HDPortraits/Wizard",
       "FromFile": "assets/base.json"
     },
     // non-seasonal
     {
       "Action": "EditData",
-      "Target": "Mods/HDPortraits/Linus, Mods/HDPortraits/Penny, Mods/HDPortraits/Pam, Mods/HDPortraits/Robin, Mods/HDPortraits/Clint",
+      "Target": "Mods/HDPortraits/Abigail, Mods/HDPortraits/Alex, Mods/HDPortraits/AnsweringMachine, Mods/HDPortraits/Birdie, Mods/HDPortraits/Bouncer, Mods/HDPortraits/Caroline, Mods/HDPortraits/Dobson, Mods/HDPortraits/Dusty, Mods/HDPortraits/Dwarf, Mods/HDPortraits/Elliott, Mods/HDPortraits/George, Mods/HDPortraits/Gil, Mods/HDPortraits/Governor, Mods/HDPortraits/Grandpa, Mods/HDPortraits/Gunther, Mods/HDPortraits/Gus, Mods/HDPortraits/Haley, Mods/HDPortraits/Harvey, Mods/HDPortraits/Henchman, Mods/HDPortraits/Kent, Mods/HDPortraits/Krobus, Mods/HDPortraits/Leah, Mods/HDPortraits/LewisLedger, Mods/HDPortraits/Linus, Mods/HDPortraits/Marlon, Mods/HDPortraits/Maru, Mods/HDPortraits/Mermaid, Mods/HDPortraits/MorrisLedger, Mods/HDPortraits/MrQi, Mods/HDPortraits/Pam, Mods/HDPortraits/ParrotBoy, Mods/HDPortraits/Penny, Mods/HDPortraits/Pierre, Mods/HDPortraits/Robin, Mods/HDPortraits/Sam, Mods/HDPortraits/Vincent, Mods/HDPortraits/Wizard",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}.png}}"
       }
     },
-    // seasons, except winter indoor/outdoor
+    // seasons except winter
     {
       "Action": "EditData",
-      "Target": "Mods/HDPortraits/Linus, Mods/HDPortraits/Penny, Mods/HDPortraits/Pam, Mods/HDPortraits/Robin, Mods/HDPortraits/Clint",
+      "Target": "Mods/HDPortraits/Clint, Mods/HDPortraits/Demetrius, Mods/HDPortraits/Emily, Mods/HDPortraits/Evelyn, Mods/HDPortraits/Jas, Mods/HDPortraits/Jodi, Mods/HDPortraits/Lewis, Mods/HDPortraits/Willy, ",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}_{{Season}}.png}}"
       },
@@ -28,7 +29,7 @@
     // winter indoor/outdoor variants
     {
       "Action": "EditData",
-      "Target": "Mods/HDPortraits/Linus, Mods/HDPortraits/Penny, Mods/HDPortraits/Pam, Mods/HDPortraits/Robin, Mods/HDPortraits/Clint",
+      "Target": "Mods/HDPortraits/Clint, Mods/HDPortraits/Demetrius, Mods/HDPortraits/Emily, Mods/HDPortraits/Evelyn, Mods/HDPortraits/Jas, Mods/HDPortraits/Jodi, Mods/HDPortraits/Lewis, Mods/HDPortraits/Willy, ",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}_Winter_{{IndoorVariant}}.png}}"
       },
@@ -37,10 +38,10 @@
         "Season": "Winter"
       }
     },
-    // all seasons
+    // winter portraits that have no winter indoor/outdoor variants
     {
       "Action": "EditData",
-      "Target": "Mods/HDPortraits/Linus, Mods/HDPortraits/Penny, Mods/HDPortraits/Pam, Mods/HDPortraits/Robin, Mods/HDPortraits/Clint",
+      "Target": "Mods/HDPortraits/Morris, Mods/HDPortraits/Sandy, ",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}_{{Season}}.png}}"
       }
@@ -48,7 +49,7 @@
     // beach
     {
       "Action": "EditData",
-      "Target": "Mods/HDPortraits/Linus_Beach",
+      "Target": "Mods/HDPortraits/Caroline_Beach, Mods/HDPortraits/Alex_Beach, Mods/HDPortraits/Abigail_Beach, Mods/HDPortraits/Haley_Beach, Mods/HDPortraits/Penny_Beach, Mods/HDPortraits/Leah_Beach, Mods/HDPortraits/Marnie_Beach, Mods/HDPortraits/Lewis_Beach, Mods/HDPortraits/Jas_Beach, Mods/HDPortraits/Evelyn_Beach, Mods/HDPortraits/Demetrius_Beach, Mods/HDPortraits/Jodi_Beach, Mods/HDPortraits/Elliot_Beach, Mods/HDPortraits/Sam_Beach, Mods/HDPortraits/Sebastian_Beach, Mods/HDPortraits/Robin_Beach, Mods/HDPortraits/Maru_Beach, Mods/HDPortraits/Emily_Beach, Mods/HDPortraits/Clint_Beach, Mods/HDPortraits/Pierre_Beach, ",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}_Beach.png}}"
       }
@@ -57,18 +58,18 @@
     {
       "LogName": "Festival Portraits",
       "Action": "EditData",
-      "Target": "Mods/HDPortraits/Linus",
+      "Target": "Mods/HDPortraits/Willy, Mods/HDPortraits/Sandy, Mods/HDPortraits/ParrotBoy, Mods/HDPortraits/Lewis, Mods/HDPortraits/Jodi, Mods/HDPortraits/Jas, Mods/HDPortraits/Evelyn, Mods/HDPortraits/Emily, Mods/HDPortraits/Demetrius, Mods/HDPortraits/Clint, Mods/HDPortraits/Shane",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Festival}}.png}}"
       },
       "Update": "OnLocationChange",
       "When": {}
     },
-    // moonlight jellies
     // aerobics
     {
+      "LogName": "Aerobiccs Portraits Weekly",
       "Action": "EditData",
-      "Target": "Mods/HDPortraits/Jodi, Mods/HDPortraits/Marnie, Mods/HDPortraits/Caroline, Mods/HDPortraits/Robin, Mods/HDPortraits/Emily, Mods/HDPortraits/Harvey",
+      "Target": "Mods/HDPortraits/Jodi, Mods/HDPortraits/Emily",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Aerobics.png}}"
       },
@@ -76,13 +77,13 @@
       "When": {
         "DayOfWeek": "Tuesday",
         "LocationName": "SeedShop",
-        "Extra Outfits": "true",
         "Weather": "sun, wind, snow"
       }
     },
     {
+      "LogName": "Aerobics Portraits Eventt",
       "Action": "EditData",
-      "Target": "Mods/HDPortraits/Jodi, Mods/HDPortraits/Marnie, Mods/HDPortraits/Caroline, Mods/HDPortraits/Robin, Mods/HDPortraits/Emily, Mods/HDPortraits/Harvey",
+      "Target": "Mods/HDPortraits/Jodi, Mods/HDPortraits/Emily",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Aerobics.png}}"
       },
@@ -91,7 +92,6 @@
         "Time": "{{Range: 1100, 1500}}",
         "Hearts:Harvey": "{{range: 6, 14}}",
         "LocationName": "SeedShop",
-        "Extra Outfits": "true",
         "HasSeenEvent: currentPlayer |contains=58": false
       }
     },
