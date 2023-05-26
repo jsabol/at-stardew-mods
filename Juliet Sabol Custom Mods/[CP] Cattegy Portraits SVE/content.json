@@ -7,16 +7,6 @@
       "Default": "true"
     },
 
-    "FestivalOutfits": {
-      "AllowValues": "true, false",
-      "Default": "true"
-    },
-
-    "ExtraOutfits": {
-      "AllowValues": "true, false",
-      "Default": "true"
-    },
-
     "OlderSophia": {
       "AllowValues": "true, false",
       "Default": "false"
@@ -321,7 +311,6 @@
         "HasFile:{{FromFile}}": true,
         "DayOfWeek": "Tuesday",
         "LocationName": "SeedShop",
-        "ExtraOutfits": "True",
         "Weather": "sun, wind, snow"
       }
     },
@@ -340,7 +329,6 @@
         "Time": "{{Range: 1100, 1500}}",
         "Hearts:Harvey": "{{range: 6, 14}}",
         "LocationName": "SeedShop",
-        "ExtraOutfits": "True",
         "HasSeenEvent: currentPlayer |contains=58": false
       }
     },
@@ -472,8 +460,7 @@
       "FromFile": "assets/Characters/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
       "Update": "OnLocationChange",
       "When": {
-        "HasFile:{{FromFile}}": true,
-        "FestivalOutfits": "True"
+        "HasFile:{{FromFile}}": true
       }
     },
 

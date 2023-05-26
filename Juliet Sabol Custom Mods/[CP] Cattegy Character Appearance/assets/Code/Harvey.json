@@ -57,8 +57,7 @@
       "FromFile": "assets/{{Target}}/Harvey_Doctor.png",
       "When": {
         "HasFile:{{FromFile}}": true,
-        "LocationName": "Hospital",
-        "ExtraOutfits": "True"
+        "LocationName": "Hospital"
       },
       "Update": "OnLocationChange"
     },

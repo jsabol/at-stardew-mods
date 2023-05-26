@@ -156,10 +156,6 @@
       "AllowValues": "True, False",
       "Default": "True"
     },
-    "ExtraOutfits": {
-      "AllowValues": "True, False",
-      "Default": "True"
-    },
     "FarmerBase": {
       "AllowValues": "True, False",
       "Default": "True"

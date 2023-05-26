@@ -93,7 +93,6 @@
       "When": {
         "DayOfWeek": "Tuesday",
         "LocationName": "SeedShop",
-        "Extra Outfits": "true",
         "Weather": "sun, wind, snow"
       }
     },
@@ -109,7 +108,6 @@
         "Time": "{{Range: 1100, 1500}}",
         "Hearts:Harvey": "{{range: 6, 14}}",
         "LocationName": "SeedShop",
-        "Extra Outfits": "true",
         "HasSeenEvent: currentPlayer |contains=58": false
       }
     },
