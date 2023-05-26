@@ -62,18 +62,6 @@
       "When": {
         "HasFile:{{FromFile}}": true
       }
-    },
-
-    {
-      "LogName": "Marnie - Secret Notes",
-      "Action": "EditImage",
-      "Target": "TileSheets/SecretNotesImages",
-      "FromFile": "assets/{{NoNose}}/Random/SecretNotesImages.png",
-      "FromArea": { "X": 147, "Y": 90, "Width": 17, "Height": 27 },
-      "ToArea": { "X": 147, "Y": 90, "Width": 17, "Height": 27 },
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
     }
   ]
 }

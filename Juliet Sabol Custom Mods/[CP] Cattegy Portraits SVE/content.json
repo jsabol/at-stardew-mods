@@ -602,92 +602,6 @@
       }
     },
 
-    //ZuzuCity
-    {
-      "Action": "EditImage",
-      "Target": "Maps/ZuzuCity",
-      "FromFile": "assets/{{NoNose}}/Maps/ZuzuCity.png"
-    },
-
-    //Stadium
-    {
-      "Action": "EditImage",
-      "Target": "Maps/Stadium",
-      "FromFile": "assets/{{NoNose}}/Maps/Stadium.png"
-    },
-
-    //First Slash Guild
-    {
-      "Action": "EditImage",
-      "Target": "Maps/FirstSlashGuildBuilding",
-      "FromFile": "assets/{{NoNose}}/Maps/FirstSlashGuildBuilding.png"
-    },
-
-    //Grampleton Suburbs
-    {
-      "Action": "EditImage",
-      "Target": "Maps/spring_GrampletonSuburbsTilesheet",
-      "ToArea": { "X": 192, "Y": 288, "Width": 80, "Height": 32 },
-      "FromFile": "assets/{{NoNose}}/Maps/spring_GrampletonSuburbsTilesheet.png"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Maps/summer_GrampletonSuburbsTilesheet",
-      "ToArea": { "X": 192, "Y": 288, "Width": 80, "Height": 32 },
-      "FromFile": "assets/{{NoNose}}/Maps/summer_GrampletonSuburbsTilesheet.png"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Maps/fall_GrampletonSuburbsTilesheet",
-      "ToArea": { "X": 192, "Y": 288, "Width": 80, "Height": 32 },
-      "FromFile": "assets/{{NoNose}}/Maps/fall_GrampletonSuburbsTilesheet.png"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Maps/winter_GrampletonSuburbsTilesheet",
-      "ToArea": { "X": 192, "Y": 288, "Width": 80, "Height": 32 },
-      "FromFile": "assets/{{NoNose}}/Maps/winter_GrampletonSuburbsTilesheet.png"
-    },
-
-    //Sakura Vineyard
-    {
-      "Action": "EditImage",
-      "Target": "Maps/GrampletonTrainStationTilesheet",
-      "FromFile": "assets/{{NoNose}}/Maps/GrampletonTrainStationTilesheet.png"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Maps/SakuraVineyardDiningRoomTilesheet",
-      "FromFile": "assets/{{NoNose}}/Maps/SakuraVineyardDiningRoomTilesheet.png"
-    },
-
-    //Zuzu City Comic Con
-    {
-      "Action": "EditImage",
-      "Target": "Maps/ZCCC_VendorFloor_Tilesheet",
-      "FromFile": "assets/{{NoNose}}/Maps/ZCCC_VendorFloor_Tilesheet.png"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Maps/ZCCC_FoodCourt_Tilesheet",
-      "FromFile": "assets/{{NoNose}}/Maps/ZCCC_FoodCourt_Tilesheet.png"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Maps/ZCCC_Entrance_Tilesheet",
-      "FromFile": "assets/{{NoNose}}/Maps/ZCCC_Entrance_Tilesheet.png"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Maps/ZCCC_Entrance_Tilesheet",
-      "FromFile": "assets/{{NoNose}}/Maps/ZCCC_Entrance_Tilesheet.png"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Maps/ZuzuCityStreet_Tilesheet",
-      "FromFile": "assets/{{NoNose}}/Maps/ZuzuCityStreet_Tilesheet.png"
-    },
-
     //Season Extras Spring
     {
       "Action": "EditImage",
@@ -1046,17 +960,6 @@
       "ToArea": { "X": 387, "Y": 1311, "Width": 11, "Height": 15 }
     },
 
-    // Vineyards
-    {
-      "Action": "EditImage",
-      "Target": "maps/AuroraVineyardPicture",
-      "FromFile": "assets/{{NoNose}}/Maps/AuroraVineyardPicture.png"
-    },
-    {
-      "Action": "EditImage",
-      "Target": "maps/StardustFarmPicture",
-      "FromFile": "assets/{{NoNose}}/Maps/StardustFarmPicture.png"
-    },
     //add SVE character special order emojis
 
     {

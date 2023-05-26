@@ -34,16 +34,6 @@
       "When": {
         "HasFile:{{FromFile}}": true
       }
-    },
-
-    {
-      "LogName": "Morris - Joja TownInteriors",
-      "Action": "EditImage",
-      "Update": "OnLocationChange",
-      "Target": "Maps/townInterior",
-      "FromFile": "assets/{{NoNose}}/Random/townInterior_{{Season}}.png",
-      "FromArea": { "X": 368, "Y": 1008, "Width": 48, "Height": 32 },
-      "ToArea": { "X": 368, "Y": 1008, "Width": 48, "Height": 32 }
     }
   ]
 }
