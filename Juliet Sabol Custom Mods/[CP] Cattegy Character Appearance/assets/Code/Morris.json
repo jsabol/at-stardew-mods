@@ -35,39 +35,7 @@
         "HasFile:{{FromFile}}": true
       }
     },
-    {
-      "LogName": "Morris - Joja Employees Cursors",
-      "Action": "EditImage",
-      "Target": "LooseSprites/Cursors",
-      "FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
-      "FromArea": { "X": 50, "Y": 1387, "Width": 14, "Height": 30 },
-      "ToArea": { "X": 0, "Y": 1387, "Width": 14, "Height": 30 },
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
-    },
-    {
-      "LogName": "Morris - Surprised Cursors",
-      "Action": "EditImage",
-      "Target": "LooseSprites/Cursors",
-      "FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
-      "FromArea": { "X": 105, "Y": 1318, "Width": 13, "Height": 31 },
-      "ToArea": { "X": 105, "Y": 1318, "Width": 13, "Height": 31 },
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
-    },
-    {
-      "LogName": "Morris - Building Cursors",
-      "Action": "EditImage",
-      "Target": "LooseSprites/Cursors",
-      "FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
-      "FromArea": { "X": 390, "Y": 1405, "Width": 36, "Height": 31 },
-      "ToArea": { "X": 390, "Y": 1405, "Width": 36, "Height": 31 },
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
-    },
+
     {
       "LogName": "Morris - Joja TownInteriors",
       "Action": "EditImage",

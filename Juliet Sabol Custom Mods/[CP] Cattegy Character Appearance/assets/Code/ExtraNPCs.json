@@ -12,42 +12,6 @@
 
     // Cursors
 
-    {
-      "LogName": "Cursors 1 - Joja Employees",
-      "Action": "EditImage",
-      "Update": "OnLocationChange",
-      "Target": "LooseSprites/Cursors",
-      "FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
-      "FromArea": { "X": 0, "Y": 1391, "Width": 46, "Height": 29 },
-      "ToArea": { "X": 0, "Y": 1391, "Width": 46, "Height": 29 },
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
-    },
-    {
-      "LogName": "Cursors 2 - Joja Employees",
-      "Action": "EditImage",
-      "Update": "OnLocationChange",
-      "Target": "LooseSprites/Cursors",
-      "FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
-      "FromArea": { "X": 68, "Y": 1391, "Width": 46, "Height": 29 },
-      "ToArea": { "X": 68, "Y": 1391, "Width": 46, "Height": 29 },
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
-    },
-    {
-      "LogName": "Cursors 3 - News Programs",
-      "Action": "EditImage",
-      "Target": "LooseSprites/Cursors",
-      "Update": "OnLocationChange",
-      "FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
-      "FromArea": { "X": 413, "Y": 305, "Width": 253, "Height": 28 },
-      "ToArea": { "X": 413, "Y": 305, "Width": 253, "Height": 28 },
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
-    },
 
     // Desert
 

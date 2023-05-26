@@ -100,15 +100,7 @@
       "When": {
         "HasFile:{{FromFile}}": true
       }
-    },
-    {
-      "LogName": "Pam - Bus",
-      "Action": "EditImage",
-      "Target": "LooseSprites/Cursors",
-      "Update": "OnLocationChange",
-      "FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
-      "FromArea": { "X": 387, "Y": 1311, "Width": 11, "Height": 19 },
-      "ToArea": { "X": 387, "Y": 1311, "Width": 11, "Height": 19 }
     }
+
   ]
 }

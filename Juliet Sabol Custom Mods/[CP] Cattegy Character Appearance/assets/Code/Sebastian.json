@@ -75,15 +75,7 @@
       "When": {
         "HasFile:{{FromFile}}": true
       }
-    },
-    {
-      "LogName": "Sebastian - Motorbike Cursors",
-      "Action": "EditImage",
-      "Target": "LooseSprites/Cursors",
-      "Update": "OnLocationChange",
-      "FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
-      "FromArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 },
-      "ToArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 }
     }
+   
   ]
 }
