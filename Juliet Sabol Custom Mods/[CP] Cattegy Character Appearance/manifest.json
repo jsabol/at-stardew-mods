@@ -7,9 +7,13 @@
   "MinimumApiVersion": "3.10.0",
   "UpdateKeys": [],
   "ContentPackFor": {
-    "UniqueID": "Cattegy.ContentPatcher"
+    "UniqueID": "Pathoschild.ContentPatcher"
   },
   "Dependencies": [
+    {
+      "UniqueID": "tlitookilakin.HDPortraits",
+      "IsRequired": true
+    },
     {
       "UniqueID": "Hesper.RusticCountrysideTownInterior",
       "IsRequired": false

@@ -1,13 +1,34 @@
 {
   "Changes": [
     {
-      "LogName": "Alex",
+      "LogName": "Alex - Seasonal",
       "Action": "EditImage",
       "Target": "Characters/Alex",
-      "FromFile": "assets/{{Target}}.png",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
       }
+    },
+    {
+      "LogName": "Alex - Winter Indoor/Outdoor",
+      "Action": "EditImage",
+      "Target": "Characters/Alex",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "Season": "Winter"
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "LogName": "Alex - Festival",
+      "Action": "EditImage",
+      "Target": "Characters/Alex",
+      "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      },
+      "Update": "OnLocationChange"
     },
     {
       "LogName": "Alex - Beach",
@@ -18,6 +39,31 @@
         "HasFile:{{FromFile}}": true
       }
     },
+
+    // NOSE OVERLAY
+    {
+      "LogName": "Alex - Seasonal Nose",
+      "Action": "EditImage",
+      "Target": "Characters/Alex",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_nose.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "NoNose": "false"
+      }
+    },
+    {
+      "LogName": "Alex - Beach Nose",
+      "Action": "EditImage",
+      "Target": "Characters/Alex_Beach",
+      "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}_nose.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "NoNose": "false"
+      }
+    },
+
     // MISCELLANEOUS
     {
       "LogName": "Alex - Emoji",

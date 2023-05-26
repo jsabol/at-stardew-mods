@@ -26,3 +26,4 @@ TODO:
 - Do we need glass in the museum?
 - switch to lake farm
 
+TODO Portraits:  

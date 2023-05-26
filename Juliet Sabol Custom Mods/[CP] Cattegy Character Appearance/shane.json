@@ -1,9 +1,5 @@
-// I give up
-//
-
+// Content Patcher] Can't apply image patch "Cattegy Character Appearance > Shane Changes > shane.json > Shane Sprite - Indoor Variant" to Characters/Shane: the FromFile file 'assets\Characters\Shane\Shane_spring_2.png' doesn't exist.
 {
-  "Format": "1.19.0",
-
   "Changes": [
     // Portrait Seasonal
     {
@@ -21,7 +17,10 @@
       "Action": "EditImage",
       "Target": "Characters/Shane,",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}_{{Random:1, 2 |key=ShaneVariant}}.png",
-      "Update": "OnLocationChange"
+      "Update": "OnLocationChange",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
     },
     // Festivals portraits
     {
@@ -31,10 +30,7 @@
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/Shane/Festivals/{{Festival}}/Shane_{{Festival}}.png}}"
       },
-      "Update": "OnLocationChange",
-      "When": {
-        "HasFile:{{FromFile}}": true
-      }
+      "Update": "OnLocationChange"
     },
     // Festivals sprites
     {
@@ -47,7 +43,6 @@
         "HasFile:{{FromFile}}": true
       }
     },
-
     // Work
     // Shane Joja Portrait
     {
@@ -63,7 +58,17 @@
         "LocationName": "JojaMart"
       }
     },
-
+    {
+      "LogName": "Shane - Joja Sprite",
+      "Action": "EditImage",
+      "Target": "Mods/HDPortraits/Shane",
+      "FromFile": "assets/Characters/Shane/JojaMart/Shane_JojaMart_{{Season}}.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "HasSeenEvent: currentPlayer |contains=191393": false,
+        "LocationName": "JojaMart"
+      }
+    },
     // Beach portrait
     {
       "LogName": "Shane Portrait - Beach",

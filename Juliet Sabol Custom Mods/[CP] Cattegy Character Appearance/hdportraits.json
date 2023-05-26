@@ -3,24 +3,27 @@
     // size
     // TODO add beach
     {
+      "LogName": "Load HDPortraits Size",
       "Action": "Load",
       "Target": "Mods/HDPortraits/Abigail, Mods/HDPortraits/Alex, Mods/HDPortraits/AnsweringMachine, Mods/HDPortraits/Birdie, Mods/HDPortraits/Bouncer, Mods/HDPortraits/Caroline, Mods/HDPortraits/Clint, Mods/HDPortraits/Demetrius, Mods/HDPortraits/Dobson, Mods/HDPortraits/Dusty, Mods/HDPortraits/Dwarf, Mods/HDPortraits/Elliott, Mods/HDPortraits/Emily, Mods/HDPortraits/Evelyn, Mods/HDPortraits/George, Mods/HDPortraits/Gil, Mods/HDPortraits/Governor, Mods/HDPortraits/Grandpa, Mods/HDPortraits/Gunther, Mods/HDPortraits/Gus, Mods/HDPortraits/Haley, Mods/HDPortraits/Harvey, Mods/HDPortraits/Henchman, Mods/HDPortraits/Jas, Mods/HDPortraits/Jodi, Mods/HDPortraits/Kent, Mods/HDPortraits/Krobus, Mods/HDPortraits/Leah, Mods/HDPortraits/Lewis, Mods/HDPortraits/LewisLedger, Mods/HDPortraits/Linus, Mods/HDPortraits/Marlon, Mods/HDPortraits/Maru, Mods/HDPortraits/Mermaid, Mods/HDPortraits/Morris, Mods/HDPortraits/MorrisLedger, Mods/HDPortraits/MrQi, Mods/HDPortraits/Pam, Mods/HDPortraits/ParrotBoy, Mods/HDPortraits/Penny, Mods/HDPortraits/Pierre, Mods/HDPortraits/Robin, Mods/HDPortraits/Sam, Mods/HDPortraits/Sandy, Mods/HDPortraits/Vincent, Mods/HDPortraits/Willy, Mods/HDPortraits/Wizard",
       "FromFile": "assets/base.json"
     },
     // non-seasonal
     {
+      "LogName": "HDPortraits - Non-Seasonal",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Abigail, Mods/HDPortraits/Alex, Mods/HDPortraits/AnsweringMachine, Mods/HDPortraits/Birdie, Mods/HDPortraits/Bouncer, Mods/HDPortraits/Caroline, Mods/HDPortraits/Dobson, Mods/HDPortraits/Dusty, Mods/HDPortraits/Dwarf, Mods/HDPortraits/Elliott, Mods/HDPortraits/George, Mods/HDPortraits/Gil, Mods/HDPortraits/Governor, Mods/HDPortraits/Grandpa, Mods/HDPortraits/Gunther, Mods/HDPortraits/Gus, Mods/HDPortraits/Haley, Mods/HDPortraits/Harvey, Mods/HDPortraits/Henchman, Mods/HDPortraits/Kent, Mods/HDPortraits/Krobus, Mods/HDPortraits/Leah, Mods/HDPortraits/LewisLedger, Mods/HDPortraits/Linus, Mods/HDPortraits/Marlon, Mods/HDPortraits/Maru, Mods/HDPortraits/Mermaid, Mods/HDPortraits/MorrisLedger, Mods/HDPortraits/MrQi, Mods/HDPortraits/Pam, Mods/HDPortraits/ParrotBoy, Mods/HDPortraits/Penny, Mods/HDPortraits/Pierre, Mods/HDPortraits/Robin, Mods/HDPortraits/Sam, Mods/HDPortraits/Vincent, Mods/HDPortraits/Wizard",
       "Entries": {
-        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}.png}}"
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}.png}}"
       }
     },
     // seasons except winter
     {
+      "LogName": "HDPortraits - Seasons Except Winter",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Clint, Mods/HDPortraits/Demetrius, Mods/HDPortraits/Emily, Mods/HDPortraits/Evelyn, Mods/HDPortraits/Jas, Mods/HDPortraits/Jodi, Mods/HDPortraits/Lewis, Mods/HDPortraits/Willy, ",
       "Entries": {
-        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}_{{Season}}.png}}"
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}.png}}"
       },
       "When": {
         "Season |contains=winter": "false"
@@ -28,10 +31,11 @@
     },
     // winter indoor/outdoor variants
     {
+      "LogName": "HDPortraits - Winter Indoor/Outdoor Variants",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Clint, Mods/HDPortraits/Demetrius, Mods/HDPortraits/Emily, Mods/HDPortraits/Evelyn, Mods/HDPortraits/Jas, Mods/HDPortraits/Jodi, Mods/HDPortraits/Lewis, Mods/HDPortraits/Willy, ",
       "Entries": {
-        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}_Winter_{{IndoorVariant}}.png}}"
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Winter_{{IndoorVariant}}.png}}"
       },
       "Update": "OnLocationChange",
       "When": {
@@ -40,34 +44,38 @@
     },
     // winter portraits that have no winter indoor/outdoor variants
     {
+      "LogName": "HDPortraits - Winter Portraits Without Indoor/Outdoor Variants",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Morris, Mods/HDPortraits/Sandy, ",
       "Entries": {
-        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}_{{Season}}.png}}"
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}.png}}"
       }
     },
     // beach
     {
+      "LogName": "HDPortraits - Beach",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Caroline_Beach, Mods/HDPortraits/Alex_Beach, Mods/HDPortraits/Abigail_Beach, Mods/HDPortraits/Haley_Beach, Mods/HDPortraits/Penny_Beach, Mods/HDPortraits/Leah_Beach, Mods/HDPortraits/Marnie_Beach, Mods/HDPortraits/Lewis_Beach, Mods/HDPortraits/Jas_Beach, Mods/HDPortraits/Evelyn_Beach, Mods/HDPortraits/Demetrius_Beach, Mods/HDPortraits/Jodi_Beach, Mods/HDPortraits/Elliot_Beach, Mods/HDPortraits/Sam_Beach, Mods/HDPortraits/Sebastian_Beach, Mods/HDPortraits/Robin_Beach, Mods/HDPortraits/Maru_Beach, Mods/HDPortraits/Emily_Beach, Mods/HDPortraits/Clint_Beach, Mods/HDPortraits/Pierre_Beach, ",
       "Entries": {
-        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}_Beach.png}}"
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Beach.png}}"
       }
     },
     // festivals
     {
-      "LogName": "Festival Portraits",
+      "LogName": "HDPortraits - Festival Portraits",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Willy, Mods/HDPortraits/Sandy, Mods/HDPortraits/ParrotBoy, Mods/HDPortraits/Lewis, Mods/HDPortraits/Jodi, Mods/HDPortraits/Jas, Mods/HDPortraits/Evelyn, Mods/HDPortraits/Emily, Mods/HDPortraits/Demetrius, Mods/HDPortraits/Clint, Mods/HDPortraits/Shane",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Festival}}.png}}"
       },
       "Update": "OnLocationChange",
-      "When": {}
+      "When": {
+        "HasFile:assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Festival}}.png": true
+      }
     },
     // aerobics
     {
-      "LogName": "Aerobiccs Portraits Weekly",
+      "LogName": "HDPortraits - Aerobics Portraits Weekly",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Jodi, Mods/HDPortraits/Emily",
       "Entries": {
@@ -81,7 +89,7 @@
       }
     },
     {
-      "LogName": "Aerobics Portraits Eventt",
+      "LogName": "HDPortraits - Aerobics Portraits Eventt",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Jodi, Mods/HDPortraits/Emily",
       "Entries": {
@@ -97,6 +105,7 @@
     },
     // Maru work clothes
     {
+      "LogName": "HDPortraits - Maru's Work Outfit",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Maru_Hospital",
       "Entries": {
@@ -105,6 +114,7 @@
     },
     // Harvey work clothes
     {
+      "LogName": "HDPortraits - Harvey's Work Outfit",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Harvey",
       "Entries": {
@@ -117,7 +127,7 @@
     },
     // Sam work clothes
     {
-      "LogName": "Sam's Work Outfit - at Joja",
+      "LogName": "HDPortraits - Sam's Work Outfit - at Joja",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Sam",
       "Entries": {
@@ -131,7 +141,7 @@
       }
     },
     {
-      "LogName": "Sam's Work Outfit - at Museum",
+      "LogName": "HDPortraits - Sam's Work Outfit - at Museum",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Sam",
       "Entries": {
@@ -146,11 +156,11 @@
     },
     // Clint
     {
-      "LogName": "Clint's work outfit",
+      "LogName": "HDPortraits - Clint's work outfit",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Clint",
       "Entries": {
-        "Portrait": "{{InternalAssetKey: assets/Portraits/Clint_{{Season}}_Work.png}}"
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Clint/Clint_{{Season}}_Work.png}}"
       },
       "Update": "OnLocationChange",
       "When": {

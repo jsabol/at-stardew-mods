@@ -1,6 +1,3 @@
-// I dont know what I'm doing
-// This is all guess work
-
 {
   "Format": "1.28.0",
   "DynamicTokens": [
@@ -8,39 +5,20 @@
 
     {
       "Name": "IndoorVariant", // Default
-      "Value": "",
-      "When": {
-        "Season": "Spring, Summer, Fall"
-      }
-    },
-    {
-      "Name": "IndoorVariant", // Indoors Only
-      "Value": "_Indoor",
-      "When": {
-        "Season": "Winter"
-      }
-    },
-    {
-      "Name": "IndoorVariant", // Outdoors Only
-      "Value": "_Outdoor",
-      "When": {
-        "Season": "Winter"
-      }
+      "Value": ""
     },
     {
       "Name": "IndoorVariant", // Indoors Switch
       "Value": "_Indoor",
       "When": {
-        "IsOutdoors": "false",
-        "Season": "Winter"
+        "IsOutdoors": "false"
       }
     },
     {
       "Name": "IndoorVariant", // Outdoors Switch
       "Value": "_Outdoor",
       "When": {
-        "IsOutdoors": "true",
-        "Season": "Winter"
+        "IsOutdoors": "true"
       }
     },
     {
@@ -235,13 +213,13 @@
     // HDPortraits
     {
       "LogName": "HD Portraits Changes",
-      "Action": "Inclde",
+      "Action": "Include",
       "FromFile": "hdportraits.json"
     },
     // Shane
     {
-      "LogName": "HShane Changes",
-      "Action": "Inclde",
+      "LogName": "Shane Changes",
+      "Action": "Include",
       "FromFile": "shane.json"
     },
     // Farmer Changes
