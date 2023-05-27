@@ -1,0 +1,103 @@
+{
+  "Changes": [
+    // size
+    {
+      "LogName": "Load HDPortraits Size",
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Aideen, Mods/HDPortraits/Eloise, Mods/HDPortraits/Eloise_beach, Mods/HDPortraits/Jacob, Mods/HDPortraits/Jacob_beach, Mods/HDPortraits/JosephineK, Mods/HDPortraits/KatarynaLK, Mods/HDPortraits/KatarynaLK_wetHair, Mods/HDPortraits/OliverK, Mods/HDPortraits/Rosa, Mods/HDPortraits/VivienneLK, Mods/HDPortraits/Leximonster",
+      "FromFile": "assets/base.json"
+    },
+    // non-seasonal
+    {
+      "LogName": "HDPortraits - East Scarpe Non-Seasonal",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Aideen, Mods/HDPortraits/JosephineK, Mods/HDPortraits/KatarynaLK, Mods/HDPortraits/OliverK, Mods/HDPortraits/Rosa, Mods/HDPortraits/Leximonster",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}.png}}"
+      }
+    },
+    // KatarynaLK_wetHair
+    {
+      "LogName": "HDPortraits - East Scarpe Non-Seasonal",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/KatarynaLK_wetHair",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/KatarynaLK.png}}"
+      }
+    },
+    // Eloise & Jascob
+    {
+      "LogName": "HDPortraits - Default Seasonal",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Eloise, Mods/HDPortraits/Jacob",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}.png}}"
+      }
+    },
+    // Eloise Season 2
+    {
+      "LogName": "HDPortraits - Eloise Season 2",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Eloise",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Eloise/Eloise_{{season}}_2.png}}"
+      }
+    },
+    // Eloise Season 1
+    {
+      "LogName": "HDPortraits - Eloise Season 1",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Eloise",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Eloise/Eloise_{{season}}_1.png}}"
+      },
+      "When": {
+        "DayofWeek": "Tuesday, Wednesday, Friday"
+      }
+    },
+    // Eloise Rain
+    {
+      "LogName": "HDPortraits - Eloise Rain",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Eloise",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Eloise/Eloise_rain.png}}"
+      },
+      "When": {
+        "IsOutdoors": true,
+        "Weather": "rain, storm"
+      }
+    },
+    // Jacob Seasonal
+    {
+      "LogName": "HDPortraits - Jacob Seasonal",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jacob",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Jacob/Jacob_{{season}}.png}}"
+      }
+    },
+    // Jacob Beach
+    {
+      "LogName": "HDPortraits - Jacob Beach",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jacob_beach",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Jacob/Jacob_beach.png}}"
+      }
+    },
+    // SpiritsEve
+    {
+      "LogName": "HDPortraits - Jacob Beach",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jacob, Mods/HDPortraits/Eloise",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_SpiritsEve.png}}"
+      },
+      "When": {
+        "LocationName": "Temp, Custom_EastScarpeInn",
+        "DayEvent": "spirit's eve"
+      }
+    }
+  ]
+}
