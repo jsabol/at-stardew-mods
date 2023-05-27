@@ -4,39 +4,39 @@
     {
       "LogName": "Load HDPortraits Size",
       "Action": "Load",
-      "Target": "Mods/HDPortraits/Aideen, Mods/HDPortraits/Eloise, Mods/HDPortraits/Eloise_beach, Mods/HDPortraits/Jacob, Mods/HDPortraits/Jacob_beach, Mods/HDPortraits/JosephineK, Mods/HDPortraits/KatarynaLK, Mods/HDPortraits/KatarynaLK_wetHair, Mods/HDPortraits/OliverK, Mods/HDPortraits/Rosa, Mods/HDPortraits/VivienneLK, Mods/HDPortraits/Leximonster",
+      "Target": "Mods/HDPortraits/Aideen, Mods/HDPortraits/Eloise, Mods/HDPortraits/Eloise_beach, Mods/HDPortraits/Jacob, Mods/HDPortraits/Jacob_beach, Mods/HDPortraits/JosephineK, Mods/HDPortraits/KatarynaLK, Mods/HDPortraits/KatarynaLK_wetHair, Mods/HDPortraits/OliverK, Mods/HDPortraits/Rosa, Mods/HDPortraits/VivienneLK, Mods/HDPortraits/Leximonster, Mods/HDPortraits/Jasper, Mods/HDPortraits/Cameron",
       "FromFile": "assets/base.json"
     },
     // non-seasonal
     {
-      "LogName": "HDPortraits - East Scarpe Non-Seasonal",
+      "LogName": "HDPortraitES - East Scarpe Non-Seasonal",
       "Action": "EditData",
-      "Target": "Mods/HDPortraits/Aideen, Mods/HDPortraits/JosephineK, Mods/HDPortraits/KatarynaLK, Mods/HDPortraits/OliverK, Mods/HDPortraits/Rosa, Mods/HDPortraits/Leximonster",
+      "Target": "Mods/HDPortraits/Aideen, Mods/HDPortraits/JosephineK, Mods/HDPortraits/KatarynaLK, Mods/HDPortraits/OliverK, Mods/HDPortraits/Rosa, Mods/HDPortraits/Leximonster, Mods/HDPortraits/Cameron",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}.png}}"
       }
     },
     // KatarynaLK_wetHair
     {
-      "LogName": "HDPortraits - East Scarpe Non-Seasonal",
+      "LogName": "HDPortraitES - East Scarpe Non-Seasonal",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/KatarynaLK_wetHair",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/KatarynaLK.png}}"
       }
     },
-    // Eloise & Jascob
+    // Portraits in Folders
     {
-      "LogName": "HDPortraits - Default Seasonal",
+      "LogName": "HDPortraitES - Default",
       "Action": "EditData",
-      "Target": "Mods/HDPortraits/Eloise, Mods/HDPortraits/Jacob",
+      "Target": "Mods/HDPortraits/Eloise, Mods/HDPortraits/Jacob, Mods/HDPortraits/Jasper",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}.png}}"
       }
     },
     // Eloise Season 2
     {
-      "LogName": "HDPortraits - Eloise Season 2",
+      "LogName": "HDPortraitES - Eloise Season 2",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Eloise",
       "Entries": {
@@ -45,7 +45,7 @@
     },
     // Eloise Season 1
     {
-      "LogName": "HDPortraits - Eloise Season 1",
+      "LogName": "HDPortraitES - Eloise Season 1",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Eloise",
       "Entries": {
@@ -57,7 +57,7 @@
     },
     // Eloise Rain
     {
-      "LogName": "HDPortraits - Eloise Rain",
+      "LogName": "HDPortraitES - Eloise Rain",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Eloise",
       "Entries": {
@@ -70,7 +70,7 @@
     },
     // Jacob Seasonal
     {
-      "LogName": "HDPortraits - Jacob Seasonal",
+      "LogName": "HDPortraitES - Jacob Seasonal",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Jacob",
       "Entries": {
@@ -79,7 +79,7 @@
     },
     // Jacob Beach
     {
-      "LogName": "HDPortraits - Jacob Beach",
+      "LogName": "HDPortraitES - Jacob Beach",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Jacob_beach",
       "Entries": {
@@ -88,7 +88,7 @@
     },
     // SpiritsEve
     {
-      "LogName": "HDPortraits - Jacob Beach",
+      "LogName": "HDPortraitES - Spirits Eve",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Jacob, Mods/HDPortraits/Eloise",
       "Entries": {
@@ -97,6 +97,44 @@
       "When": {
         "LocationName": "Temp, Custom_EastScarpeInn",
         "DayEvent": "spirit's eve"
+      }
+    },
+    // Flower DDance
+    {
+      "LogName": "HDPortraitES - Flower Dance",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jasper",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_FlowerDance.png}}"
+      },
+      "When": {
+        "LocationName": "Temp",
+        "DayEvent": "flower dance"
+      }
+    },
+    // Jasper
+    {
+      "LogName": "HDPortraitES - Jasper wheelchair",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jasper",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_wheelchair.png}}"
+      },
+      "When": {
+        "HasSeenEvent:hostPlayer |contains=50709915": true,
+        "HasSeenEvent: hostPlayer |contains=50709930": false
+      }
+    },
+    {
+      "LogName": "HDPortraitES - Jasper prosthetic",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jasper",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_prosthetic.png}}"
+      },
+      "When": {
+        "HasSeenEvent:hostPlayer |contains=50709930": true,
+        "Season": "spring, summer, fall"
       }
     }
   ]
