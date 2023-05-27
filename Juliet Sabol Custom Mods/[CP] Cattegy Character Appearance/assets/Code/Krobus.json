@@ -1,0 +1,13 @@
+{
+  "Changes": [
+    {
+      "LogName": "Krobus Sprite",
+      "Action": "EditImage",
+      "Target": "Characters/Krobus",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    }
+  ]
+}
