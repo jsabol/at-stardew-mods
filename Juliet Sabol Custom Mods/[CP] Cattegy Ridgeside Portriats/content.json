@@ -1,6 +1,43 @@
 {
   "Format": "1.28.0",
+  "DynamicTokens": [
+    {
+      "Name": "IreneTraveling",
+      "Value": true,
+      "When": {
+        "Season": "spring, summer",
+        "Day": "15, 16, 17, 18, 19, 20, 21"
+      }
+    },
+    {
+      "Name": "IreneTraveling",
+      "Value": true,
+      "When": { "Season": "fall, winter", "Day": "2, 3, 4, 5, 6, 7" }
+    },
 
+    {
+      "Name": "IreneTraveling",
+      "Value": false,
+      "When": {
+        "Season": "spring, summer",
+        "Query: {{Day}} < 15": true,
+        "Query: {{Day}} > 21": true
+      }
+    },
+    {
+      "Name": "IreneTraveling",
+      "Value": false,
+      "When": {
+        "Season": "fall, winter",
+        "Query: {{Day}} < 2": true,
+        "Query: {{Day}} > 7": true
+      }
+    },
+    {
+      "Name": "RandomNumber",
+      "Value": "{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}"
+    }
+  ],
   "Changes": [
     // No Portrait: Mods/HDPortraits/Acorn, Mods/HDPortraits/RelicSpirit, Mods/HDPortraits/Torts,
 
