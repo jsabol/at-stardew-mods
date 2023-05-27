@@ -104,7 +104,27 @@ aaand we're slow again. My stuff is off though!
 Attempt 8
 - Turn off Ultimate Villager Manager :(
 - Significantly better!
+--- Attempts
+TODO: My krobus sprite in my pack (Erinel's), UI scale 75, zoom out, lighting very low, re-enable daily farm photo
+- Gender swap back :(
+- Dynamic night time off
+- Spritemaster
+- profiler off
+- cheats on for testing
+- Priority high on task
+- Visible fish setting down!! Seems to have made a difference
+- 
+
+Studdering: https://stardewvalleywiki.com/Modding:Player_Guide/Troubleshooting#Game_lags_or_stutters_in-game
+- Ultimate Villager Manager
+- Flower Dance Fix
+- Looking for love & requirements
+- Train station
+- Tree & crop transplant
+- Random NPC
+- Leilai, Stardew Aquarium, Custom NPC Fixes
+- Turn down Visible Fish
 
 
-TODO: My krobus sprite in my pack (Erinel's)
-Gender swap back :(
+Resampling
+- Turn of fix font option
