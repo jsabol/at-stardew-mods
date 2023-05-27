@@ -128,3 +128,9 @@ Studdering: https://stardewvalleywiki.com/Modding:Player_Guide/Troubleshooting#G
 
 Resampling
 - Turn of fix font option
+
+
+Portrait Styles I really like
+- [LT4823](https://www.nexusmods.com/stardewvalley/users/118362478?tab=user+files)
+- DCBurger/OrangePieUwU/lunakatt/Others
+- [infinityal](https://www.nexusmods.com/stardewvalley/users/70857153)

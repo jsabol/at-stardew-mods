@@ -1,0 +1,17 @@
+{
+  "Name": "Cattegy Ridgeside Portraits",
+  "Author": "Cattegy",
+  "Version": "2.3.4",
+  "Description": "Makes the characters of Ridgeside Village Expanded slightly cuter and gives them seasonal outfits.",
+  "UniqueID": "Cattegy.RidgesidePortraits",
+  "UpdateKeys": ["Nexus:5969"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "tlitookilakin.HDPortraits",
+      "IsRequired": true
+    }
+  ]
+}
