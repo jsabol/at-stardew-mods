@@ -45,13 +45,13 @@
     {
       "LogName": "HDRidgeside - Load",
       "Action": "Load",
-      "Target": "Mods/HDPortraits/Aguar, Mods/HDPortraits/Alissa, Mods/HDPortraits/Bert, Mods/HDPortraits/Corine, Mods/HDPortraits/Ezekiel, Mods/HDPortraits/Flor, Mods/HDPortraits/Freddie, Mods/HDPortraits/Ian, Mods/HDPortraits/Jeric, Mods/HDPortraits/Jio, Mods/HDPortraits/Keahi, Mods/HDPortraits/Kenneth, Mods/HDPortraits/Kiwi, Mods/HDPortraits/Lenny, Mods/HDPortraits/Lola, Mods/HDPortraits/Maddie, Mods/HDPortraits/Olga, Mods/HDPortraits/Philip, Mods/HDPortraits/Pika, Mods/HDPortraits/Richard, Mods/HDPortraits/Shiro, Mods/HDPortraits/Trinnie, Mods/HDPortraits/Ysabelle, Mods/HDPortraits/Yuuma, Mods/HDPortraits/Undreya, Mods/HDPortraits/Helen, Mods/HDPortraits/Daia, Mods/HDPortraits/Belinda, Mods/HDPortraits/Bliss, Mods/HDPortraits/Sari, Mods/HDPortraits/Pipo, Mods/HDPortraits/Naomi, Mods/HDPortraits/Malaya, Mods/HDPortraits/Kimpoi, Mods/HDPortraits/Anton, Mods/HDPortraits/Ariah, Mods/HDPortraits/Blair, Mods/HDPortraits/Bryle, Mods/HDPortraits/Carmen, Mods/HDPortraits/Faye, Mods/HDPortraits/Irene, Mods/HDPortraits/Kiarra, Mods/HDPortraits/Lorenzo, Mods/HDPortraits/Louie, Mods/HDPortraits/Maive, Mods/HDPortraits/Paula, Mods/HDPortraits/Raeriyala, Mods/HDPortraits/Sean, Mods/HDPortraits/Shanice, Mods/HDPortraits/Sonny, Mods/HDPortraits/Zayne, Mods/HDPortraits/TreehouseGirl, Mods/HDPortraits/Althea, Mods/HDPortraits/Lorraine, Mods/HDPortraits/Nadaline, Mods/HDPortraits/Zachary, Mods/HDPortraits/June, Mods/HDPortraits/Aguar_Beach, Mods/HDPortraits/Alissa_Beach, Mods/HDPortraits/Bert_Beach, Mods/HDPortraits/Corine_Beach, Mods/HDPortraits/Ezekiel_Beach, Mods/HDPortraits/Flor_Beach, Mods/HDPortraits/Freddie_Beach, Mods/HDPortraits/Ian_Beach, Mods/HDPortraits/Jeric_Beach, Mods/HDPortraits/Jio_Beach, Mods/HDPortraits/Keahi_Beach, Mods/HDPortraits/Kenneth_Beach, Mods/HDPortraits/Kiwi_Beach, Mods/HDPortraits/Lenny_Beach, Mods/HDPortraits/Lola_Beach, Mods/HDPortraits/Maddie_Beach, Mods/HDPortraits/Olga_Beach, Mods/HDPortraits/Philip_Beach, Mods/HDPortraits/Pika_Beach, Mods/HDPortraits/Richard_Beach, Mods/HDPortraits/Shiro_Beach, Mods/HDPortraits/Trinnie_Beach, Mods/HDPortraits/Ysabelle_Beach, Mods/HDPortraits/Yuuma_Beach, Mods/HDPortraits/Daia_Beach, Mods/HDPortraits/Anton_Beach, Mods/HDPortraits/Ariah_Beach, Mods/HDPortraits/Blair_Beach, Mods/HDPortraits/Carmen_Beach, Mods/HDPortraits/Faye_Beach, Mods/HDPortraits/Irene_Beach, Mods/HDPortraits/Kiarra_Beach, Mods/HDPortraits/Kimpoi_Beach, Mods/HDPortraits/Lorenzo_Beach, Mods/HDPortraits/Louie_Beach, Mods/HDPortraits/Maive_Beach, Mods/HDPortraits/Malaya_Beach, Mods/HDPortraits/Naomi_Beach, Mods/HDPortraits/Paula_Beach, Mods/HDPortraits/Sean_Beach, Mods/HDPortraits/Shanice_Beach, Mods/HDPortraits/Sonny_Beach, Mods/HDPortraits/June_Beach, Mods/HDPortraits/Zayne_Beach, Mods/HDPortraits/Flor_Dress, Mods/HDPortraits/Maddie_Merida, Mods/HDPortraits/Maddie_Ariel, Mods/HDPortraits/Maddie_Elsa, Mods/HDPortraits/Maddie_Lab, Mods/HDPortraits/Daia_Party, ",
+      "Target": "Mods/HDPortraits/Aguar, Mods/HDPortraits/Alissa, Mods/HDPortraits/Bert, Mods/HDPortraits/Corine, Mods/HDPortraits/Ezekiel, Mods/HDPortraits/Flor, Mods/HDPortraits/Freddie, Mods/HDPortraits/Ian, Mods/HDPortraits/Jeric, Mods/HDPortraits/Jio, Mods/HDPortraits/Keahi, Mods/HDPortraits/Kenneth, Mods/HDPortraits/Kiwi, Mods/HDPortraits/Lenny, Mods/HDPortraits/Lola, Mods/HDPortraits/Maddie, Mods/HDPortraits/Olga, Mods/HDPortraits/Philip, Mods/HDPortraits/Pika, Mods/HDPortraits/Richard, Mods/HDPortraits/Shiro, Mods/HDPortraits/Trinnie, Mods/HDPortraits/Ysabelle, Mods/HDPortraits/Yuuma, Mods/HDPortraits/Undreya, Mods/HDPortraits/Helen, Mods/HDPortraits/Daia, Mods/HDPortraits/Belinda, Mods/HDPortraits/Bliss, Mods/HDPortraits/Sari, Mods/HDPortraits/Pipo, Mods/HDPortraits/Naomi, Mods/HDPortraits/Malaya, Mods/HDPortraits/Kimpoi, Mods/HDPortraits/Anton, Mods/HDPortraits/Ariah, Mods/HDPortraits/Blair, Mods/HDPortraits/Bryle, Mods/HDPortraits/Carmen, Mods/HDPortraits/Faye, Mods/HDPortraits/Irene, Mods/HDPortraits/Kiarra, Mods/HDPortraits/Lorenzo, Mods/HDPortraits/Louie, Mods/HDPortraits/Maive, Mods/HDPortraits/Paula, Mods/HDPortraits/Raeriyala, Mods/HDPortraits/Sean, Mods/HDPortraits/Shanice, Mods/HDPortraits/Sonny, Mods/HDPortraits/Zayne, Mods/HDPortraits/TreehouseGirl, Mods/HDPortraits/Althea, Mods/HDPortraits/Lorraine, Mods/HDPortraits/Nadaline, Mods/HDPortraits/Zachary, Mods/HDPortraits/June, Mods/HDPortraits/Aguar_Beach, Mods/HDPortraits/Alissa_Beach, Mods/HDPortraits/Bert_Beach, Mods/HDPortraits/Corine_Beach, Mods/HDPortraits/Ezekiel_Beach, Mods/HDPortraits/Flor_Beach, Mods/HDPortraits/Freddie_Beach, Mods/HDPortraits/Ian_Beach, Mods/HDPortraits/Jeric_Beach, Mods/HDPortraits/Jio_Beach, Mods/HDPortraits/Keahi_Beach, Mods/HDPortraits/Kenneth_Beach, Mods/HDPortraits/Kiwi_Beach, Mods/HDPortraits/Lenny_Beach, Mods/HDPortraits/Lola_Beach, Mods/HDPortraits/Maddie_Beach, Mods/HDPortraits/Olga_Beach, Mods/HDPortraits/Philip_Beach, Mods/HDPortraits/Pika_Beach, Mods/HDPortraits/Richard_Beach, Mods/HDPortraits/Shiro_Beach, Mods/HDPortraits/Trinnie_Beach, Mods/HDPortraits/Ysabelle_Beach, Mods/HDPortraits/Yuuma_Beach, Mods/HDPortraits/Daia_Beach, Mods/HDPortraits/Anton_Beach, Mods/HDPortraits/Ariah_Beach, Mods/HDPortraits/Blair_Beach, Mods/HDPortraits/Carmen_Beach, Mods/HDPortraits/Faye_Beach, Mods/HDPortraits/Irene_Beach, Mods/HDPortraits/Kiarra_Beach, Mods/HDPortraits/Kimpoi_Beach, Mods/HDPortraits/Lorenzo_Beach, Mods/HDPortraits/Louie_Beach, Mods/HDPortraits/Maive_Beach, Mods/HDPortraits/Malaya_Beach, Mods/HDPortraits/Naomi_Beach, Mods/HDPortraits/Paula_Beach, Mods/HDPortraits/Sean_Beach, Mods/HDPortraits/Shanice_Beach, Mods/HDPortraits/Sonny_Beach, Mods/HDPortraits/June_Beach, Mods/HDPortraits/Zayne_Beach, Mods/HDPortraits/Flor_Dress, Mods/HDPortraits/Maddie_Merida, Mods/HDPortraits/Maddie_Ariel, Mods/HDPortraits/Maddie_Elsa, Mods/HDPortraits/Maddie_Lab, Mods/HDPortraits/Daia_Party, Mods/HDPortraits/Leilani",
       "FromFile": "assets/base.json"
     },
     {
       "LogName": "HDRidgeside - Portraits",
       "Action": "EditData",
-      "Target": "Mods/HDPortraits/Aguar, Mods/HDPortraits/Alissa, Mods/HDPortraits/Bert, Mods/HDPortraits/Corine, Mods/HDPortraits/Ezekiel, Mods/HDPortraits/Flor, Mods/HDPortraits/Freddie, Mods/HDPortraits/Ian, Mods/HDPortraits/Jeric, Mods/HDPortraits/Jio, Mods/HDPortraits/Keahi, Mods/HDPortraits/Kenneth, Mods/HDPortraits/Kiwi, Mods/HDPortraits/Lenny, Mods/HDPortraits/Lola, Mods/HDPortraits/Maddie, Mods/HDPortraits/Olga, Mods/HDPortraits/Philip, Mods/HDPortraits/Pika, Mods/HDPortraits/Richard, Mods/HDPortraits/Shiro, Mods/HDPortraits/Trinnie, Mods/HDPortraits/Ysabelle, Mods/HDPortraits/Yuuma, Mods/HDPortraits/Undreya, Mods/HDPortraits/Helen, Mods/HDPortraits/Daia, Mods/HDPortraits/Belinda, Mods/HDPortraits/Bliss, Mods/HDPortraits/Sari, Mods/HDPortraits/Pipo, Mods/HDPortraits/Naomi, Mods/HDPortraits/Malaya, Mods/HDPortraits/Kimpoi, Mods/HDPortraits/Anton, Mods/HDPortraits/Ariah, Mods/HDPortraits/Blair, Mods/HDPortraits/Bryle, Mods/HDPortraits/Carmen, Mods/HDPortraits/Faye, Mods/HDPortraits/Irene, Mods/HDPortraits/Kiarra, Mods/HDPortraits/Lorenzo, Mods/HDPortraits/Louie, Mods/HDPortraits/Maive, Mods/HDPortraits/Paula, Mods/HDPortraits/Raeriyala, Mods/HDPortraits/Sean, Mods/HDPortraits/Shanice, Mods/HDPortraits/Sonny, Mods/HDPortraits/Zayne, Mods/HDPortraits/TreehouseGirl, Mods/HDPortraits/Althea, Mods/HDPortraits/Lorraine, Mods/HDPortraits/Nadaline, Mods/HDPortraits/Zachary, Mods/HDPortraits/June, Mods/HDPortraits/Aguar_Beach, Mods/HDPortraits/Alissa_Beach, Mods/HDPortraits/Bert_Beach, Mods/HDPortraits/Corine_Beach, Mods/HDPortraits/Ezekiel_Beach, Mods/HDPortraits/Flor_Beach, Mods/HDPortraits/Freddie_Beach, Mods/HDPortraits/Ian_Beach, Mods/HDPortraits/Jeric_Beach, Mods/HDPortraits/Jio_Beach, Mods/HDPortraits/Keahi_Beach, Mods/HDPortraits/Kenneth_Beach, Mods/HDPortraits/Kiwi_Beach, Mods/HDPortraits/Lenny_Beach, Mods/HDPortraits/Lola_Beach, Mods/HDPortraits/Maddie_Beach, Mods/HDPortraits/Olga_Beach, Mods/HDPortraits/Philip_Beach, Mods/HDPortraits/Pika_Beach, Mods/HDPortraits/Richard_Beach, Mods/HDPortraits/Shiro_Beach, Mods/HDPortraits/Trinnie_Beach, Mods/HDPortraits/Ysabelle_Beach, Mods/HDPortraits/Yuuma_Beach, Mods/HDPortraits/Daia_Beach, Mods/HDPortraits/Anton_Beach, Mods/HDPortraits/Ariah_Beach, Mods/HDPortraits/Blair_Beach, Mods/HDPortraits/Carmen_Beach, Mods/HDPortraits/Faye_Beach, Mods/HDPortraits/Irene_Beach, Mods/HDPortraits/Kiarra_Beach, Mods/HDPortraits/Kimpoi_Beach, Mods/HDPortraits/Lorenzo_Beach, Mods/HDPortraits/Louie_Beach, Mods/HDPortraits/Maive_Beach, Mods/HDPortraits/Malaya_Beach, Mods/HDPortraits/Naomi_Beach, Mods/HDPortraits/Paula_Beach, Mods/HDPortraits/Sean_Beach, Mods/HDPortraits/Shanice_Beach, Mods/HDPortraits/Sonny_Beach, Mods/HDPortraits/June_Beach, Mods/HDPortraits/Zayne_Beach, Mods/HDPortraits/Flor_Dress, Mods/HDPortraits/Maddie_Merida, Mods/HDPortraits/Maddie_Ariel, Mods/HDPortraits/Maddie_Elsa, Mods/HDPortraits/Maddie_Lab, Mods/HDPortraits/Daia_Party, ",
+      "Target": "Mods/HDPortraits/Aguar, Mods/HDPortraits/Alissa, Mods/HDPortraits/Bert, Mods/HDPortraits/Corine, Mods/HDPortraits/Ezekiel, Mods/HDPortraits/Flor, Mods/HDPortraits/Freddie, Mods/HDPortraits/Ian, Mods/HDPortraits/Jeric, Mods/HDPortraits/Jio, Mods/HDPortraits/Keahi, Mods/HDPortraits/Kenneth, Mods/HDPortraits/Kiwi, Mods/HDPortraits/Lenny, Mods/HDPortraits/Lola, Mods/HDPortraits/Maddie, Mods/HDPortraits/Olga, Mods/HDPortraits/Philip, Mods/HDPortraits/Pika, Mods/HDPortraits/Richard, Mods/HDPortraits/Shiro, Mods/HDPortraits/Trinnie, Mods/HDPortraits/Ysabelle, Mods/HDPortraits/Yuuma, Mods/HDPortraits/Undreya, Mods/HDPortraits/Helen, Mods/HDPortraits/Daia, Mods/HDPortraits/Belinda, Mods/HDPortraits/Bliss, Mods/HDPortraits/Sari, Mods/HDPortraits/Pipo, Mods/HDPortraits/Naomi, Mods/HDPortraits/Malaya, Mods/HDPortraits/Kimpoi, Mods/HDPortraits/Anton, Mods/HDPortraits/Ariah, Mods/HDPortraits/Blair, Mods/HDPortraits/Bryle, Mods/HDPortraits/Carmen, Mods/HDPortraits/Faye, Mods/HDPortraits/Irene, Mods/HDPortraits/Kiarra, Mods/HDPortraits/Lorenzo, Mods/HDPortraits/Louie, Mods/HDPortraits/Maive, Mods/HDPortraits/Paula, Mods/HDPortraits/Raeriyala, Mods/HDPortraits/Sean, Mods/HDPortraits/Shanice, Mods/HDPortraits/Sonny, Mods/HDPortraits/Zayne, Mods/HDPortraits/TreehouseGirl, Mods/HDPortraits/Althea, Mods/HDPortraits/Lorraine, Mods/HDPortraits/Nadaline, Mods/HDPortraits/Zachary, Mods/HDPortraits/June, Mods/HDPortraits/Aguar_Beach, Mods/HDPortraits/Alissa_Beach, Mods/HDPortraits/Bert_Beach, Mods/HDPortraits/Corine_Beach, Mods/HDPortraits/Ezekiel_Beach, Mods/HDPortraits/Flor_Beach, Mods/HDPortraits/Freddie_Beach, Mods/HDPortraits/Ian_Beach, Mods/HDPortraits/Jeric_Beach, Mods/HDPortraits/Jio_Beach, Mods/HDPortraits/Keahi_Beach, Mods/HDPortraits/Kenneth_Beach, Mods/HDPortraits/Kiwi_Beach, Mods/HDPortraits/Lenny_Beach, Mods/HDPortraits/Lola_Beach, Mods/HDPortraits/Maddie_Beach, Mods/HDPortraits/Olga_Beach, Mods/HDPortraits/Philip_Beach, Mods/HDPortraits/Pika_Beach, Mods/HDPortraits/Richard_Beach, Mods/HDPortraits/Shiro_Beach, Mods/HDPortraits/Trinnie_Beach, Mods/HDPortraits/Ysabelle_Beach, Mods/HDPortraits/Yuuma_Beach, Mods/HDPortraits/Daia_Beach, Mods/HDPortraits/Anton_Beach, Mods/HDPortraits/Ariah_Beach, Mods/HDPortraits/Blair_Beach, Mods/HDPortraits/Carmen_Beach, Mods/HDPortraits/Faye_Beach, Mods/HDPortraits/Irene_Beach, Mods/HDPortraits/Kiarra_Beach, Mods/HDPortraits/Kimpoi_Beach, Mods/HDPortraits/Lorenzo_Beach, Mods/HDPortraits/Louie_Beach, Mods/HDPortraits/Maive_Beach, Mods/HDPortraits/Malaya_Beach, Mods/HDPortraits/Naomi_Beach, Mods/HDPortraits/Paula_Beach, Mods/HDPortraits/Sean_Beach, Mods/HDPortraits/Shanice_Beach, Mods/HDPortraits/Sonny_Beach, Mods/HDPortraits/June_Beach, Mods/HDPortraits/Zayne_Beach, Mods/HDPortraits/Flor_Dress, Mods/HDPortraits/Maddie_Merida, Mods/HDPortraits/Maddie_Ariel, Mods/HDPortraits/Maddie_Elsa, Mods/HDPortraits/Maddie_Lab, Mods/HDPortraits/Daia_Party, Mods/HDPortraits/Leilani",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}.png}}"
       }
@@ -131,6 +131,59 @@
       "When": {
         "IreneTraveling": true,
         "HasSeenEvent |contains=75160431": true
+      }
+    },
+    // Leilani
+    {
+      "LogName": "HDRidgeside - Luau",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Leilani",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}_Luau.png}}"
+      },
+      "When": {
+        "DayEvent": "luau"
+      }
+    },
+    // Moonlight Jellies
+    {
+      "LogName": "HDRidgeside - Moonlight Jellies",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Leilani",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}_moonlightjellies.png}}"
+      },
+      "When": {
+        "DayEvent": "dance of the moonlight jellies"
+      }
+    },
+    // Rain, outdoor
+    {
+      "LogName": "HDRidgeside - Rain outdoors",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Leilani",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}_rain_outdoor.png}}"
+      },
+      "When": {
+        "Weather": "rain, storm",
+        "IsOutdoors": true
+      }
+    },
+    {
+      "LogName": "HDRidgeside - Rain indoors",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Leilani",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}_rain_indoor.png}}"
+      },
+      "When": {
+        "Weather": "rain, storm",
+        "IsOutdoors": false
       }
     }
   ]

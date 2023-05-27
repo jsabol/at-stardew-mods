@@ -4,16 +4,69 @@
     {
       "LogName": "Load HDPortraits Size",
       "Action": "Load",
-      "Target": "Mods/HDPortraits/Aideen, Mods/HDPortraits/Eloise, Mods/HDPortraits/Eloise_beach, Mods/HDPortraits/Jacob, Mods/HDPortraits/Jacob_beach, Mods/HDPortraits/JosephineK, Mods/HDPortraits/KatarynaLK, Mods/HDPortraits/KatarynaLK_wetHair, Mods/HDPortraits/OliverK, Mods/HDPortraits/Rosa, Mods/HDPortraits/VivienneLK, Mods/HDPortraits/Leximonster, Mods/HDPortraits/Jasper, Mods/HDPortraits/Cameron",
+      "Target": "Mods/HDPortraits/Aideen, Mods/HDPortraits/Eloise, Mods/HDPortraits/Eloise_beach, Mods/HDPortraits/Jacob, Mods/HDPortraits/Jacob_beach, Mods/HDPortraits/JosephineK, Mods/HDPortraits/KatarynaLK, Mods/HDPortraits/KatarynaLK_wetHair, Mods/HDPortraits/OliverK, Mods/HDPortraits/Rosa, Mods/HDPortraits/VivienneLK, Mods/HDPortraits/Leximonster, Mods/HDPortraits/Jasper, Mods/HDPortraits/Cameron, Mods/HDPortraits/MisterGinger, Mods/HDPortraits/Tristan, Mods/HDPortraits/MisterGinger_date, ",
       "FromFile": "assets/base.json"
     },
     // non-seasonal
     {
       "LogName": "HDPortraitES - East Scarpe Non-Seasonal",
       "Action": "EditData",
-      "Target": "Mods/HDPortraits/Aideen, Mods/HDPortraits/JosephineK, Mods/HDPortraits/KatarynaLK, Mods/HDPortraits/OliverK, Mods/HDPortraits/Rosa, Mods/HDPortraits/Leximonster, Mods/HDPortraits/Cameron",
+      "Target": "Mods/HDPortraits/Aideen, Mods/HDPortraits/JosephineK, Mods/HDPortraits/KatarynaLK, Mods/HDPortraits/OliverK, Mods/HDPortraits/Rosa, Mods/HDPortraits/Leximonster, Mods/HDPortraits/Cameron, Mods/HDPortraits/MisterGinger",
       "Entries": {
         "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}.png}}"
+      }
+    },
+    // Tristan default, must be before seasonal
+    {
+      "LogName": "HDPortraitES - Seasonal",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Tristan",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_swim.png}}"
+      }
+    },
+    // Tristan Rival hearts
+    {
+      "LogName": "HDPortraitES - Seasonal",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/MisterGinger_date",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_date.png}}"
+      }
+    },
+    // Seasonal
+    {
+      "LogName": "HDPortraitES - Seasonal",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jacob, Mods/HDPortraits/Tristan",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{season}}.png}}"
+      }
+    },
+    // Mister Ginger + Tristan
+    {
+      "LogName": "HDPortraitES - Mister Ginger + Tristan",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/MisterGinger",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Tristan/Tristan_{{season}}.png}}"
+      },
+      "When": {
+        "HasSeenEvent:hostPlayer": "5295000"
+      }
+    },
+    {
+      "LogName": "HDPortraitES - Mister Ginger + Tristan SpiritsEve",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/MisterGinger",
+      "Update": "OnLocationChange",
+      "PatchMode": "Overlay",
+      "Entries": {
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Tristan/Overlays/SpiritsEve.png}}"
+      },
+      "When": {
+        "DayEvent": "spirit's eve",
+        "LocationName": "Custom_EastScarpeInn"
       }
     },
     // KatarynaLK_wetHair
@@ -66,15 +119,6 @@
       "When": {
         "IsOutdoors": true,
         "Weather": "rain, storm"
-      }
-    },
-    // Jacob Seasonal
-    {
-      "LogName": "HDPortraitES - Jacob Seasonal",
-      "Action": "EditData",
-      "Target": "Mods/HDPortraits/Jacob",
-      "Entries": {
-        "Portrait": "{{InternalAssetKey: assets/Portraits/Jacob/Jacob_{{season}}.png}}"
       }
     },
     // Jacob Beach
