@@ -4,6 +4,15 @@
       "LogName": "Emily - Seasonal",
       "Action": "EditImage",
       "Target": "Characters/Emily",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    },
+    {
+      "LogName": "Emily - Seasonal Indoor/Outdoor",
+      "Action": "EditImage",
+      "Target": "Characters/Emily",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
