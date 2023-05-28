@@ -1,0 +1,128 @@
+{
+  "Name": "Vanilla Hair 22",
+  "FrontHair": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 125
+      }
+    ],
+    "RequireAnimationToFinish": false,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 125
+      },
+      {
+        "Frame": 1,
+        "Duration": 125
+      },
+    ]
+  },
+  "RightHair": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 125
+      }
+    ],
+    "RequireAnimationToFinish": false,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 125
+      },
+      {
+        "Frame": 1,
+        "Duration": 125
+      },
+    ]
+  },
+  "LeftHair": {
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X":0,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 125
+      }
+    ],
+    "RequireAnimationToFinish": false,
+    "MovementAnimation": [
+     {
+        "Frame": 0,
+        "Duration": 125
+      },
+      {
+        "Frame": 1,
+        "Duration": 125
+      },
+    ]
+  },
+  "BackHair": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 125
+      }
+    ],
+    "RequireAnimationToFinish": false,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 125
+      },
+      {
+        "Frame": 1,
+        "Duration": 125
+      },
+    ]
+  }
+}

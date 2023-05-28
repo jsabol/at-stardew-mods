@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[FS] Simple farmer dresses",
+  "Author": "Wabi",
+  "Version": "1.3.0",
+  "Description": "Adds simple dresses for the farmer.",
+  "UniqueID": "wabi.simplefarmerdresses",
+  "UpdateKeys": [ "Nexus:10249" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "3.0.1"
+  }
+}

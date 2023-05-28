@@ -1,0 +1,11 @@
+{
+   "Name": "[FS] Coii's Hair Sets Pack",
+   "Author": "Coii, conversion by Iceprincess98",
+   "Version": "1.4",
+   "Description": "Fashion Sense Pack: adds hairstyles.",
+   "UniqueID": "Coii.Hairstyles.FS",
+	"ContentPackFor":
+	{
+		"UniqueID": "PeacefulEnd.FashionSense"
+	}
+}

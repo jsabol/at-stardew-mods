@@ -1,0 +1,453 @@
+{
+  "Name": "Short Braids-Buns",
+  
+  "FrontHair": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 16,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 48,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": false,
+    "MovementAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 75
+      },
+      {
+        "Frame": 1,
+        "Duration": 75
+      },
+      {
+        "Frame": 2,
+        "Duration": 75
+      }, 
+	  {
+        "Frame": 3,
+        "Duration": 75
+      },
+      {
+        "Frame": 4,
+        "Duration": 75
+      }, 
+	  {
+        "Frame": 5,
+        "Duration": 75
+      },
+      {
+        "Frame": 6,
+        "Duration": 75
+      },
+      {
+        "Frame": 7,
+        "Duration": 75
+      },
+      {
+        "Frame":8,
+        "Duration": 75
+      },
+      {
+        "Frame": 9,
+        "Duration": 75
+      }, 
+    ]
+  },
+  "RightHair": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": 16,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 32,
+      "Length": 32
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      }
+    ],
+    "RequireAnimationToFinish": true,
+    "MovementAnimation": [
+       {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+		"OverrideStartingIndex": "True",
+        "Duration": 100
+      },
+      {
+        "Frame": 2,
+        "Duration": 100
+      },
+      {
+        "Frame": 3,
+        "Duration": 100
+      },
+      {
+        "Frame": 4,
+        "Duration": 100
+      },
+      {
+        "Frame": 5,
+        "Duration": 100
+      },
+      {
+        "Frame": 6,
+        "Duration": 100
+      },
+      {
+        "Frame": 7,
+        "Duration": 100
+      },
+      {
+        "Frame": 8,
+		"OverrideStartingIndex": "True",
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 9,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 10,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 11,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 12,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 13,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame":14,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame":15,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      }, 
+      {
+        "Frame":16,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      }, 
+      {
+        "Frame":17,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      }, 
+      {
+        "Frame":18,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      }, 
+    ]
+  },
+  "LeftHair": {
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 32,
+      "Length": 32
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 100
+      }
+    ],
+    "RequireAnimationToFinish": true,
+    "MovementAnimation": [
+       {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+		"OverrideStartingIndex": "True",
+        "Duration": 100
+      },
+      {
+        "Frame": 2,
+        "Duration": 100
+      },
+      {
+        "Frame": 3,
+        "Duration": 100
+      },
+      {
+        "Frame": 4,
+        "Duration": 100
+      },
+      {
+        "Frame": 5,
+        "Duration": 100
+      },
+      {
+        "Frame": 6,
+        "Duration": 100
+      },
+      {
+        "Frame": 7,
+        "Duration": 100
+      },
+      {
+        "Frame": 8,
+		"OverrideStartingIndex": "True",
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 9,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 10,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 11,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 12,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame": 13,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame":14,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      },
+      {
+        "Frame":15,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      }, 
+      {
+        "Frame":16,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      }, 
+      {
+        "Frame":17,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      }, 
+      {
+        "Frame":18,
+        "Duration": 100,
+        "Conditions": [
+          {
+            "Name": "RidingHorse",
+            "Value": true
+          }
+        ]
+      }, 
+    ]
+  },
+  "BackHair": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 64
+    },
+    "HeadPosition": {
+      "X": 16,
+      "Y": 0
+    },
+    "HairSize": {
+      "Width": 48,
+      "Length": 32
+    },
+    "RequireAnimationToFinish": false,
+    "MovementAnimation": [
+     {
+        "Frame": 0,
+        "Duration": 75
+      },
+      {
+        "Frame": 1,
+        "Duration": 75
+      },
+      {
+        "Frame": 2,
+        "Duration": 75
+      }, 
+	  {
+        "Frame": 3,
+        "Duration": 75
+      },
+      {
+        "Frame": 4,
+        "Duration": 75
+      }, 
+	  {
+        "Frame": 5,
+        "Duration": 75
+      },
+      {
+        "Frame": 6,
+        "Duration": 75
+      },
+      {
+        "Frame": 7,
+        "Duration": 75
+      }, 
+      {
+        "Frame": 8,
+        "Duration": 75
+      },
+      {
+        "Frame": 9,
+        "Duration": 75
+      }, 
+    ]
+  }
+}

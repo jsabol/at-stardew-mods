@@ -1,0 +1,11 @@
+{
+   "Name": "[FS] Female Farmer Overhaul",
+   "Author": "AnonymousIndigo, conversion by Iceprincess98",
+   "Version": "1.0.0",
+   "Description": "A complete female farmer overhaul.",
+   "UniqueID": "anonymousindigo.FS.femalefarmer",
+   "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "5.0.11"
+   }
+}
