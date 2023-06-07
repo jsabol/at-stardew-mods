@@ -1,13 +1,20 @@
 // Content Patcher] Can't apply image patch "Cattegy Character Appearance > Shane Changes > shane.json > Shane Sprite - Indoor Variant" to Characters/Shane: the FromFile file 'assets\Characters\Shane\Shane_spring_2.png' doesn't exist.
 {
   "Changes": [
+    // size
+    {
+      "LogName": "Load HDPortraits Size",
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Shane, Mods/HDPortraits/Shane_Beach, ",
+      "FromFile": "assets/base.json"
+    },
     // Portrait Seasonal
     {
       "LogName": "Shane Portrait - Seasonal",
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Shane",
       "Entries": {
-        "Portrait": "{{InternalAssetKey: assets/Portraits/Shane/Shane_{{Season}}{{IndoorVariant}}_{{Random:1, 2 |key=ShaneVariant}}.png}}"
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Shane/Shane_{{Season}}_{{IndoorVariant}}_{{Random:1, 2 |key=ShaneVariant}}.png}}"
       },
       "Update": "OnLocationChange"
     },
@@ -28,9 +35,12 @@
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Shane",
       "Entries": {
-        "Portrait": "{{InternalAssetKey: assets/Portraits/Shane/Festivals/{{Festival}}/Shane_{{Festival}}.png}}"
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Shane/Festivals/Shane_{{Festival}}.png}}"
       },
-      "Update": "OnLocationChange"
+      "Update": "OnLocationChange",
+      "When": {
+        "HasFile:assets/Portraits/Shane/Festivals/Shane_{{Festival}}.png": true
+      }
     },
     // Festivals sprites
     {
@@ -75,7 +85,7 @@
       "Action": "EditData",
       "Target": "Mods/HDPortraits/Shane_Beach",
       "Entries": {
-        "Portrait": "{{InternalAssetKey: assets/Portraits/Shane/Beach/Shane.png}}"
+        "Portrait": "{{InternalAssetKey: assets/Portraits/Shane/Shane_Beach.png}}"
       },
       "Update": "OnLocationChange"
     },
@@ -83,7 +93,7 @@
       "LogName": "Shane Sprite - Beach",
       "Action": "EditImage",
       "Target": "Characters/Shane_Beach",
-      "FromFile": "assets/Characters/Shane/Beach/Shane.png",
+      "FromFile": "assets/Characters/Shane/Shane_Beach.png",
       "Update": "OnLocationChange"
     }
   ]
