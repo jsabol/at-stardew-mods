@@ -14,7 +14,7 @@
       "LogName": "Clint - Winter Indoor/Outdoor",
       "Action": "EditImage",
       "Target": "Characters/Clint",
-      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}_{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
         "Season": "Winter",

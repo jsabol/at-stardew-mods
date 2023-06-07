@@ -161,7 +161,7 @@
       "LogName": "Eloise Season in/out",
       "Action": "EditImage",
       "Target": "Characters/Eloise",
-      "FromFile": "assets/{{Target}}/Eloise_{{Season}}{{IndoorVariant}}.png",
+      "FromFile": "assets/{{Target}}/Eloise_{{season}}_{{IndoorVariant}}.png",
       "Update": "OnLocationChange",
       "When": {
         "HasFile:{{FromFile}}": true,

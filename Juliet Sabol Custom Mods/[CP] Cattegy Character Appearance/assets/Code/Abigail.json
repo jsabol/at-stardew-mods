@@ -4,7 +4,7 @@
       "LogName": "Abigail - Seasonal",
       "Action": "EditImage",
       "Target": "Characters/Abigail",
-      "FromFile": "assets/{{Target}}_{{season}}{{IndoorVariant}}.png",
+      "FromFile": "assets/{{Target}}_{{season}}_{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
       }
@@ -13,7 +13,7 @@
       "LogName": "Abigail - Winter Indoor/Outdoor",
       "Action": "EditImage",
       "Target": "Characters/Abigail",
-      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}_{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
         "Season": "Winter"

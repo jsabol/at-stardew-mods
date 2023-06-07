@@ -4,7 +4,7 @@
       "LogName": "Vincent - Seasonal",
       "Action": "EditImage",
       "Target": "Characters/Vincent",
-      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}_{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true
       }
@@ -13,7 +13,7 @@
       "LogName": "Vincent - Winter Indoor/Outdoor",
       "Action": "EditImage",
       "Target": "Characters/Vincent",
-      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}_{{IndoorVariant}}.png",
       "When": {
         "HasFile:{{FromFile}}": true,
         "Season": "Winter"

@@ -87,7 +87,7 @@
       "LogName": "regular characters season/outdoor",
       "Action": "EditImage",
       "Target": "Characters/Alesia, Characters/Andy, Characters/Camilla, Characters/Claire, Characters/FemaleFarmer, Characters/GuntherSilvian, Characters/Isaac, Characters/Jadu, Characters/Jolyne, Characters/Lance, Characters/Magnus, Characters/MaleFarmer, Characters/MarlonFay, Characters/Martin, Characters/Morgan, Characters/MorrisTod, Characters/Olivia, Characters/Scarlett, Characters/ScarlettFake, Characters/Sophia, Characters/SophiaJPKsprite, Characters/Susan, Characters/Victor, Characters/Axel, Characters/Jace, Characters/Chloe, Characters/Zoey, Characters/Brooklyn",
-      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}.png",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}_{{IndoorVariant}}.png",
       "Update": "OnLocationChange",
       "When": {
         "HasFile:{{FromFile}}": true
@@ -274,7 +274,7 @@
       "LogName": "Claire's Theater Sprites 14 heart season outdoor",
       "Action": "EditImage",
       "Target": "Characters/Claire",
-      "FromFile": "assets/Characters/Claire/Claire_{{Season}}{{IndoorVariant}}.png",
+      "FromFile": "assets/Characters/Claire/Claire_{{season}}_{{IndoorVariant}}.png",
       "When": {
         "Spouse |contains=Claire": true,
         "LocationName": "MovieTheater",
@@ -362,7 +362,7 @@
       "LogName": "Morris Vanilla Sprite outdoor",
       "Action": "EditImage",
       "Target": "Characters/Morris",
-      "FromFile": "assets/Characters/MorrisTod/MorrisTod_{{Season}}{{IndoorVariant}}.png",
+      "FromFile": "assets/Characters/MorrisTod/MorrisTod_{{season}}_{{IndoorVariant}}.png",
       "Update": "OnLocationChange",
       "When": {
         "HasFile:{{FromFile}}": true
