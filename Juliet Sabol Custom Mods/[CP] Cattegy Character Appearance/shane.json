@@ -23,7 +23,7 @@
       "LogName": "Shane Sprite - Indoor Variant",
       "Action": "EditImage",
       "Target": "Characters/Shane,",
-      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}_{{Random:1, 2 |key=ShaneVariant}}.png",
+      "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Season}}_{{IndoorVariant}}_{{Random:1, 2 |key=ShaneVariant}}.png",
       "Update": "OnLocationChange",
       "When": {
         "HasFile:{{FromFile}}": true
