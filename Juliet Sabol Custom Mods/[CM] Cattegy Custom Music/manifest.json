@@ -1,0 +1,11 @@
+{
+  "Name": "Cattegy Custom Music",
+  "Author": "Cattegy",
+  "Version": "1.0.0",
+  "Description": "Cattegy Custom Music",
+  "UniqueID": "Cattegy.CustomMusic.MyMusic",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomMusic",
+    "MinimumVersion": "1.0.0"
+  }
+}

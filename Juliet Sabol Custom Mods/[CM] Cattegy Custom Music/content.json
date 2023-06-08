@@ -1,0 +1,381 @@
+{
+  "Music": [
+    // @see https://stardewvalleywiki.com/Soundtrack
+    // @see https://docs.google.com/spreadsheets/d/1CpDrw23peQiq-C7F2FjYOMePaYe0Rc9BwQsj3h6sjyo/edit#gid=1007418291
+    // @see https://stardewvalleywiki.com/Modding:Audio
+    // @see https://stardewmodding.miraheze.org/wiki/Custom_Music
+    // @see https://stardewmodding.miraheze.org/wiki/Tutorial:_Adding_Custom_Music
+
+    // Mines ------------------
+    // 🎵 Crystal Bells: 1-39 `Crystal Bells`
+    // 🎵 A Flicker in the Deep: 1-39 `Cavern`
+    // 🎵 Star Lumpy: 1-39 `Secret Gnomes`
+    // 🎵 Icicles: 40-79 `Icicles`
+    // 🎵 Marimba of Frozen Bones: 40-79 `XOR`
+    // 🎵 Cloth: 40-79 `Cloth`
+    // 🎵 Visitor to the Unknown: 80-120, Skull Cavern `Near The Planet Core`
+    // 🎵 The Lava Dwellers: 80-120, Skull Cavern `Of Dwarves`
+    // 🎵 Magical Shoes: 80-120, Skull Cavern `Overcast`
+    // 🎵 Danger: 80-120, Skull Cavern `tribal`
+    // 🎵 Molten Jelly: Volcano 1-4
+    // 🎵 Forgotten World: Volcano 6-9
+
+    // `VolcanoMines1`, `VolcanoMines2`, `VolcanoMines` #TODO
+
+    // SILENT: Outside during rain and storm days
+
+    // `nightTime` night ambient
+    // `spring_night_ambient`
+    // `rain` ambient
+
+    // Conditions
+    // r 0-1
+    // w rainy
+    // season spring, summer, fall, winter
+
+    // my time at portia
+    // TODO The Commerce Guild Claude Ruelle My Time at Portia (Original Video Game Soundtrack)
+
+    // other games
+    // My time at sandrock
+    // Story of Seasons  https://open.spotify.com/album/1Q1zvPXdNcVsm5EEelSdUa?si=DzXo5uJ6TQexmEOyA1T8dg
+    // Coral Island - good for ginger island https://open.spotify.com/album/5etXpYDldtmCfhfWzMOb42?si=h1r5PK2xS-aRjaEchIbEIQ
+    // Littlewood - okay
+    // Chicory - https://open.spotify.com/album/6DdR2sAfxq6qhsYhVIa83Q?si=_WJwT5BmRTip2nMoEfbRug
+    // Undertale piano remixes
+    // - https://open.spotify.com/album/46Kw3kMUjN6xOBIsS0UEw3?si=yxBzH1C8TtGjW7RLDfNYeg
+    // - https://open.spotify.com/album/5Wm3rQj8XlaZlXx1kg9MIV?si=4VraRmzOSuWPz2tU0IcfXA
+
+    // AMBIENT ----------------------
+    // - `spring_night_ambient`
+    // - `summer_day_ambient`
+    // `fall_day_ambient`
+    // `winter_day_ambient`
+    // `tropical_island_day_ambient`
+
+    // - `spring_day_ambient`
+    {
+      "Id": "spring_day_ambient",
+      "File": "files/forest-with-small-river-birds-and-nature-field-recording-6735.wav",
+      "Loop": true,
+      "Ambient": true,
+      "Preload": false
+    },
+    // `rain`, this includes music
+    {
+      "Id": "rain",
+      "File": "PianoValley/Pal_RainingJellies.wav",
+      "Loop": true,
+      "Ambient": true,
+      "Preload": false,
+      "Conditions": "r 0.5"
+    },
+    // MUSIC ----------------
+    // PLACES -------------
+    // 🎵 A glimpse of the other world: Wizard tower `WizardSong`
+    // 🎵 Calico Desert - Desert `wavy`
+    // 🎵 In the Deep Woods - Secret Woods `woodsTheme`
+    // 🎵 Ginger Island - Ginger Island `IslandMusic`
+
+    // 🎵 Distant Banjo: harvey's clinic, leah's cottage, oasis `distantBanjo`
+    {
+      "Id": "distantBanjo",
+      "File": "PianoValley/Pal_DistantBanjo.wav",
+      "Loop": true,
+      "Preload": false,
+      "Conditions": "r 0.5"
+    },
+    // 🎵 The Library and Museum - Museum `libraryTheme`
+    {
+      "Id": "libraryTheme",
+      "File": "PianoValley/Pal_LibraryMuseum.wav",
+      "Loop": true,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    {
+      "Id": "libraryTheme",
+      "File": "files/Lazy Days Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+      "Loop": true,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    // 🎵 The Stardrop Saloon - Stardrop Saloon after 5pm `Saloon1`
+    {
+      "Id": "Saloon1",
+      "File": "PianoValley/Pal_StardropSaloon.wav",
+      "Loop": true,
+      "Preload": false,
+      "Conditions": "r 0.5"
+    },
+    // 🎵 Pelican Town: Spring, summer, fail, day, sunny `springtown`
+    {
+      "Id": "springtown",
+      "File": "PianoValley/Pal_PelicanTown.wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    {
+      "Id": "springtown",
+      "File": "files/Home Sweet Home Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    // 🎵 The Adventure Guild  - Adventurer's Guild `MarlonsTheme`
+    // banjoey, with some plodding mystery
+    {
+      "Id": "MarlonsTheme",
+      "File": "PianoValley/Pal_AdventureGuild.wav",
+      "Loop": true,
+      "Preload": false,
+      "Conditions": "r 0.5"
+    },
+    // 🎵 Country Shop: Robin's, Marnie's `marnieShop`
+    {
+      "Id": "marnieShop",
+      "File": "PianoValley/Pal_CarpentersShop.wav",
+      "Loop": true,
+      "Preload": false,
+      "Conditions": "r 0.5"
+    },
+
+    // SEASONS -----------------
+    // spring sunny, morning
+    // - `spingsongs` - cycles - Bouncy?,
+
+    // - 🎵 Spring (It's A Big World Outside) `spring1` `Pink Petals`
+    {
+      "Id": "spring1",
+      "File": "PianoValley/Pal_SpringBigWorld.wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    {
+      "Id": "spring1",
+      "File": "files/A Sign of Spring Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    // - 🎵 Spring (The Valley Comes Alive) `spring2`
+    {
+      "Id": "spring2",
+      "File": "PianoValley/Pal_SpringValleyAlive.wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.4"
+    },
+    {
+      "Id": "spring2",
+      "File": "files/Green Fields Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    // - 🎵 Spring (Wild Horseradish Jam) `spring3`
+    {
+      "Id": "spring3",
+      "File": "PianoValley/Pal_SpringHorseradish.wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    {
+      "Id": "spring2",
+      "File": "files/A Sign of Spring Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    // SUMMER -----------------
+    // Summer, morning, sun
+    // - 🎵 	Summer (Nature's Crescendo) `summer1` and `Orange`
+    {
+      "Id": "summer1",
+      "File": "PianoValley/Pal_SummerCrescendo.wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    {
+      "Id": "summer1",
+      "File": "files/Day of the Bright Sun Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    // - 🎵 	Summer (The Sun Can Bend An Orange Sky) `summer2`
+    {
+      "Id": "summer2",
+      "File": "PianoValley/Pal_SummerOrangeSky.wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    {
+      "Id": "summer2",
+      "File": "files/Under the Hot Sun Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    // - 🎵 	Summer (Tropicala) `summer3` `Tropical Jam`
+    {
+      "Id": "summer3",
+      "File": "PianoValley/Pal_SummerTropicala.wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    {
+      "Id": "summer3",
+      "File": "files/Journey to Portia Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    // FALL ----------------- Fall, morning, sun
+    // - 🎵 	Fall (The Smell of Mushroom) `fall1` `Majestic`
+    {
+      "Id": "fall1",
+      "File": "PianoValley/Pal_FallMushroom.wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    {
+      "Id": "fall1",
+      "File": "files/The Season of Harvest Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    // - 🎵 	Fall (Ghost Synth) `fall2` `Ghost Synth`
+    {
+      "Id": "fall2",
+      "File": "PianoValley/Pal_FallGhost.wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    {
+      "Id": "fall2",
+      "File": "files/Falling Leaves Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    // - 🎵 	Fall (Raven's Descent) `fall3` `Plums`
+    {
+      "Id": "fall3",
+      "File": "PianoValley/Pal_FallRaven.wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    {
+      "Id": "fall3",
+      "File": "files/The Autumn Festival Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    // WINTER ----------------- morning
+    // - 🎵 	Winter (Nocturne Of Ice) `winter1` `New Snow`
+    {
+      "Id": "winter1",
+      "File": "PianoValley/Pal_WinterNocturneIce.wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    {
+      "Id": "winter1",
+      "File": "files/Serenity of Winter Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    // - 🎵 	Winter (The Wind Can Be Still) `winter2` `Cyclops`
+    {
+      "Id": "winter2",
+      "File": "PianoValley/Pal_WinterWindStill.wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    {
+      "Id": "winter2",
+      "File": "files/Serenity of Winter Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.33"
+    },
+    // - 🎵 	Winter (Ancient) `winter3`
+    {
+      "Id": "winter3",
+      "File": "PianoValley/Wrm_WinterAncient.wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.5"
+    },
+    {
+      "Id": "winter3",
+      "File": "files/Serenity of Winter Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+      "Loop": false,
+      "Preload": false,
+      "Conditions": "r 0.1"
+    },
+    // MENUS -------------------
+    // Character creation screen
+    {
+      "Id": "CloudCountry",
+      "File": "PianoValley/Naru_CloudCountry.wav",
+      "Loop": true,
+      "Preload": false,
+      "Conditions": "r 0.5"
+    },
+    // MainTheme
+    {
+      "Id": "MainTheme",
+      "File": "files/My Time at Portia Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+      "Loop": true,
+      "Preload": false,
+      "Conditions": "r 0.5"
+    },
+    // EVENTS ------------------
+    // Day 1 exploration
+    {
+      "Id": "SettlingIn",
+      "File": "PianoValley/Naru_SettlingIn.wav",
+      "Loop": true,
+      "Preload": false,
+      "Conditions": "r 0.5"
+    },
+    // FESTIVALS ------------------
+    // - 🎵 Fun Festival - flower dance `event1`
+    // - 🎵 Luau Festival - luau `event2`
+    // - 🎵 Stardew Valley Fair Theme - Egg festival, stardew valley fair `fallfest`
+    // - 🎵 Night Market - Night Market `night_market`
+
+    // - 🎵 Spirit's Eve Festival - Spirit's Eve `spirits_eve`
+    {
+      "Id": "spirits_eve",
+      "File": "files/Day of Memories Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+      "Loop": true,
+      "Preload": false,
+      "Conditions": "r 0.5"
+    },
+    // - 🎵 Winter Festival - Festival of Ice, Feast of the Winter Star `christmasTheme`
+    {
+      "Id": "christmasTheme",
+      "File": "PianoValley/Dous_WinterFestival.wav",
+      "Loop": true,
+      "Preload": false,
+      "Conditions": "r 0.5"
+    }
+  ]
+}
