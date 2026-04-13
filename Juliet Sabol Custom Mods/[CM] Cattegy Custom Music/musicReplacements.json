@@ -1,0 +1,240 @@
+{
+  // --------------------------
+  //        FESTIVALS
+  // --------------------------
+  // Dance of the Moonlight Jellies | A peaceful synth track with the sound of ocean waves in the background.
+  "moonlightJellies": ["StardewAndChill/08.ogg"],
+  // Feast of the Winter Star | Winter Festival | A joyful holiday tune with jingling bells.
+  "christmasTheme": "PianoValley/Dous_WinterFestival.ogg",
+  // Night Market | A slow track with mallet percussion, strings, flute, and the sound of ocean waves.
+  "night_market": "StardewAndChill/24.ogg",
+  // Spirit's Eve Festival | A spooky theme.
+  "spirits_eve": [
+    "files/Day of Memories Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+    "StardewAndChill/25.ogg"
+  ],
+  // Fun Festival | An upbeat banjo, piano, and bass track. Plays in several cutscenes, such as the judging at the Egg Festival.
+  // TODO "event1": []
+  // Luau Festival | An upbeat yet mysterious xylophone and flute melody. Used during the Luau.
+  // TODO "event2": []
+  // Stardew Valley Fair Theme | A medium-tempo banjo and clarinet duet. Used in various festivals, including the Stardew Valley Fair.
+  // TODO "fallFest": []
+  // --------------------------------
+  //        SEASONS
+  // --------------------------------
+  // Spring (It's a Big World Outside) | A hopeful track featuring strings, clarinet, and flute. Plays in various outdoor locations in spring.
+  "spring1": [
+    "PianoValley/Pal_SpringBigWorld.ogg",
+    "files/A Sign of Spring Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+    "StardewAndChill/27.ogg"
+  ],
+  // Alias for spring1 that is unused by Vanilla.
+  "Pink Petals": [
+    "PianoValley/Pal_SpringBigWorld.ogg",
+    "files/A Sign of Spring Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+    "StardewAndChill/27.ogg"
+  ],
+  // Spring (The Valley Comes Alive)
+  "spring2": [
+    "PianoValley/Pal_SpringValleyAlive.ogg",
+    "files/Green Fields Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav"
+  ],
+  // Spring (Wild Horseradish Jam)
+  "spring3": [
+    "PianoValley/Pal_SpringHorseradish.ogg",
+    "StardewAndChill/04.ogg"
+  ],
+  "spring_day_ambient": "files/forest-with-small-river-birds-and-nature-field-recording-6735.wav",
+  // Summer (Nature's Crescendo) | A happy track featuring castanets, flute, and bass. Plays in various outdoor locations in summer.
+  "summer1": [
+    "PianoValley/Pal_SummerCrescendo.ogg",
+    "files/Day of the Bright Sun Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+    "StardewAndChill/28.ogg"
+  ],
+  // Alias for summer1 that is unused by Vanilla.
+  "Orange": [
+    "PianoValley/Pal_SummerCrescendo.ogg",
+    "files/Day of the Bright Sun Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+    "StardewAndChill/28.ogg"
+  ],
+  // Summer (The Sun Can Bend An Orange Sky)
+  "summer2": [
+    "PianoValley/Pal_SummerOrangeSky.ogg",
+    "files/Under the Hot Sun Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+    "StardewAndChill/05.ogg"
+  ],
+  // Summer (Tropicala)
+  "summer3": [
+    "PianoValley/Pal_SummerTropicala.ogg",
+    "files/Journey to Portia Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav"
+  ],
+  // Fall (The Smell of Mushroom)	| A soft trumpet, clarinet, harp, and xylophone track. Plays in various outdoor locations in fall.
+  "fall1": [
+    "PianoValley/Pal_FallMushroom.ogg",
+    "files/The Season of Harvest Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+    "StardewAndChill/12.ogg"
+  ],
+  // Alias for fall1 that is unused by Vanilla.
+  "Majestic": [
+    "PianoValley/Pal_FallMushroom.ogg",
+    "files/The Season of Harvest Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+    "StardewAndChill/12.ogg"
+  ],
+  // Fall (Ghost Synth) |	A soft synth and bass track with light drums. Plays in various outdoor locations in fall.
+  "fall2": ["PianoValley/Pal_FallGhost.ogg", "StardewAndChill/20.ogg"],
+  // An alias for fall2 that is unused by Vanilla.
+  "Ghost Synth": ["PianoValley/Pal_FallGhost.ogg", "StardewAndChill/20.ogg"],
+  // Fall (Raven's Descent) |	A soft flute and xylophone track. Plays in various outdoor locations in fall.
+  "fall3": ["PianoValley/Pal_FallRaven.ogg", "StardewAndChill/09.ogg"],
+  // Alias for fall3 that is unused by Vanilla.
+  "Plums": ["PianoValley/Pal_FallRaven.ogg", "StardewAndChill/09.ogg"],
+  // Winter (Nocturne of Ice) | A slow, peaceful track with xylophone and synths.
+  "winter1": [
+    "PianoValley/Pal_WinterNocturneIce.ogg",
+    "StardewAndChill/13.ogg"
+  ],
+  // Alias for winter1 that is unused by Vanilla.
+  "New Snow": [
+    "PianoValley/Pal_WinterNocturneIce.ogg",
+    "StardewAndChill/13.ogg"
+  ],
+  // Winter (The Wind Can Be Still) | A slow and peaceful synth track. Plays in various outdoor locations in winter.
+  "winter2": [
+    "PianoValley/Pal_WinterWindStill.ogg",
+    "files/Serenity of Winter Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+    "StardewAndChill/14.ogg"
+  ],
+  // Seems to match winter2
+  "Cyclops": "StardewAndChill/14.ogg",
+  // Winter (Ancient)
+  "winter3": ["PianoValley/Pal_WinterAncient.ogg", "StardewAndChill/26.ogg"],
+  // --------------------------------
+  //        MINES
+  // --------------------------------
+  // MINES 1-39: Mines (a Flicker in the Deep) | A soft electric piano track.
+  "Cavern": ["StardewAndChill/17.ogg"],
+  // MINES 1-39: Mines (Crystal Bells) | A slow piano melody with electric bass and synths.
+  "Crystal Bells": [
+    "files/The Sewage Plant Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav"
+  ],
+  // MINES 1-39: Mines (Secret Gnomes) | A mysterious mallet percussion track.
+  // TODO "Secret Gnomes": [],
+  // MINES 40-79: Mines (Under the Earth) | Wistful piano chords with synths in a minor key.
+  "Cloth": "StardewAndChill/15.ogg",
+  // Mines 40-79: Mines (Icicles) | A slower track with synths and some drums. Plays in The Mines in levels 40-79.
+  // "Icicles": [], TODO
+  // Mines 40-79: Mines (Marimba Of Frozen Bone)
+  // TODO "XOR": [],
+  // MINES 80-120, Skull Cavern: Mines (a Visitor to the Unknown) | An uptempo synth, bass, flute, and glockenspiel track with the occasional wind gust.
+  "Near The Planet Core ": [
+    "files/Battle for Survival Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav"
+  ],
+  // MINES 80-120, Skull Cavern: Mines (The Lava Dwellers) | A miidtempo track with synths, lots of hi-hat, and whooshing sounds.
+  // TODO "Of Dwarves": []
+  // MINES 80-120, Skull Cavern: Mines (Magical Shoes) | A mysterious synth track backed by drums.
+  // TODO "Overcast": [],
+  // MINES 80-120, Skull Cavern: Mines (Danger!)
+  // "tribal": [],
+  // Plays one of either Crystal Bells, Cavern, or Secret Gnomes.
+  "EarthMine": [
+    "files/The Sewage Plant Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+    "StardewAndChill/17.ogg"
+  ],
+  // Plays one of either Cloth, Icicles, or XOR.
+  "FrostMine": ["StardewAndChill/15.ogg"],
+  // Plays one of either Of Dwarves, Near The Planet Core, Overcast, or tribal.
+  "LavaMine": [
+    "files/Battle for Survival Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav"
+  ],
+  // Volcano
+  // TODO "VolcanoMines": [],
+  // VOLCANO 1-4: Volcano Mines (Molten Jelly)
+  // TODO "VolcanoMines1": [],
+  // VOLCANO 6-9: Volcano Mines (Forgotten World)
+  // TODO "VolcanoMines2": [],
+  // Mystery of the Caldera | A mysterious synth track backed by lava bubbling.
+  // TODO "caldera": []
+  // -------------------------------
+  //        LOCATIONS
+  // -------------------------------
+  // Library and Museum | A cheerful banjo and flute duet.
+  "libraryTheme": [
+    "PianoValley/Pal_LibraryMuseum.ogg",
+    "files/Lazy Days Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+    "StardewAndChill/22.ogg"
+  ],
+  // The Adventure Guild | A banjo melody accompanied by flute and string bass.
+  "MarlonsTheme": "PianoValley/Pal_AdventureGuild.ogg",
+  // Marnie's Ranch, Robin's Shop | Country Shop | A happy banjo, violin, and flute melody accompanied by tambourine.
+  "marnieShop": [
+    "PianoValley/Pal_CarpentersShop.ogg",
+    "files/The Commerce Guild Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav"
+  ],
+  // Saloon | An old-timey ragtime piano solo with the occasional sound of clinking plates and glasses.
+  "Saloon1": ["PianoValley/Pal_StardropSaloon.ogg", "StardewAndChill/07.ogg"],
+  // Pelican Town | Played in town when it is not winter
+  "springtown": [
+    "PianoValley/Pal_PelicanTown.ogg",
+    "files/Home Sweet Home Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+    "StardewAndChill/03.ogg"
+  ],
+  // Secret Woods | In The Deep Woods
+  "woodsTheme": ["StardewAndChill/11.ogg", "PianoValley/OliverW_InTheDeepWoods.ogg"],
+  // Calico Desert
+  "wavy": ["StardewAndChill/06.ogg", "PianoValley/OliverW_CalicoDesert.ogg"],
+  // Movie Theater | An uptempo swing track with electric piano, vibraphone, and drums. Default music in the Movie Theater.
+  // TODO "movieTheater": []
+  // Professor Snail's Radio | A laid-back electric guitar track with light percussion and some xylophone fills. Plays in the Island Field Office.
+  // TODO  "fieldofficeTentMusic": []
+  // The Gourmand's Cave | A medium-tempo percussive track with drums, clave, and the occasional frog croak. Plays in Gourmand's Cave.
+  // TODO "FrogCave": []
+  // Ginger Island | A tropical tune featuring steel drums, castanets, güiro, and flute. Plays on Ginger Island.
+  // TODO "IslandMusic": []
+  // --------------------------
+  //        EVENTS
+  // --------------------------
+  // Settling In | A happy banjo and flute duet with bass. Plays in the event where the player meets Robin and Lewis after just moving in.
+  "SettlingIn": ["PianoValley/Naru_SettlingIn.ogg", "StardewAndChill/23.ogg"],
+  // A Golden Star Is Born | A hopeful synth track. Plays in the Community Center after various completion milestones.
+  "junimoStarSong": "StardewAndChill/18.ogg",
+  // Starwatcher | A slow, peaceful synth melody over crickets chirping. Used in various cutscenes such as Maru's 14-heart event.
+  "spaceMusic": "StardewAndChill/29.ogg",
+  // --------------------------------
+  //        OTHER
+  // --------------------------------
+  // Rain | A loop of rain pouring. Used on rainy days.
+  "rain": "PianoValley/Pal_RainingJellies.ogg",
+  // Title Menu | A peaceful guitar and flute theme. Plays in the title menus for the game.
+  "MainTheme": [
+    "PianoValley/Pal_MainTheme.ogg",
+    "files/My Time at Portia Claude Ruelle My Time at Portia (Original Video Game Soundtrack).wav",
+    "StardewAndChill/01.ogg",
+    "StardewAndChill/10.ogg"
+  ],
+  // Load Game menu
+  "title_night": ["StardewAndChill/02.ogg", "PianoValley/OliverW_LoadGame.ogg"],
+  // Character Creation manu | Cloud Country
+  "CloudCountry": [
+    "PianoValley/Naru_CloudCountry.ogg",
+    "StardewAndChill/16.ogg"
+  ],
+  // Distant Banjo | A happy harmonica and banjo tune.
+  "distantBanjo": [
+    "PianoValley/Pal_DistantBanjo.ogg",
+    "StardewAndChill/19.ogg"
+  ],
+  // Grandpa's Theme | A soft music box lullaby. Plays in the intro cutscene.
+  "grandpas_theme": ["PianoValley/Pal_GrandpaTheme.ogg"],
+  // Pleasant Memory (Penny's Theme) | A peaceful clarinet and marimba track in 3
+  "50s": [
+    "PianoValley/3Head_Pleasant.ogg"
+  ]
+  // Land of Green and Gold | A happy marimba and harmonica tune in 3.
+  // TODO "breezy": []
+  // A Sad Story | A sad mallet percussion tune.
+  // TODO "desolate": []
+  // Echos | A pensive and slow xylophone solo.
+  // TODO "echos": []
+  // Piano Solo | A slow, short, and simple piano solo.
+  // TODO "elliottPiano": []
+}

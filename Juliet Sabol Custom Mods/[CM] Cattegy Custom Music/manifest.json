@@ -5,7 +5,6 @@
   "Description": "Cattegy Custom Music",
   "UniqueID": "Cattegy.CustomMusic.MyMusic",
   "ContentPackFor": {
-    "UniqueID": "Platonymous.CustomMusic",
-    "MinimumVersion": "1.0.0"
+    "UniqueID": "Darkmushu1.MusicReplacementFramework"
   }
 }
