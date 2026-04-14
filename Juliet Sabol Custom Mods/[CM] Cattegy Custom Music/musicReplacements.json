@@ -3,7 +3,10 @@
   //        FESTIVALS
   // --------------------------
   // Dance of the Moonlight Jellies | A peaceful synth track with the sound of ocean waves in the background.
-  "moonlightJellies": ["StardewAndChill/08.ogg"],
+  "moonlightJellies": [
+    "StardewAndChill/08.ogg",
+    "FaeFarm/39 39 Lifting the Veil.ogg"
+  ],
   // Feast of the Winter Star | Winter Festival | A joyful holiday tune with jingling bells.
   "christmasTheme": "PianoValley/Dous_WinterFestival.ogg",
   // Night Market | A slow track with mallet percussion, strings, flute, and the sound of ocean waves.
@@ -14,11 +17,11 @@
     "StardewAndChill/25.ogg"
   ],
   // Fun Festival | An upbeat banjo, piano, and bass track. Plays in several cutscenes, such as the judging at the Egg Festival.
-  // TODO "event1": []
+  "event1": ["FaeFarm/31 31 A Jig Through Town.ogg"],
   // Luau Festival | An upbeat yet mysterious xylophone and flute melody. Used during the Luau.
   // TODO "event2": []
   // Stardew Valley Fair Theme | A medium-tempo banjo and clarinet duet. Used in various festivals, including the Stardew Valley Fair.
-  // TODO "fallFest": []
+  "fallFest": ["FaeFarm/07 07 Merry Market.ogg"],
   // --------------------------------
   //        SEASONS
   // --------------------------------
@@ -26,23 +29,27 @@
   "spring1": [
     "PianoValley/Pal_SpringBigWorld.ogg",
     "MyTimeAtPortia/A Sign of Spring.ogg",
-    "StardewAndChill/27.ogg"
+    "StardewAndChill/27.ogg",
+    "FaeFarm/19 19 A New Bloom.ogg"
   ],
   // Alias for spring1 that is unused by Vanilla.
   "Pink Petals": [
     "PianoValley/Pal_SpringBigWorld.ogg",
     "MyTimeAtPortia/A Sign of Spring.ogg",
-    "StardewAndChill/27.ogg"
+    "StardewAndChill/27.ogg",
+    "FaeFarm/19 19 A New Bloom.ogg"
   ],
   // Spring (The Valley Comes Alive)
   "spring2": [
     "PianoValley/Pal_SpringValleyAlive.ogg",
-    "MyTimeAtPortia/Green Fields.ogg"
+    "MyTimeAtPortia/Green Fields.ogg",
+    "FaeFarm/27 27 A Spring in Your Step.ogg"
   ],
   // Spring (Wild Horseradish Jam)
   "spring3": [
     "PianoValley/Pal_SpringHorseradish.ogg",
-    "StardewAndChill/04.ogg"
+    "StardewAndChill/04.ogg",
+    "FaeFarm/27 27 A Spring in Your Step.ogg"
   ],
   // A loop of birds chirping. Used as outdoor ambiance in the spring during the day.
   "spring_day_ambient": "files/forest-with-small-river-birds-and-nature-field-recording-6735.wav",
@@ -50,19 +57,22 @@
   "summer1": [
     "PianoValley/Pal_SummerCrescendo.ogg",
     "MyTimeAtPortia/Day of the Bright Sun.ogg",
-    "StardewAndChill/28.ogg"
+    "StardewAndChill/28.ogg",
+    "FaeFarm/06 06 Warm Winds of Adventure.ogg"
   ],
   // Alias for summer1 that is unused by Vanilla.
   "Orange": [
     "PianoValley/Pal_SummerCrescendo.ogg",
     "MyTimeAtPortia/Day of the Bright Sun.ogg",
-    "StardewAndChill/28.ogg"
+    "StardewAndChill/28.ogg",
+    "FaeFarm/06 06 Warm Winds of Adventure.ogg"
   ],
   // Summer (The Sun Can Bend An Orange Sky)
   "summer2": [
     "PianoValley/Pal_SummerOrangeSky.ogg",
     "MyTimeAtPortia/Under the Hot Sun.ogg",
-    "StardewAndChill/05.ogg"
+    "StardewAndChill/05.ogg",
+    "FaeFarm/24 24 Sunrise Over Azoria.ogg"
   ],
   // Summer (Tropicala)
   "summer3": [
@@ -74,70 +84,81 @@
     "PianoValley/Pal_FallMushroom.ogg",
     "MyTimeAtPortia/The Season of Harvest.ogg",
     "StardewAndChill/12.ogg",
-    "Chicory/A Fresh Start.ogg"
+    "Chicory/A Fresh Start.ogg",
+    "FaeFarm/10 10 A Bountiful Harvest.ogg"
   ],
   // Alias for fall1 that is unused by Vanilla.
   "Majestic": [
     "PianoValley/Pal_FallMushroom.ogg",
     "MyTimeAtPortia/The Season of Harvest.ogg",
     "StardewAndChill/12.ogg",
-    "Chicory/A Fresh Start.ogg"
+    "Chicory/A Fresh Start.ogg",
+    "FaeFarm/10 10 A Bountiful Harvest.ogg"
   ],
   // Fall (Ghost Synth) |	A soft synth and bass track with light drums. Plays in various outdoor locations in fall.
   "fall2": [
     "PianoValley/Pal_FallGhost.ogg",
     "StardewAndChill/20.ogg",
-    "Chicory/Simmer Springs.ogg"
+    "Chicory/Simmer Springs.ogg",
+    "FaeFarm/17 17 The Changing Leaves.ogg"
   ],
   // An alias for fall2 that is unused by Vanilla.
   "Ghost Synth": [
     "PianoValley/Pal_FallGhost.ogg",
     "StardewAndChill/20.ogg",
-    "Chicory/Simmer Springs.ogg"
+    "Chicory/Simmer Springs.ogg",
+    "FaeFarm/17 17 The Changing Leaves.ogg"
   ],
   // Fall (Raven's Descent) |	A soft flute and xylophone track. Plays in various outdoor locations in fall.
   "fall3": [
     "PianoValley/Pal_FallRaven.ogg",
     "StardewAndChill/09.ogg",
-    "Chicory/Teatime Meadows.ogg"
+    "Chicory/Teatime Meadows.ogg",
+    "FaeFarm/25 25 Cornucopia.ogg"
   ],
   // Alias for fall3 that is unused by Vanilla.
   "Plums": [
     "PianoValley/Pal_FallRaven.ogg",
     "StardewAndChill/09.ogg",
-    "Chicory/Teatime Meadows.ogg"
+    "Chicory/Teatime Meadows.ogg",
+    "FaeFarm/25 25 Cornucopia.ogg"
   ],
   // Winter (Nocturne of Ice) | A slow, peaceful track with xylophone and synths.
   "winter1": [
     "PianoValley/Pal_WinterNocturneIce.ogg",
     "StardewAndChill/13.ogg",
-    "Chicory/Sips River.ogg"
+    "Chicory/Sips River.ogg",
+    "FaeFarm/11 11 Snowflake Collection.ogg"
   ],
   // Alias for winter1 that is unused by Vanilla.
   "New Snow": [
     "PianoValley/Pal_WinterNocturneIce.ogg",
     "StardewAndChill/13.ogg",
-    "Chicory/Sips River.ogg"
+    "Chicory/Sips River.ogg",
+    "FaeFarm/11 11 Snowflake Collection.ogg"
   ],
   // Winter (The Wind Can Be Still) | A slow and peaceful synth track. Plays in various outdoor locations in winter.
   "winter2": [
     "PianoValley/Pal_WinterWindStill.ogg",
     "MyTimeAtPortia/Serenity of Winter.ogg",
     "StardewAndChill/14.ogg",
-    "Chicory/This Colorful World.ogg"
+    "Chicory/This Colorful World.ogg",
+    "FaeFarm/18 18 A Chill in the Air.ogg"
   ],
   // Seems to match winter2
   "Cyclops": [
     "PianoValley/Pal_WinterWindStill.ogg",
     "MyTimeAtPortia/Serenity of Winter.ogg",
     "StardewAndChill/14.ogg",
-    "Chicory/This Colorful World.ogg"
+    "Chicory/This Colorful World.ogg",
+    "FaeFarm/18 18 A Chill in the Air.ogg"
   ],
   // Winter (Ancient)
   "winter3": [
     "PianoValley/Wrm_WinterAncient.ogg",
     "StardewAndChill/26.ogg",
-    "Chicory/Not Anymore.ogg"
+    "Chicory/Not Anymore.ogg",
+    "FaeFarm/26 26 The First Snow.ogg"
   ],
   // --------------------------------
   //        MINES
@@ -151,14 +172,18 @@
   // MINES 1-39: Mines (Crystal Bells) | A slow piano melody with electric bass and synths.
   "Crystal Bells": ["MyTimeAtPortia/The Sewage Plant.ogg"],
   // MINES 1-39: Mines (Secret Gnomes) | A mysterious mallet percussion track.
-  "Secret Gnomes": ["Chicory/Supper Woods.ogg"],
+  "Secret Gnomes": [
+    "Chicory/Supper Woods.ogg",
+    "FaeFarm/08 08 The Floor is Lava!.ogg"
+  ],
   // Plays one of either Crystal Bells, Cavern, or Secret Gnomes.
   "EarthMine": [
     "Chicory/Caves.ogg",
     "MyTimeAtPortia/The Sewage Plant.ogg",
     "StardewAndChill/17.ogg",
     "Chicory/Supper Woods.ogg",
-    "Chicory/Grub Deep.ogg"
+    "Chicory/Grub Deep.ogg",
+    "FaeFarm/08 08 The Floor is Lava!.ogg"
   ],
   // MINES 40-79: Mines (Under the Earth) | Wistful piano chords with synths in a minor key.
   "Cloth": ["StardewAndChill/15.ogg", "Chicory/Feast.ogg"],
@@ -170,7 +195,8 @@
   // Mines 40-79: Mines (Marimba Of Frozen Bone)
   "XOR": [
     "MissCoriel/Cave/FrostMine/icepyramid.ogg",
-    "MissCoriel/Cave/FrostMine/sm3Ice.ogg"
+    "MissCoriel/Cave/FrostMine/sm3Ice.ogg",
+    "FaeFarm/13 13 Saltwater Mines.ogg"
   ],
   // Plays one of either Cloth, Icicles, or XOR.
   "FrostMine": [
@@ -179,14 +205,18 @@
     "Chicory/Wielder Temple.ogg",
     "MissCoriel/Cave/FrostMine/icepyramid.ogg",
     "MissCoriel/Cave/FrostMine/sm3Ice.ogg",
-    "Chicory/Feast.ogg"
+    "Chicory/Feast.ogg",
+    "FaeFarm/13 13 Saltwater Mines.ogg"
   ],
   // MINES 80-120, Skull Cavern: Mines (a Visitor to the Unknown) | An uptempo synth, bass, flute, and glockenspiel track with the occasional wind gust.
   "Near The Planet Core ": ["MyTimeAtPortia/Battle for Survival.ogg"],
   // MINES 80-120, Skull Cavern: Mines (The Lava Dwellers) | A miidtempo track with synths, lots of hi-hat, and whooshing sounds.
   "Of Dwarves": ["MissCoriel/Cave/LavaMine/z1Dungeon.ogg"],
   // MINES 80-120, Skull Cavern: Mines (Magical Shoes) | A mysterious synth track backed by drums.
-  "Overcast": ["MissCoriel/Cave/LavaMine/BlackOmen.ogg"],
+  "Overcast": [
+    "MissCoriel/Cave/LavaMine/BlackOmen.ogg",
+    "FaeFarm/33 33 Here Comes Trouble.ogg"
+  ],
   // MINES 80-120, Skull Cavern: Mines (Danger!)
   "tribal": ["MissCoriel/Cave/SkullCave/Pandemonium.ogg"],
   // Plays one of either Of Dwarves, Near The Planet Core, Overcast, or tribal.
@@ -194,7 +224,8 @@
     "MyTimeAtPortia/Battle for Survival.ogg",
     "MissCoriel/Cave/LavaMine/z1Dungeon.ogg",
     "MissCoriel/Cave/LavaMine/BlackOmen.ogg",
-    "MissCoriel/Cave/SkullCave/Pandemonium.ogg"
+    "MissCoriel/Cave/SkullCave/Pandemonium.ogg",
+    "FaeFarm/33 33 Here Comes Trouble.ogg"
   ],
   // Volcano
   "VolcanoMines": [
@@ -245,7 +276,8 @@
   "woodsTheme": [
     "StardewAndChill/11.ogg",
     "Chicory/Banquet Rainforest.ogg",
-    "Chicory/Spoons Island.ogg"
+    "Chicory/Spoons Island.ogg",
+    "FaeFarm/05 05 The Realm of the Fae.ogg"
   ],
   // Calico Desert
   "wavy": [
@@ -283,10 +315,14 @@
     "Chicory/Alone With Myself.ogg",
     "MissCoriel/Event/CTEpilogue.ogg",
     "Chicory/A Wielder's Duty.ogg",
-    "Chicory/The Wielders' Legacy.ogg"
+    "Chicory/The Wielders' Legacy.ogg",
+    "FaeFarm/37 37 Goodnight, Azoria.ogg"
   ],
   // Pleasant Memory (Penny's Theme) | Used in a lot of events | Sounds like a 1950s slow-dance track. A peaceful clarinet and marimba track in 3
-  "50s": ["PianoValley/3Head_Pleasant.ogg"],
+  "50s": [
+    "PianoValley/3Head_Pleasant.ogg",
+    "FaeFarm/28 28 A Song For Eddy.ogg"
+  ],
   // Land of Green and Gold (Leah's Theme) | Used in a lot of events | A happy marimba and harmonica tune in 3. Happy, major key, medium tempo.
   // TODO Gotta replace this one. "breezy": []
   // Echos (Sebastian's Theme) | A pensive and slow xylophone solo. Positive. Self-discovery?
@@ -300,7 +336,10 @@
   // Playful | A happy clarinet and xylophone duet with background strings. | Used in a lot of events
   // TODO "playful": []
   // Buttercup Melody | Used in a lot of events | Happy and cute
-  // TODO "sweet": []
+  "sweet": [
+    "FaeFarm/29 29 First Blush.ogg",
+    "FaeFarm/35 35 Our Time Together.ogg"
+  ],
   // A Sad Song | Used in a lot of events | A sad mallet percussion tune | Trauma dumping soundtrack
   "desolate": [
     "MissCoriel/Event/ForeverRachel.ogg",
@@ -311,19 +350,20 @@
   // Pickle Jar Rag | Used in a lot of events | A piano ragtime track
   // TODO "ragtime": []
   // Music Box Song | Used in a lot of events including intro scene when opening letter | A slow music box and synth melody. Cozy.
-  // "musicboxsong": [],
+  "musicboxsong": ["FaeFarm/36 36 My Best Friend.ogg"],
   // Jaunty | Used in a lot of events |	A happy flute and harpsichord duet in 3 | Positive mostly but chill. Downbeat.
-  // TODO "jaunty": [],
+  "jaunty": ["FaeFarm/02 02 Tree Shadow's Rest.ogg"],
   // Piano Solo (Elliott's Theme) | Elliott at 6 and 10  | A slow, short, and simple piano solo.
   // The original is fine. "elliottPiano": [],
   // --------------------------------
   //        OTHER
   // --------------------------------
   // Rain | A loop of rain pouring. Used on rainy days.
-  // would be great if edited with rain sounds:
+  // would be great if edited with rain sounds: 12 12 Raindrops.ogg
   "rain": ["PianoValley/Pal_RainingJellies.ogg"],
   // Green Rain?
-  // "?": "Chicory/Brunch Canyon.ogg",
+  // "?": "Chicory/Brunch Canyon.ogg"
+  // TODO: Would be great at night: "37 37 Goodnight, Azoria.ogg"
   // Title Menu | A peaceful guitar and flute theme. Plays in the title menus for the game.
   "MainTheme": [
     "PianoValley/Pal_MainTheme.ogg",
