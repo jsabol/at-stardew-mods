@@ -1,0 +1,1 @@
+Download the Chicory Soundtrack and convert the files to .ogg files using fre:ac, ffmpeg, or any other audio converter.

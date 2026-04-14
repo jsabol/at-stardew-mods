@@ -1,0 +1,403 @@
+{
+	"Format": "2.5.0",
+	"Changes": [
+
+		{
+			"Action": "EditData",
+			"Target": "Data/AudioChanges",
+			"Entries": {
+				"MainTheme": {
+					"ID": "MainTheme",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Title/Overture.ogg}}",
+						"{{AbsoluteFilePath: Music/Title/AngelsFear.ogg}}",
+						"{{AbsoluteFilePath: Music/Title/z2title.ogg}}"
+					],
+					"Looped": false
+				},
+				"title_night": {
+					"ID": "title_night",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Title/CloseEyes.ogg}}",
+						"{{AbsoluteFilePath: Music/Title/FaxPass.ogg}}"
+					],
+					"Looped": true
+				},
+				"CloudCountry": {
+					"ID": "CloudCountry",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Title/CharSel.ogg}}",
+						"{{AbsoluteFilePath: Music/Title/Gem.ogg}}",
+						"{{AbsoluteFilePath: Music/Title/Fashionista.ogg}}"
+					],
+					"Looped": true
+				},
+				"spring1": {
+					"ID": "spring1",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Spring/thunder.ogg}}",
+						"{{AbsoluteFilePath: Music/Spring/thicket.ogg}}"
+					],
+					"Looped": false
+				},
+				"spring2": {
+					"ID": "spring2",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Spring/Whatthe.ogg}}",
+						"{{AbsoluteFilePath: Music/Spring/thicket.ogg}}"
+					],
+					"Looped": false
+				},
+				"spring3": {
+					"ID": "spring3",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Spring/Green.ogg}}",
+						"{{AbsoluteFilePath: Music/Spring/thicket.ogg}}"
+					],
+					"Looped": false
+				},
+				"springtown": {
+					"ID": "springtown",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Town/Bonro.ogg}}",
+						"{{AbsoluteFilePath: Music/Town/Atland.ogg}}"
+					],
+					"Looped": false
+				},
+				"summer1": {
+					"ID": "summer1",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Summer/different road.ogg}}",
+						"{{AbsoluteFilePath: Music/Updates/1.0.6/Powell.ogg}}"
+					],
+					"Looped": false
+				},
+				"summer2": {
+					"ID": "summer2",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Summer/World 2.ogg}}"
+					],
+					"Looped": false
+				},
+				"summer3": {
+					"ID": "summer3",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Summer/sunken.ogg}}"
+					],
+					"Looped": false
+				},
+				"{{ModID}}_secretWoodNormal": {
+					"ID": "{{ModID}}_secretWoodNormal",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/SecretWoods/GForest.ogg}}",
+						"{{AbsoluteFilePath: Music/SecretWoods/LostWoods.ogg}}",
+						"{{AbsoluteFilePath: Music/SecretWoods/abandoned.ogg}}"
+					],
+					"Looped": false
+				},
+				"{{ModID}}_secretWoodWinter": {
+					"ID": "{{ModID}}_secretWoodWinter",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/SecretWoods/FrostForest.ogg}}"
+					],
+					"Looped": false
+				},
+				"fall1": {
+					"ID": "fall1",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Fall/forbiddenpaths.ogg}}",
+						"{{AbsoluteFilePath: Music/Fall/Ivory.ogg}}"
+					],
+					"Looped": false
+				},
+				"fall2": {
+					"ID": "fall2",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Fall/waterday.ogg}}",
+						"{{AbsoluteFilePath: Music/Fall/Ivory.ogg}}"
+					],
+					"Looped": false
+				},
+				"fall3": {
+					"ID": "fall3",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Fall/600AD.ogg}}",
+						"{{AbsoluteFilePath: Music/Fall/Ivory.ogg}}",
+						"{{AbsoluteFilePath: Music/Updates/1.0.6/Powell.ogg}}"
+					],
+					"Looped": false
+				},
+				"winter1": {
+					"ID": "winter1",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Winter/Snowfield.ogg}}",
+						"{{AbsoluteFilePath: Music/Winter/CrystalTokyo.ogg}}",
+						"{{AbsoluteFilePath: Music/Winter/IceLand.ogg}}"
+					],
+					"Looped": false
+				},
+				"winter2": {
+					"ID": "winter2",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Winter/IceCont.ogg}}",
+						"{{AbsoluteFilePath: Music/Winter/CrystalTokyo.ogg}}",
+						"{{AbsoluteFilePath: Music/Winter/IceLand.ogg}}"
+					],
+					"Looped": false
+				},
+				"winter3": {
+					"ID": "winter3",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Winter/IceCast.ogg}}",
+						"{{AbsoluteFilePath: Music/Winter/CrystalTokyo.ogg}}",
+						"{{AbsoluteFilePath: Music/Winter/IceLand.ogg}}"
+					],
+					"Looped": false
+				},
+				//Caves
+				"EarthMine": {
+					"ID": "EarthMine",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Cave/EarthMine/Shadows.ogg}}",
+						"{{AbsoluteFilePath: Music/Cave/EarthMine/area1.ogg}}",
+						"{{AbsoluteFilePath: Music/Cave/EarthMine/Intruder.ogg}}"
+					],
+					"Looped": false
+				},
+				"FrostMine": {
+					"ID": "FrostMine",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Cave/FrostMine/collosia.ogg}}",
+						"{{AbsoluteFilePath: Music/Cave/FrostMine/icepyramid.ogg}}",
+						"{{AbsoluteFilePath: Music/Cave/FrostMine/sm3Ice.ogg}}"
+					],
+					"Looped": false
+				},
+				"LavaMine": {
+					"ID": "LavaMine",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Cave/LavaMine/z1Dungeon.ogg}}",
+						"{{AbsoluteFilePath: Music/Cave/LavaMine/RedSoil.ogg}}",
+						"{{AbsoluteFilePath: Music/Cave/LavaMine/BlackOmen.ogg}}",
+						"{{AbsoluteFilePath: Music/Cave/SkullCave/Guardian.ogg}}",
+						"{{AbsoluteFilePath: Music/Cave/SkullCave/Pandemonium.ogg}}",
+						"{{AbsoluteFilePath: Music/Cave/SkullCave/Kraken.ogg}}"
+
+					],
+					"Looped": false
+				},
+				//Sounds of Rain
+				"rain": {
+					"ID": "rain",
+					"Category": "Ambient",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Rain/Overworld.ogg}}",
+						"{{AbsoluteFilePath: Music/Rain/ZoZo.ogg}}",
+						"{{AbsoluteFilePath: Music/Rain/CTSewer.ogg}}"
+					],
+					"Looped": false
+				},
+				//Nocturnal
+				"spring_night_ambient": {
+					"ID": "spring_night_ambient",
+					"Category": "Ambient",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Night/earthnight.ogg}}",
+						"{{AbsoluteFilePath: Music/Night/firenight.ogg}}",
+						"{{AbsoluteFilePath: Music/Night/waternight.ogg}}",
+						"{{AbsoluteFilePath: Music/Night/airnight.ogg}}",
+						"{{AbsoluteFilePath: Music/Night/ninth.ogg}}"
+					],
+					"Looped": false
+				},
+				//Sounds of the Sand
+				"wavy": {
+					"ID": "wavy",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Desert/gerudo.ogg}}",
+						"{{AbsoluteFilePath: Music/Desert/FireDay.ogg}}",
+						"{{AbsoluteFilePath: Music/Desert/Kakkara.ogg}}"
+					],
+					"Looped": false
+				},
+				//Community Center
+				"communityCenter": {
+					"ID": "communityCenter",
+					"Category": "Ambient",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/CommunityCenter/daryl.ogg}}",
+						"{{AbsoluteFilePath: Music/CommunityCenter/Balthazaar.ogg}}",
+						"{{AbsoluteFilePath: Music/CommunityCenter/DarkCastle.ogg}}"
+					],
+					"Looped": false
+				},
+				//Artisans and Ranchers
+				"{{ModID}}_LeahHouse": {
+					"ID": "{{ModID}}_LeahHouse",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Artisan/Jidoor.ogg}}"
+					],
+					"Looped": false
+				},
+				"{{ModID}}_MarnieHouse": {
+					"ID": "{{ModID}}_MarnieHouse",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Artisan/LonLon.ogg}}"
+					],
+					"Looped": false
+				},
+				"{{ModID}}_ClintHouse": {
+					"ID": "{{ModID}}_ClintHouse",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Artisan/Item.ogg}}"
+					],
+					"Looped": false
+				},
+
+
+				//Event Themes
+				"AbigailFlute": {
+					"ID": "AbigailFlute",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Event/FluteSolo.ogg}}"
+					],
+					"Looped": false
+				},
+				"AbigailFluteDuet": {
+					"ID": "AbigailFluteDuet",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Event/Duet.ogg}}"
+					],
+					"Looped": false
+				},
+				"desolate": {
+					"ID": "desolate",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Event/ForeverRachel.ogg}}"
+					],
+					"Looped": true
+				},
+				"sadpiano": {
+					"ID": "sadpiano",
+					"Category": "Music",
+					"FilePaths": [
+						"{{AbsoluteFilePath: Music/Event/CTEpilogue.ogg}}"
+					],
+					"Looped": true
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Fields": {
+				"Woods": {
+					"Music": [
+						{
+							"Id": "Daytime",
+							"Track": "{{ModID}}_secretWoodNormal",
+							"Condition": "TIME 0 2600"
+						}
+					]
+				}
+			},
+			"When": {
+				"Season": "Spring, Summer, Fall"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Fields": {
+				"Woods": {
+					"Music": [
+						{
+							"Id": "Daytime",
+							"Track": "{{ModID}}_secretWoodWinter",
+							"Condition": "TIME 0 2600"
+						}
+					]
+				}
+			},
+			"When": {
+				"Season": "Winter"
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Fields": {
+				"LeahHouse": {
+					"Music": [
+						{
+							"Id": "LeahHouse",
+							"Track": "{{ModID}}_LeahHouse",
+							"Condition": "TIME 0 2600"
+						}
+					]
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Fields": {
+				"Blacksmith": {
+					"Music": [
+						{
+							"Id": "Blacksmith",
+							"Track": "{{ModID}}_ClintHouse",
+							"Condition": "TIME 0 2600"
+						}
+					]
+				}
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Fields": {
+				"AnimalShop": {
+					"Music": [
+						{
+							"Id": "Ranch",
+							"Track": "{{ModID}}_MarnieHouse",
+							"Condition": "TIME 0 2600"
+						}
+					]
+				}
+			},
+		}
+
+
+	]
+}
