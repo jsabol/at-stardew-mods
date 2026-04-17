@@ -1,4 +1,5 @@
 {
+  "openChest": "files/silent.wav", // Mute chest sounds
   // --------------------------
   //        FESTIVALS
   // --------------------------
@@ -373,7 +374,7 @@
     "Chicory/Blank Canvas.ogg"
   ],
   // Load Game menu
-  "title_night": ["StardewAndChill/02.ogg", "PianoValley/OliverW_LoadGame.ogg"],
+  "title_night": ["PianoValley/OliverW_LoadGame.ogg"],
   // Character Creation manu | Cloud Country
   "CloudCountry": [
     "PianoValley/Naru_CloudCountry.ogg",
